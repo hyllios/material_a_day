@@ -33,7 +33,11 @@ INK = {"light": dict(text="#0b0b0b", second="#52514e", line="#898781", mark="#52
        "dark": dict(text="#ffffff", second="#c3c2b7", line="#898781", mark="#c3c2b7", accent="#3987e5")}
 
 
+LABELS = {}                                    # reduced formula -> the spelling a chemist uses
+
+
 def pretty(f):
+    f = LABELS.get(f, f)
     return re.sub(r"(\d+)", r"$_{\1}$", f)
 
 
@@ -46,8 +50,8 @@ def hull_phases(elements):
     for f, e, mid in rows:
         c = Composition(f)
         out[c.reduced_formula] = dict(comp=c.reduced_composition, e_form=float(e or 0.0), mat_id=mid)
-    for el in elements:
-        out.setdefault(el, dict(comp=Composition(el), e_form=0.0, mat_id=None))
+    for el in elements:                      # pymatgen spells elemental oxygen 'O2'
+        out.setdefault(Composition(el).reduced_formula, dict(comp=Composition(el), e_form=0.0, mat_id=None))
     return out
 
 
@@ -65,29 +69,43 @@ def coords(comp, corners, els):
 
 
 def choose_corners(target, phases, els, full):
-    """Three element-or-binary corners spanning a plane through the target.
+    """Three corners spanning a plane through the target, or a line if it lies on one.
 
-    Ranked by how honest the section is (fewest tie lines that leave the plane), then by
-    how much it shows (most hull phases in the plane), then by the simplest corners.
+    Corners are elements and binaries first. If every such section has a tie line that
+    leaves its plane, hull phases with more elements are allowed as corners too, taken
+    from the target's own tie-line neighbours so the search stays small. Ranked by how
+    honest the section is (fewest tie lines leaving the plane), then by how much it shows
+    (most hull phases in the plane), then by the simplest corners.
     """
-    simple = [f for f, p in phases.items() if len(p["comp"]) <= 2 and f != target.reduced_formula]
-    best = None
-    for trio in itertools.combinations(simple, 3):
-        cs = [phases[f]["comp"] for f in trio]
-        if np.linalg.matrix_rank(np.array([vec(c, els) for c in cs])) < 3:
-            continue
-        r = coords(target, cs, els)
-        if r is None or r[0].min() < 1e-6:
-            continue
-        pts = section(target, phases, list(trio), els)
-        try:
-            tie = ties(pts, lower_hull(pts, 3))
-        except Exception:
-            continue
-        broken = sum(t not in full for t in tie)
-        score = (-broken, len(pts), -sum(len(c) for c in cs))
-        if best is None or score > best[0]:
-            best = (score, trio)
+    name = target.reduced_formula
+
+    def search(cands):
+        best = None
+        for trio in itertools.combinations(cands, 3):
+            cs = [phases[f]["comp"] for f in trio]
+            if np.linalg.matrix_rank(np.array([vec(c, els) for c in cs])) < 3:
+                continue
+            r = coords(target, cs, els)
+            if r is None or (r[0] > 1e-6).sum() < 2:
+                continue
+            pts = section(target, phases, list(trio), els)
+            try:
+                tie = ties(pts, lower_hull(pts, 3))
+            except Exception:
+                continue
+            broken = sum(t not in full for t in tie)
+            score = (-broken, len(pts), -sum(len(c) for c in cs))
+            if best is None or score > best[0]:
+                best = (score, trio)
+        return best
+
+    simple = [f for f, p in phases.items() if len(p["comp"]) <= 2 and f != name]
+    best = search(simple)
+    if best is None or best[0][0] < 0:
+        near = {b if a == name else a for a, b in full if name in (a, b)}
+        wider = search(sorted(set(simple) | {f for f in near if len(phases[f]["comp"]) < len(target)}))
+        if wider is not None and (best is None or wider[0] > best[0]):
+            best = wider
     return None if best is None else list(best[1])
 
 
@@ -162,8 +180,16 @@ def draw_ternary(pts, facets, corner_names, mode, dest):
         d = q - centre
         d = d / (np.linalg.norm(d) or 1)
         on_edge = min(p["x"]) < 1e-9
-        off = d * (0.055 if on_edge else 0.0) + (np.array([0, 0.045]) if not on_edge else 0)
-        ha = "center" if abs(d[0]) < 0.35 or not on_edge else ("left" if d[0] > 0 else "right")
+        if on_edge:                               # outside the triangle, away from its centre
+            off = d * 0.055
+            ha = "center" if abs(d[0]) < 0.35 else ("left" if d[0] > 0 else "right")
+        else:                                     # inside: the direction farthest from every other phase
+            others = np.array([o for o in P if np.linalg.norm(o - q) > 1e-9])
+            r = 0.075 if p["target"] else 0.06
+            cands = [r * np.array([np.cos(a), np.sin(a)]) for a in np.arange(0, 2 * np.pi, np.pi / 4)]
+            best = max(cands, key=lambda c: np.linalg.norm(others - (q + 1.6 * c), axis=1).min())
+            off = best
+            ha = "center" if abs(best[0]) < 0.02 else ("left" if best[0] > 0 else "right")
         ax.text(*(q + off), pretty(p["formula"]), ha=ha, va="center", zorder=5,
                 fontsize=13 if (corner or p["target"]) else 10.5,
                 fontweight="bold" if p["target"] else "normal",
@@ -191,7 +217,7 @@ def draw_binary(pts, corner_names, mode, dest):
         ax.annotate(pretty(p["formula"]), (x, y), xytext=(0, -14), textcoords="offset points", ha="center",
                     va="top", fontsize=13 if p["target"] else 10.5, fontweight="bold" if p["target"] else "normal",
                     color=ink["text"] if p["target"] else ink["second"])
-    ax.set_xlabel(f"fraction of {corner_names[1]}", color=ink["second"], fontsize=11)
+    ax.set_xlabel(f"atomic fraction of {corner_names[1]}" if len(Composition(corner_names[1])) == 1 else f"fraction of {pretty(corner_names[1])}", color=ink["second"], fontsize=11)
     ax.set_ylabel("formation energy (eV/atom)", color=ink["second"], fontsize=11)
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
@@ -208,7 +234,10 @@ def main():
     ap.add_argument("formula")
     ap.add_argument("outdir")
     ap.add_argument("--corners", default=None)
+    ap.add_argument("--labels", default=None, help="respell phases in the picture, e.g. SiMo3=Mo3Si,Si2Mo=MoSi2")
     o = ap.parse_args()
+    if o.labels:
+        LABELS.update(x.split("=") for x in o.labels.split(","))
     target = Composition(o.formula).reduced_composition
     els = sorted(e.symbol for e in target.elements)
     phases = hull_phases(els)
@@ -217,7 +246,7 @@ def main():
     if o.corners:
         corner_names = [Composition(c).reduced_formula for c in o.corners.split(",")]
     elif len(els) <= 3:
-        corner_names = els
+        corner_names = [Composition(e).reduced_formula for e in els]
     else:
         corner_names = choose_corners(target, phases, els, full_ties(phases, els))
         if corner_names is None:

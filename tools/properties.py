@@ -71,10 +71,11 @@ def transport(mid, flavour):
                           from el_transport_{flavour}_grid where mat_id=%s order by carrier, t_k, n_target""", (mid,))
     grid = [dict(zip(cols, x)) for x in rows]
     for g in grid:
-        g["s_uvk"] = [round(v, 1) for v in g["s_uvk"]]
-    return dict(gap_from_edges_eV=round((r["cbm_ha"] - r["vbm_ha"]) * HA, 3),
-                m_dos_electron=round(r["m_dos_e"], 2), m_dos_hole=round(r["m_dos_h"], 2),
-                branch_point_minus_vbm_eV=round(r["bpe_minus_vbm_ev"], 3), bpe_window_ok=r["bpe_window_ok"],
+        g["s_uvk"] = None if g["s_uvk"] is None else [round(v, 1) for v in g["s_uvk"]]
+    rd = lambda x, n: None if x is None else round(x, n)          # any of these can be missing
+    return dict(gap_from_edges_eV=None if None in (r["cbm_ha"], r["vbm_ha"]) else round((r["cbm_ha"] - r["vbm_ha"]) * HA, 3),
+                m_dos_electron=rd(r["m_dos_e"], 2), m_dos_hole=rd(r["m_dos_h"], 2),
+                branch_point_minus_vbm_eV=rd(r["bpe_minus_vbm_ev"], 3), bpe_window_ok=r["bpe_window_ok"],
                 nkpts_irr=r["nkpts_irr"], grid=grid)
 
 
@@ -111,7 +112,7 @@ def main():
             print(f"  {fl}:", {k: t[k] for k in ("gap_from_edges_eV", "m_dos_electron", "m_dos_hole", "branch_point_minus_vbm_eV", "bpe_window_ok")})
             for g in t["grid"]:
                 if g["t_k"] == 300 and g["n_target"] in (1e19, 1e20):
-                    print(f"     {g['carrier']} n={g['n_target']:.0e} T=300  S={g['s_mean_uvk']:.0f} uV/K {g['s_uvk']}  sigma/tau={g['sigma_tau_mean']:.2e}  PF/tau={g['pf_tau']:.2e}  m_cond={g['m_cond']:.2f}")
+                    print(f"     {g['carrier']} n={g['n_target']:.0e} T=300  S={g['s_mean_uvk']} uV/K {g['s_uvk']}  sigma/tau={g['sigma_tau_mean']}  PF/tau={g['pf_tau']}  m_cond={g['m_cond']}")
 
 
 if __name__ == "__main__":

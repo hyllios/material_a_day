@@ -1,0 +1,103 @@
+{
+ "target": "Na4Ge2PbSe6",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Na4Ge2Se5",
+  "PbSe",
+  "Se"
+ ],
+ "n_system_hull_phases": 23,
+ "phases": [
+  {
+   "formula": "Na4Ge2Se5",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003228660",
+   "target": false
+  },
+  {
+   "formula": "Na4Ge2PbSe6",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -15.15,
+   "mat_id": "agm020240419",
+   "target": true
+  },
+  {
+   "formula": "Na2GeSe3",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -18.15,
+   "mat_id": "agm003232474",
+   "target": false
+  },
+  {
+   "formula": "PbSe",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm001192138",
+   "target": false
+  },
+  {
+   "formula": "Se",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm005222103",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Na2GeSe3",
+   "Na4Ge2PbSe6"
+  ],
+  [
+   "Na2GeSe3",
+   "Na4Ge2Se5"
+  ],
+  [
+   "Na2GeSe3",
+   "PbSe"
+  ],
+  [
+   "Na2GeSe3",
+   "Se"
+  ],
+  [
+   "Na4Ge2PbSe6",
+   "Na4Ge2Se5"
+  ],
+  [
+   "Na4Ge2PbSe6",
+   "PbSe"
+  ],
+  [
+   "PbSe",
+   "Se"
+  ]
+ ],
+ "target_neighbours": [
+  "Na2GeSe3",
+  "Na4Ge2Se5",
+  "PbSe"
+ ],
+ "note": ""
+}

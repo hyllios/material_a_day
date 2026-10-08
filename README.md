@@ -7,6 +7,9 @@ known, how one would make it, and what it could be for.
 | # | date | compound | status |
 |---|---|---|---|
 | 1 | 2026-10-08 | [CsNdSnBr₆](entries/2026-10-08-CsNdSnBr6/README.md) | predicted, no report found |
+| 2 | 2026-10-09 | [YPO₄](entries/2026-10-09-YPO4/README.md) | known (xenotime) |
+| 3 | 2026-10-10 | [Na₄PbGe₂Se₆](entries/2026-10-10-Na4Ge2PbSe6/README.md) | predicted, no report found; relatives published |
+| 4 | 2026-10-11 | [Mo₃Si](entries/2026-10-11-Mo3Si/README.md) | known (A15 superconductor) |
 
 ## What an entry contains
 

@@ -11,7 +11,8 @@ its own disc, so the picture reads on a dark page and on a white one.
 Bonds are drawn from each cation to the anions in its first shell (anything within
 `--shell` times the shortest such distance). With no anion in the formula, bonds are
 drawn between atoms closer than 1.15 times the sum of covalent radii and no polyhedra
-are made. `--poly` names the centres that get a polyhedron; the default is every cation
+are made; `--bonds Mo-Mo:2.6` draws only the named pairs, which is the way to show the
+one motif that matters in an intermetallic. `--poly` names the centres that get a polyhedron; the default is every cation
 with four to eight neighbours. A cation whose nearest anion is farther than `--bond-max`
 (3.3 angstrom) is a counter-cation and is drawn as a bare ball. `--poly none` turns them off.
 """
@@ -40,7 +41,7 @@ def radius(sym, is_anion):
     return 0.42 if is_anion else 0.30 + 0.16 * covalent_radii[atomic_numbers[sym]]
 
 
-def build(s, rep, shell, poly, bond_max):
+def build(s, rep, shell, poly, bond_max, pairs=None):
     """Atoms inside the displayed block (faces included), bonds, polyhedra, cell edges."""
     anions = [e.symbol for e in s.composition.elements if e.symbol in ANIONS]
     if len(anions) > 1:      # P in a phosphate is a cation: keep only the hardest anions
@@ -56,7 +57,12 @@ def build(s, rep, shell, poly, bond_max):
                 img = tuple(np.round(f - site.frac_coords).astype(int))
                 atoms[(i,) + img] = (site.specie.symbol, lat.get_cartesian_coords(f))
     bonds, polys = [], []
-    if anions:
+    if pairs:                                     # explicit cutoffs: draw these bonds and nothing else
+        for a, b in itertools.combinations(list(atoms), 2):
+            cut = pairs.get(frozenset((atoms[a][0], atoms[b][0])))
+            if cut and np.linalg.norm(atoms[a][1] - atoms[b][1]) < cut:
+                bonds.append((a, b))
+    elif anions:
         for k, (sym, xyz) in list(atoms.items()):
             if sym in anions:
                 continue
@@ -110,8 +116,8 @@ def scene(atoms, bonds, polys, cell, anions, direction, up):
     h = 2 * np.abs(rel @ up).max() + 2.2
     cam = centre - 60 * direction
     out = ["#version 3.7;", "global_settings { assumed_gamma 1.0 max_trace_level 12 }",
-           "camera { orthographic location %s right %s up %s look_at %s }"
-           % (v(cam), v(-right * w), v(up * h), v(centre)),
+           "camera { orthographic location %s direction %s right %s up %s }"
+           % (v(cam), v(direction), v(-right * w), v(up * h)),
            "light_source { %s color rgb 1.0 shadowless }" % v(cam + 40 * up + 30 * right),
            "light_source { %s color rgb 0.45 shadowless }" % v(cam - 30 * up - 40 * right),
            "#declare F = finish { ambient 0.22 diffuse 0.72 specular 0.45 roughness 0.02 }",
@@ -187,6 +193,8 @@ def main():
     ap.add_argument("--shell", type=float, default=1.18)
     ap.add_argument("--bond-max", type=float, default=3.3,
                     help="cations whose nearest anion is farther than this get no bonds")
+    ap.add_argument("--bonds", default=None,
+                    help="explicit pair cutoffs in angstrom, e.g. Mo-Mo:2.6,Mo-Si:2.8; nothing else is drawn")
     ap.add_argument("--views", default="top,side")
     ap.add_argument("--height", type=int, default=1400)
     ap.add_argument("--out", default=None)
@@ -195,13 +203,17 @@ def main():
     s = Structure.from_file(cif)
     rep = o.rep or [max(1, round(15 / x)) for x in s.lattice.abc]
     poly = None if o.poly is None else ([] if o.poly == "none" else o.poly.split(","))
-    atoms, bonds, polys, cell, anions = build(s, rep, o.shell, poly, o.bond_max)
+    pairs = None
+    if o.bonds:
+        pairs = {frozenset(k.split("-")): float(v) for k, v in (x.split(":") for x in o.bonds.split(","))}
+    atoms, bonds, polys, cell, anions = build(s, rep, o.shell, poly, o.bond_max, pairs)
     a, b, c = s.lattice.matrix
     n = np.cross(a, b) / np.linalg.norm(np.cross(a, b))          # the layer normal
     inplane = np.cross(n, a) / np.linalg.norm(a)
     views = {"top": (-n, inplane),                               # down c
              "side": (-inplane - 0.10 * n, n),                   # along the layers, tipped a little
-             "a": (-a, n), "b": (-b, n)}
+             "a": (-a, n), "b": (-b, n),
+             "oblique": (-(a / np.linalg.norm(a) + 0.38 * inplane / np.linalg.norm(inplane) + 0.28 * n), n)}
     panels = []
     for name in o.views.split(","):
         pov, aspect = scene(atoms, bonds, polys, cell, anions, *views[name])

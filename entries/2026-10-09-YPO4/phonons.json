@@ -1,0 +1,8 @@
+{
+ "source": "/home/users/marqumln/nas-data-001/espresso/agm",
+ "method": "Quantum ESPRESSO, DFPT, PBEsol",
+ "n_runs": 116536,
+ "exact": [],
+ "same_composition": [],
+ "experiment": []
+}

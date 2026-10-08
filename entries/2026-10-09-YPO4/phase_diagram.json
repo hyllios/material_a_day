@@ -1,0 +1,192 @@
+{
+ "target": "YPO4",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "O2",
+  "P",
+  "Y"
+ ],
+ "n_system_hull_phases": 9,
+ "phases": [
+  {
+   "formula": "O2",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  },
+  {
+   "formula": "P2O5",
+   "x": [
+    0.555556,
+    0.444444,
+    0.0
+   ],
+   "dE_meV_per_atom": -1937.35,
+   "mat_id": "agm003215652",
+   "target": false
+  },
+  {
+   "formula": "Y2P4O13",
+   "x": [
+    0.52,
+    0.32,
+    0.16
+   ],
+   "dE_meV_per_atom": -2692.85,
+   "mat_id": "agm003245894",
+   "target": false
+  },
+  {
+   "formula": "YPO4",
+   "x": [
+    0.5,
+    0.25,
+    0.25
+   ],
+   "dE_meV_per_atom": -3035.59,
+   "mat_id": "agm002301450",
+   "target": true
+  },
+  {
+   "formula": "Y2O3",
+   "x": [
+    0.428571,
+    0.0,
+    0.571429
+   ],
+   "dE_meV_per_atom": -3600.26,
+   "mat_id": "agm003272261",
+   "target": false
+  },
+  {
+   "formula": "P",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003248780",
+   "target": false
+  },
+  {
+   "formula": "YP",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -1640.05,
+   "mat_id": "agm003157757",
+   "target": false
+  },
+  {
+   "formula": "Y6P5",
+   "x": [
+    0.0,
+    0.454545,
+    0.545455
+   ],
+   "dE_meV_per_atom": -1504.76,
+   "mat_id": "agm005538092",
+   "target": false
+  },
+  {
+   "formula": "Y",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002192435",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "O2",
+   "P2O5"
+  ],
+  [
+   "O2",
+   "Y2O3"
+  ],
+  [
+   "O2",
+   "Y2P4O13"
+  ],
+  [
+   "O2",
+   "YPO4"
+  ],
+  [
+   "P",
+   "P2O5"
+  ],
+  [
+   "P",
+   "Y2O3"
+  ],
+  [
+   "P",
+   "Y2P4O13"
+  ],
+  [
+   "P",
+   "YP"
+  ],
+  [
+   "P",
+   "YPO4"
+  ],
+  [
+   "P2O5",
+   "Y2P4O13"
+  ],
+  [
+   "Y",
+   "Y2O3"
+  ],
+  [
+   "Y",
+   "Y6P5"
+  ],
+  [
+   "Y",
+   "YP"
+  ],
+  [
+   "Y2O3",
+   "Y6P5"
+  ],
+  [
+   "Y2O3",
+   "YP"
+  ],
+  [
+   "Y2O3",
+   "YPO4"
+  ],
+  [
+   "Y2P4O13",
+   "YPO4"
+  ],
+  [
+   "Y6P5",
+   "YP"
+  ]
+ ],
+ "target_neighbours": [
+  "O2",
+  "P",
+  "Y2O3",
+  "Y2P4O13"
+ ],
+ "note": ""
+}
