@@ -1,0 +1,166 @@
+{
+ "target": "CsNdSnBr6",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "CsBr",
+  "NdBr3",
+  "SnBr2"
+ ],
+ "n_system_hull_phases": 28,
+ "phases": [
+  {
+   "formula": "CsBr",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157761",
+   "target": false
+  },
+  {
+   "formula": "Cs4SnBr6",
+   "x": [
+    0.8,
+    0.0,
+    0.2
+   ],
+   "dE_meV_per_atom": -34.29,
+   "mat_id": "agm028131601",
+   "target": false
+  },
+  {
+   "formula": "Cs3NdBr6",
+   "x": [
+    0.75,
+    0.25,
+    0.0
+   ],
+   "dE_meV_per_atom": -51.19,
+   "mat_id": "agm005961582",
+   "target": false
+  },
+  {
+   "formula": "CsNdBr4",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -30.13,
+   "mat_id": "agm127955824",
+   "target": false
+  },
+  {
+   "formula": "CsSnBr3",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -52.59,
+   "mat_id": "agm002139084",
+   "target": false
+  },
+  {
+   "formula": "CsNdSnBr6",
+   "x": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "dE_meV_per_atom": -44.18,
+   "mat_id": "agm063329412",
+   "target": true
+  },
+  {
+   "formula": "NdBr3",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002139014",
+   "target": false
+  },
+  {
+   "formula": "SnBr2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm076610458",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Cs3NdBr6",
+   "Cs4SnBr6"
+  ],
+  [
+   "Cs3NdBr6",
+   "CsBr"
+  ],
+  [
+   "Cs3NdBr6",
+   "CsNdBr4"
+  ],
+  [
+   "Cs3NdBr6",
+   "CsNdSnBr6"
+  ],
+  [
+   "Cs3NdBr6",
+   "CsSnBr3"
+  ],
+  [
+   "Cs4SnBr6",
+   "CsBr"
+  ],
+  [
+   "Cs4SnBr6",
+   "CsSnBr3"
+  ],
+  [
+   "CsNdBr4",
+   "CsNdSnBr6"
+  ],
+  [
+   "CsNdBr4",
+   "NdBr3"
+  ],
+  [
+   "CsNdSnBr6",
+   "CsSnBr3"
+  ],
+  [
+   "CsNdSnBr6",
+   "NdBr3"
+  ],
+  [
+   "CsNdSnBr6",
+   "SnBr2"
+  ],
+  [
+   "CsSnBr3",
+   "SnBr2"
+  ],
+  [
+   "NdBr3",
+   "SnBr2"
+  ]
+ ],
+ "target_neighbours": [
+  "Cs3NdBr6",
+  "CsNdBr4",
+  "CsSnBr3",
+  "NdBr3",
+  "SnBr2"
+ ],
+ "note": ""
+}
