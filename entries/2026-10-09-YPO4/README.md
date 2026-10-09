@@ -29,7 +29,8 @@ Computed numbers come from the Alexandria database; measured numbers carry a ref
 | Formation energy | −3.036 eV/atom | |
 
 PBE overestimates a by 1.0–1.2 % and c by 0.4–0.6 %, the usual direction and size.
-The mineral has a Wikipedia page: [Xenotime](https://en.wikipedia.org/wiki/Xenotime).
+Wikipedia has a page on the mineral, [Xenotime](https://en.wikipedia.org/wiki/Xenotime), and one on
+the compound, [Yttrium(III) phosphate](https://en.wikipedia.org/wiki/Yttrium(III)_phosphate).
 The CIF is [`YPO4.cif`](YPO4.cif); all numbers are in [`structure.json`](structure.json).
 
 ## 2. Where it sits
