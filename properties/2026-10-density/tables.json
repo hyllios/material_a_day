@@ -1,0 +1,7211 @@
+{
+ "classes": {
+  "heavier halide": {
+   "n": 10696,
+   "share": 0.064,
+   "p05": 2.398,
+   "p25": 3.265,
+   "median": 4.0,
+   "p75": 5.031,
+   "p95": 7.37,
+   "vat": 33.826,
+   "mbar": 86.482,
+   "metal": 0.405
+  },
+  "fluoride": {
+   "n": 7554,
+   "share": 0.045,
+   "p05": 2.613,
+   "p25": 3.461,
+   "median": 4.195,
+   "p75": 5.018,
+   "p95": 6.654,
+   "vat": 16.678,
+   "mbar": 43.245,
+   "metal": 0.218
+  },
+  "oxide": {
+   "n": 24208,
+   "share": 0.146,
+   "p05": 2.711,
+   "p25": 3.887,
+   "median": 5.219,
+   "p75": 6.79,
+   "p95": 8.94,
+   "vat": 15.337,
+   "mbar": 50.132,
+   "metal": 0.318
+  },
+  "chalcogenide": {
+   "n": 20838,
+   "share": 0.125,
+   "p05": 3.142,
+   "p25": 4.583,
+   "median": 5.464,
+   "p75": 6.666,
+   "p95": 8.642,
+   "vat": 28.513,
+   "mbar": 96.452,
+   "metal": 0.546
+  },
+  "element": {
+   "n": 89,
+   "share": 0.001,
+   "p05": 0.957,
+   "p25": 2.513,
+   "median": 6.952,
+   "p75": 9.909,
+   "p95": 20.55,
+   "vat": 24.631,
+   "mbar": 102.906,
+   "metal": 0.775
+  },
+  "hydride": {
+   "n": 4634,
+   "share": 0.028,
+   "p05": 2.457,
+   "p25": 5.32,
+   "median": 7.469,
+   "p75": 9.236,
+   "p95": 11.656,
+   "vat": 14.325,
+   "mbar": 62.521,
+   "metal": 0.762
+  },
+  "pnictide": {
+   "n": 17101,
+   "share": 0.103,
+   "p05": 3.738,
+   "p25": 6.358,
+   "median": 7.742,
+   "p75": 9.181,
+   "p95": 12.094,
+   "vat": 21.939,
+   "mbar": 100.636,
+   "metal": 0.886
+  },
+  "nitride": {
+   "n": 7418,
+   "share": 0.045,
+   "p05": 3.284,
+   "p25": 6.155,
+   "median": 7.844,
+   "p75": 9.654,
+   "p95": 11.965,
+   "vat": 15.327,
+   "mbar": 76.81,
+   "metal": 0.761
+  },
+  "silicide": {
+   "n": 7999,
+   "share": 0.048,
+   "p05": 4.486,
+   "p25": 6.609,
+   "median": 8.007,
+   "p75": 9.739,
+   "p95": 12.951,
+   "vat": 17.507,
+   "mbar": 85.309,
+   "metal": 0.99
+  },
+  "carbide": {
+   "n": 3459,
+   "share": 0.021,
+   "p05": 4.754,
+   "p25": 7.06,
+   "median": 8.366,
+   "p75": 9.862,
+   "p95": 12.528,
+   "vat": 16.554,
+   "mbar": 87.915,
+   "metal": 0.988
+  },
+  "germanide": {
+   "n": 7395,
+   "share": 0.045,
+   "p05": 5.128,
+   "p25": 7.227,
+   "median": 8.423,
+   "p75": 9.81,
+   "p95": 12.41,
+   "vat": 19.273,
+   "mbar": 97.849,
+   "metal": 0.985
+  },
+  "intermetallic": {
+   "n": 51348,
+   "share": 0.309,
+   "p05": 5.011,
+   "p25": 7.538,
+   "median": 9.101,
+   "p75": 11.072,
+   "p95": 15.304,
+   "vat": 21.082,
+   "mbar": 120.969,
+   "metal": 0.988
+  },
+  "boride": {
+   "n": 3394,
+   "share": 0.02,
+   "p05": 4.766,
+   "p25": 7.704,
+   "median": 9.435,
+   "p75": 11.77,
+   "p95": 15.4,
+   "vat": 12.727,
+   "mbar": 72.126,
+   "metal": 0.99
+  }
+ },
+ "elements": {
+  "H": {
+   "n": 7609,
+   "median": 5.8
+  },
+  "Li": {
+   "n": 8539,
+   "median": 5.97
+  },
+  "Be": {
+   "n": 2889,
+   "median": 7.85
+  },
+  "B": {
+   "n": 6174,
+   "median": 7.37
+  },
+  "C": {
+   "n": 5051,
+   "median": 7.59
+  },
+  "N": {
+   "n": 8427,
+   "median": 7.63
+  },
+  "O": {
+   "n": 25588,
+   "median": 5.1
+  },
+  "F": {
+   "n": 7555,
+   "median": 4.19
+  },
+  "Na": {
+   "n": 7579,
+   "median": 4.51
+  },
+  "Mg": {
+   "n": 8170,
+   "median": 6.27
+  },
+  "Al": {
+   "n": 8775,
+   "median": 6.36
+  },
+  "Si": {
+   "n": 11575,
+   "median": 7.4
+  },
+  "P": {
+   "n": 12544,
+   "median": 6.57
+  },
+  "S": {
+   "n": 10285,
+   "median": 4.58
+  },
+  "Cl": {
+   "n": 5681,
+   "median": 3.44
+  },
+  "K": {
+   "n": 9708,
+   "median": 3.94
+  },
+  "Ca": {
+   "n": 6621,
+   "median": 5.53
+  },
+  "Sc": {
+   "n": 6748,
+   "median": 6.58
+  },
+  "Ti": {
+   "n": 4553,
+   "median": 6.68
+  },
+  "V": {
+   "n": 3295,
+   "median": 5.58
+  },
+  "Cr": {
+   "n": 2582,
+   "median": 5.14
+  },
+  "Mn": {
+   "n": 4930,
+   "median": 6.81
+  },
+  "Fe": {
+   "n": 4581,
+   "median": 7.56
+  },
+  "Co": {
+   "n": 6413,
+   "median": 8.02
+  },
+  "Ni": {
+   "n": 8641,
+   "median": 8.08
+  },
+  "Cu": {
+   "n": 7759,
+   "median": 6.94
+  },
+  "Zn": {
+   "n": 7837,
+   "median": 7.46
+  },
+  "Ga": {
+   "n": 9437,
+   "median": 7.91
+  },
+  "Ge": {
+   "n": 11260,
+   "median": 7.82
+  },
+  "As": {
+   "n": 8901,
+   "median": 7.16
+  },
+  "Se": {
+   "n": 10381,
+   "median": 5.44
+  },
+  "Br": {
+   "n": 4805,
+   "median": 4.23
+  },
+  "Rb": {
+   "n": 9331,
+   "median": 4.2
+  },
+  "Sr": {
+   "n": 6508,
+   "median": 5.63
+  },
+  "Y": {
+   "n": 7890,
+   "median": 6.65
+  },
+  "Zr": {
+   "n": 5361,
+   "median": 7.5
+  },
+  "Nb": {
+   "n": 3346,
+   "median": 7.16
+  },
+  "Mo": {
+   "n": 2050,
+   "median": 6.5
+  },
+  "Tc": {
+   "n": 2766,
+   "median": 8.35
+  },
+  "Ru": {
+   "n": 6479,
+   "median": 8.92
+  },
+  "Rh": {
+   "n": 11106,
+   "median": 9.15
+  },
+  "Pd": {
+   "n": 10817,
+   "median": 8.9
+  },
+  "Ag": {
+   "n": 5802,
+   "median": 7.03
+  },
+  "Cd": {
+   "n": 6178,
+   "median": 7.63
+  },
+  "In": {
+   "n": 8367,
+   "median": 7.98
+  },
+  "Sn": {
+   "n": 7742,
+   "median": 7.65
+  },
+  "Sb": {
+   "n": 7318,
+   "median": 7.12
+  },
+  "Te": {
+   "n": 7158,
+   "median": 6.01
+  },
+  "I": {
+   "n": 3776,
+   "median": 4.73
+  },
+  "Xe": {
+   "n": 37,
+   "median": 3.59
+  },
+  "Cs": {
+   "n": 9185,
+   "median": 4.34
+  },
+  "Ba": {
+   "n": 7193,
+   "median": 5.9
+  },
+  "La": {
+   "n": 7900,
+   "median": 6.95
+  },
+  "Ce": {
+   "n": 8019,
+   "median": 7.57
+  },
+  "Pr": {
+   "n": 7595,
+   "median": 7.19
+  },
+  "Nd": {
+   "n": 7740,
+   "median": 7.21
+  },
+  "Pm": {
+   "n": 6812,
+   "median": 7.26
+  },
+  "Sm": {
+   "n": 6613,
+   "median": 7.4
+  },
+  "Eu": {
+   "n": 3869,
+   "median": 7.37
+  },
+  "Gd": {
+   "n": 4353,
+   "median": 8.03
+  },
+  "Tb": {
+   "n": 7823,
+   "median": 7.84
+  },
+  "Dy": {
+   "n": 7721,
+   "median": 8.03
+  },
+  "Ho": {
+   "n": 7481,
+   "median": 8.1
+  },
+  "Er": {
+   "n": 7190,
+   "median": 8.07
+  },
+  "Tm": {
+   "n": 6531,
+   "median": 8.18
+  },
+  "Yb": {
+   "n": 2949,
+   "median": 8.52
+  },
+  "Lu": {
+   "n": 3607,
+   "median": 9.21
+  },
+  "Hf": {
+   "n": 4949,
+   "median": 9.84
+  },
+  "Ta": {
+   "n": 3280,
+   "median": 9.54
+  },
+  "W": {
+   "n": 1526,
+   "median": 8.19
+  },
+  "Re": {
+   "n": 1720,
+   "median": 9.66
+  },
+  "Os": {
+   "n": 3709,
+   "median": 9.92
+  },
+  "Ir": {
+   "n": 8163,
+   "median": 10.92
+  },
+  "Pt": {
+   "n": 10139,
+   "median": 11.17
+  },
+  "Au": {
+   "n": 7114,
+   "median": 9.77
+  },
+  "Hg": {
+   "n": 5109,
+   "median": 9.3
+  },
+  "Tl": {
+   "n": 7190,
+   "median": 6.97
+  },
+  "Pb": {
+   "n": 5392,
+   "median": 8.25
+  },
+  "Bi": {
+   "n": 5534,
+   "median": 8.07
+  },
+  "Ac": {
+   "n": 5635,
+   "median": 8.22
+  },
+  "Th": {
+   "n": 6447,
+   "median": 9.35
+  },
+  "Pa": {
+   "n": 4869,
+   "median": 9.45
+  },
+  "U": {
+   "n": 5099,
+   "median": 8.5
+  },
+  "Np": {
+   "n": 4352,
+   "median": 8.2
+  },
+  "Pu": {
+   "n": 5573,
+   "median": 9.57
+  }
+ },
+ "atomic_volumes": {
+  "H": 5.02,
+  "He": 16.37,
+  "Li": 13.02,
+  "Be": 8.14,
+  "B": 7.26,
+  "C": 5.92,
+  "N": 4.51,
+  "O": 7.62,
+  "F": 12.0,
+  "Ne": 0.0,
+  "Na": 24.57,
+  "Mg": 22.0,
+  "Al": 17.04,
+  "Si": 15.37,
+  "P": 17.2,
+  "S": 22.59,
+  "Cl": 33.6,
+  "Ar": 52.55,
+  "K": 40.88,
+  "Ca": 30.47,
+  "Sc": 20.15,
+  "Ti": 14.5,
+  "V": 13.36,
+  "Cr": 11.82,
+  "Mn": 10.41,
+  "Fe": 9.37,
+  "Co": 8.43,
+  "Ni": 9.14,
+  "Cu": 12.1,
+  "Zn": 16.38,
+  "Ga": 18.02,
+  "Ge": 18.65,
+  "As": 21.84,
+  "Se": 28.62,
+  "Br": 41.93,
+  "Kr": 53.49,
+  "Rb": 49.87,
+  "Sr": 38.51,
+  "Y": 27.06,
+  "Zr": 20.12,
+  "Nb": 16.91,
+  "Mo": 18.99,
+  "Tc": 14.3,
+  "Ru": 12.31,
+  "Rh": 12.06,
+  "Pd": 14.11,
+  "Ag": 19.88,
+  "Cd": 24.99,
+  "In": 26.2,
+  "Sn": 27.52,
+  "Sb": 31.17,
+  "Te": 38.75,
+  "I": 55.55,
+  "Xe": 73.45,
+  "Cs": 61.24,
+  "Ba": 45.75,
+  "La": 34.19,
+  "Ce": 28.71,
+  "Pr": 30.08,
+  "Nd": 30.89,
+  "Pm": 30.84,
+  "Sm": 31.18,
+  "Eu": 31.16,
+  "Gd": 28.27,
+  "Tb": 27.2,
+  "Dy": 27.88,
+  "Ho": 27.69,
+  "Er": 27.12,
+  "Tm": 26.94,
+  "Yb": 26.5,
+  "Lu": 24.4,
+  "Hf": 19.93,
+  "Ta": 16.96,
+  "W": 19.06,
+  "Re": 16.32,
+  "Os": 13.89,
+  "Ir": 13.37,
+  "Pt": 15.02,
+  "Au": 19.44,
+  "Hg": 26.07,
+  "Tl": 32.67,
+  "Pb": 32.05,
+  "Bi": 36.17,
+  "Ac": 41.15,
+  "Th": 31.67,
+  "Pa": 26.28,
+  "U": 24.7,
+  "Np": 24.46,
+  "Pu": 25.07
+ },
+ "elemental_volumes": {
+  "Tc": 14.41,
+  "Tl": 31.62,
+  "Be": 7.92,
+  "Br": 48.84,
+  "Cl": 37.4,
+  "K": 74.04,
+  "O": 14.31,
+  "Al": 16.47,
+  "Ba": 63.24,
+  "Ca": 42.5,
+  "Cs": 116.66,
+  "Eu": 40.77,
+  "Gd": 33.61,
+  "Hf": 22.49,
+  "In": 27.43,
+  "Lu": 29.32,
+  "Mg": 22.68,
+  "Pb": 31.94,
+  "Re": 15.03,
+  "Ru": 13.76,
+  "Sc": 24.63,
+  "Th": 32.11,
+  "Xe": 86.74,
+  "Y": 32.72,
+  "Yb": 33.61,
+  "Zn": 15.2,
+  "Zr": 23.12,
+  "Os": 14.36,
+  "Ni": 10.89,
+  "Nb": 18.28,
+  "Ag": 17.87,
+  "Ce": 26.52,
+  "V": 13.46,
+  "Mo": 15.75,
+  "Rh": 14.05,
+  "Co": 10.79,
+  "Ge": 23.89,
+  "Na": 36.93,
+  "Sn": 36.83,
+  "Bi": 36.84,
+  "Si": 20.44,
+  "Sb": 31.86,
+  "Ti": 17.12,
+  "Pr": 31.61,
+  "Tb": 31.66,
+  "Te": 35.03,
+  "Sm": 37.93,
+  "La": 37.26,
+  "C": 10.53,
+  "Ac": 45.46,
+  "F": 16.33,
+  "Mn": 11.12,
+  "Ta": 18.68,
+  "S": 37.21,
+  "P": 27.93,
+  "Np": 18.42,
+  "N": 25.66,
+  "U": 20.09,
+  "Cr": 11.51,
+  "Pd": 15.31,
+  "Pt": 15.78,
+  "W": 16.15,
+  "Ir": 14.53,
+  "Fe": 11.35,
+  "Ne": 21.93,
+  "He": 16.37,
+  "Ar": 52.55,
+  "Kr": 66.42,
+  "Se": 38.68,
+  "Pu": 18.06,
+  "B": 7.24,
+  "Dy": 33.14,
+  "Pa": 25.0,
+  "Ho": 33.48,
+  "Au": 17.97,
+  "Nd": 34.31,
+  "Rb": 91.11,
+  "Tm": 33.74,
+  "H": 14.88,
+  "Cu": 11.95,
+  "Sr": 54.89,
+  "Cd": 23.31,
+  "Er": 33.06,
+  "Pm": 35.31,
+  "Li": 19.95,
+  "I": 63.19,
+  "Ga": 20.39,
+  "As": 22.56,
+  "Hg": 31.26
+ },
+ "densest": [
+  {
+   "mat_id": "agm005222624",
+   "formula": "Pu",
+   "spg": 11,
+   "rho": 22.43,
+   "gap": 0.0,
+   "cls": "element"
+  },
+  {
+   "mat_id": "agm010216502",
+   "formula": "IrOs2",
+   "spg": 63,
+   "rho": 22.019,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm002232185",
+   "formula": "Os",
+   "spg": 194,
+   "rho": 21.997,
+   "gap": 0.0,
+   "cls": "element"
+  },
+  {
+   "mat_id": "agm003189955",
+   "formula": "IrOs3",
+   "spg": 187,
+   "rho": 21.993,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm003268016",
+   "formula": "Ir8Os",
+   "spg": 139,
+   "rho": 21.983,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm003284823",
+   "formula": "Ir",
+   "spg": 225,
+   "rho": 21.969,
+   "gap": 0.0,
+   "cls": "element"
+  },
+  {
+   "mat_id": "agm003268017",
+   "formula": "ReIr8",
+   "spg": 139,
+   "rho": 21.854,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm003386744",
+   "formula": "Ir2Os2Pt",
+   "spg": 164,
+   "rho": 21.698,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm003262921",
+   "formula": "ReOs3",
+   "spg": 194,
+   "rho": 21.669,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm003267566",
+   "formula": "Ir8W",
+   "spg": 139,
+   "rho": 21.663,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm003277963",
+   "formula": "ReIr2",
+   "spg": 63,
+   "rho": 21.659,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm090774474",
+   "formula": "Os7W",
+   "spg": 187,
+   "rho": 21.596,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm001417162",
+   "formula": "ReIr",
+   "spg": 51,
+   "rho": 21.493,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm066287946",
+   "formula": "Ir18Rh",
+   "spg": 148,
+   "rho": 21.487,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm153419029",
+   "formula": "ReOs6W",
+   "spg": 187,
+   "rho": 21.437,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  }
+ ],
+ "lightest": [
+  {
+   "mat_id": "agm003279073",
+   "formula": "Mg(BH4)2",
+   "spg": 230,
+   "rho": 0.545,
+   "gap": 6.744,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm003279446",
+   "formula": "Be(BH4)2",
+   "spg": 110,
+   "rho": 0.555,
+   "gap": 6.244,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm091561368",
+   "formula": "Li",
+   "spg": 225,
+   "rho": 0.578,
+   "gap": 0.0,
+   "cls": "element"
+  },
+  {
+   "mat_id": "agm003279261",
+   "formula": "Al(BH4)3",
+   "spg": 33,
+   "rho": 0.586,
+   "gap": 6.395,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm082991465",
+   "formula": "BeH2",
+   "spg": 88,
+   "rho": 0.67,
+   "gap": 6.02,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm003232010",
+   "formula": "LiBH4",
+   "spg": 62,
+   "rho": 0.683,
+   "gap": 7.0,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm003247929",
+   "formula": "LiBH7N",
+   "spg": 62,
+   "rho": 0.687,
+   "gap": 5.717,
+   "cls": "nitride"
+  },
+  {
+   "mat_id": "agm005245695",
+   "formula": "Li2BeH4",
+   "spg": 14,
+   "rho": 0.758,
+   "gap": 4.555,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm092071825",
+   "formula": "Li7Mg",
+   "spg": 123,
+   "rho": 0.759,
+   "gap": 0.0,
+   "cls": "intermetallic"
+  },
+  {
+   "mat_id": "agm006858861",
+   "formula": "NaBH7N",
+   "spg": 62,
+   "rho": 0.777,
+   "gap": 5.348,
+   "cls": "nitride"
+  },
+  {
+   "mat_id": "agm003157752",
+   "formula": "LiH",
+   "spg": 225,
+   "rho": 0.828,
+   "gap": 3.113,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm006755273",
+   "formula": "LiSc(BH4)4",
+   "spg": 111,
+   "rho": 0.834,
+   "gap": 4.785,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm006755382",
+   "formula": "NaSc(BH4)4",
+   "spg": 111,
+   "rho": 0.84,
+   "gap": 4.959,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm003279102",
+   "formula": "LiMgB3(H9N)2",
+   "spg": 176,
+   "rho": 0.857,
+   "gap": 6.369,
+   "cls": "nitride"
+  },
+  {
+   "mat_id": "agm006755101",
+   "formula": "NaAl(BH4)4",
+   "spg": 111,
+   "rho": 0.876,
+   "gap": 6.178,
+   "cls": "hydride"
+  }
+ ],
+ "elements_by_density": [
+  {
+   "mat_id": "agm005222624",
+   "formula": "Pu",
+   "spg": 11,
+   "nsites": 16,
+   "vat": 18.064,
+   "rho": 22.43
+  },
+  {
+   "mat_id": "agm002232185",
+   "formula": "Os",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 14.36,
+   "rho": 21.997
+  },
+  {
+   "mat_id": "agm003284823",
+   "formula": "Ir",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 14.529,
+   "rho": 21.969
+  },
+  {
+   "mat_id": "agm003263419",
+   "formula": "Np",
+   "spg": 62,
+   "nsites": 8,
+   "vat": 18.419,
+   "rho": 21.366
+  },
+  {
+   "mat_id": "agm002180347",
+   "formula": "Re",
+   "spg": 194,
+   "nsites": 4,
+   "vat": 15.034,
+   "rho": 20.567
+  },
+  {
+   "mat_id": "agm003277942",
+   "formula": "Pt",
+   "spg": 139,
+   "nsites": 1,
+   "vat": 15.785,
+   "rho": 20.523
+  },
+  {
+   "mat_id": "agm003269444",
+   "formula": "U",
+   "spg": 63,
+   "nsites": 2,
+   "vat": 20.093,
+   "rho": 19.672
+  },
+  {
+   "mat_id": "agm003283363",
+   "formula": "W",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 16.146,
+   "rho": 18.907
+  },
+  {
+   "mat_id": "agm010138706",
+   "formula": "Au",
+   "spg": 194,
+   "nsites": 6,
+   "vat": 17.968,
+   "rho": 18.203
+  },
+  {
+   "mat_id": "agm003239263",
+   "formula": "Ta",
+   "spg": 136,
+   "nsites": 30,
+   "vat": 18.677,
+   "rho": 16.088
+  },
+  {
+   "mat_id": "agm005268058",
+   "formula": "Pa",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 24.998,
+   "rho": 15.347
+  },
+  {
+   "mat_id": "agm002154281",
+   "formula": "Hf",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 22.492,
+   "rho": 13.177
+  },
+  {
+   "mat_id": "agm002180945",
+   "formula": "Ru",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 13.764,
+   "rho": 12.193
+  },
+  {
+   "mat_id": "agm003157177",
+   "formula": "Rh",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 14.049,
+   "rho": 12.163
+  },
+  {
+   "mat_id": "agm002190476",
+   "formula": "Th",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 32.115,
+   "rho": 11.998
+  },
+  {
+   "mat_id": "agm003277906",
+   "formula": "Pd",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 15.31,
+   "rho": 11.542
+  },
+  {
+   "mat_id": "agm002026615",
+   "formula": "Tc",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 14.409,
+   "rho": 11.294
+  },
+  {
+   "mat_id": "agm002179313",
+   "formula": "Pb",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 31.938,
+   "rho": 10.773
+  },
+  {
+   "mat_id": "agm002028582",
+   "formula": "Tl",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 31.619,
+   "rho": 10.734
+  },
+  {
+   "mat_id": "agm140794373",
+   "formula": "Hg",
+   "spg": 12,
+   "nsites": 16,
+   "vat": 31.257,
+   "rho": 10.656
+  },
+  {
+   "mat_id": "agm003157176",
+   "formula": "Mo",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 15.752,
+   "rho": 10.114
+  },
+  {
+   "mat_id": "agm003157151",
+   "formula": "Ag",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 17.873,
+   "rho": 10.022
+  },
+  {
+   "mat_id": "agm002159529",
+   "formula": "Lu",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 29.32,
+   "rho": 9.909
+  },
+  {
+   "mat_id": "agm003157553",
+   "formula": "Bi",
+   "spg": 166,
+   "nsites": 2,
+   "vat": 36.838,
+   "rho": 9.42
+  },
+  {
+   "mat_id": "agm003157425",
+   "formula": "Co",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 10.785,
+   "rho": 9.073
+  },
+  {
+   "mat_id": "agm003157142",
+   "formula": "Ni",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 10.894,
+   "rho": 8.946
+  },
+  {
+   "mat_id": "agm067192088",
+   "formula": "Cu",
+   "spg": 164,
+   "nsites": 5,
+   "vat": 11.949,
+   "rho": 8.831
+  },
+  {
+   "mat_id": "agm003157152",
+   "formula": "Ce",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 26.519,
+   "rho": 8.774
+  },
+  {
+   "mat_id": "agm002192842",
+   "formula": "Yb",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 33.605,
+   "rho": 8.55
+  },
+  {
+   "mat_id": "agm003157148",
+   "formula": "Nb",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 18.283,
+   "rho": 8.438
+  },
+  {
+   "mat_id": "agm079062315",
+   "formula": "Er",
+   "spg": 187,
+   "nsites": 6,
+   "vat": 33.063,
+   "rho": 8.4
+  },
+  {
+   "mat_id": "agm003160954",
+   "formula": "Tb",
+   "spg": 166,
+   "nsites": 3,
+   "vat": 31.663,
+   "rho": 8.335
+  },
+  {
+   "mat_id": "agm010213004",
+   "formula": "Tm",
+   "spg": 194,
+   "nsites": 6,
+   "vat": 33.74,
+   "rho": 8.314
+  },
+  {
+   "mat_id": "agm003188153",
+   "formula": "Ac",
+   "spg": 194,
+   "nsites": 4,
+   "vat": 45.46,
+   "rho": 8.292
+  },
+  {
+   "mat_id": "agm003238379",
+   "formula": "Mn",
+   "spg": 217,
+   "nsites": 29,
+   "vat": 11.119,
+   "rho": 8.204
+  },
+  {
+   "mat_id": "agm009674554",
+   "formula": "Ho",
+   "spg": 166,
+   "nsites": 3,
+   "vat": 33.481,
+   "rho": 8.18
+  },
+  {
+   "mat_id": "agm003284891",
+   "formula": "Fe",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 11.347,
+   "rho": 8.172
+  },
+  {
+   "mat_id": "agm005252088",
+   "formula": "Dy",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 33.141,
+   "rho": 8.142
+  },
+  {
+   "mat_id": "agm078688166",
+   "formula": "Cd",
+   "spg": 139,
+   "nsites": 3,
+   "vat": 23.315,
+   "rho": 8.006
+  },
+  {
+   "mat_id": "agm002151957",
+   "formula": "Gd",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 33.612,
+   "rho": 7.769
+  },
+  {
+   "mat_id": "agm003272963",
+   "formula": "Cr",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 11.515,
+   "rho": 7.498
+  },
+  {
+   "mat_id": "agm003160923",
+   "formula": "Pr",
+   "spg": 166,
+   "nsites": 3,
+   "vat": 31.609,
+   "rho": 7.402
+  },
+  {
+   "mat_id": "agm002192900",
+   "formula": "Zn",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 15.201,
+   "rho": 7.145
+  },
+  {
+   "mat_id": "agm010173752",
+   "formula": "Nd",
+   "spg": 166,
+   "nsites": 4,
+   "vat": 34.306,
+   "rho": 6.982
+  },
+  {
+   "mat_id": "agm002154697",
+   "formula": "In",
+   "spg": 194,
+   "nsites": 4,
+   "vat": 27.425,
+   "rho": 6.952
+  },
+  {
+   "mat_id": "agm082696597",
+   "formula": "Pm",
+   "spg": 194,
+   "nsites": 6,
+   "vat": 35.313,
+   "rho": 6.818
+  },
+  {
+   "mat_id": "agm003185595",
+   "formula": "Sm",
+   "spg": 194,
+   "nsites": 4,
+   "vat": 37.926,
+   "rho": 6.583
+  },
+  {
+   "mat_id": "agm002194156",
+   "formula": "Zr",
+   "spg": 191,
+   "nsites": 3,
+   "vat": 23.12,
+   "rho": 6.552
+  },
+  {
+   "mat_id": "agm003157733",
+   "formula": "Sb",
+   "spg": 166,
+   "nsites": 2,
+   "vat": 31.863,
+   "rho": 6.346
+  },
+  {
+   "mat_id": "agm003157158",
+   "formula": "V",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 13.457,
+   "rho": 6.286
+  },
+  {
+   "mat_id": "agm003187590",
+   "formula": "La",
+   "spg": 194,
+   "nsites": 4,
+   "vat": 37.261,
+   "rho": 6.19
+  },
+  {
+   "mat_id": "agm002147420",
+   "formula": "Eu",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 40.767,
+   "rho": 6.19
+  },
+  {
+   "mat_id": "agm003160956",
+   "formula": "Te",
+   "spg": 154,
+   "nsites": 3,
+   "vat": 35.031,
+   "rho": 6.049
+  },
+  {
+   "mat_id": "agm135086243",
+   "formula": "Ga",
+   "spg": 64,
+   "nsites": 4,
+   "vat": 20.393,
+   "rho": 5.677
+  },
+  {
+   "mat_id": "agm135086247",
+   "formula": "As",
+   "spg": 166,
+   "nsites": 2,
+   "vat": 22.56,
+   "rho": 5.515
+  },
+  {
+   "mat_id": "agm003157492",
+   "formula": "Sn",
+   "spg": 227,
+   "nsites": 2,
+   "vat": 36.828,
+   "rho": 5.353
+  },
+  {
+   "mat_id": "agm003157426",
+   "formula": "Ge",
+   "spg": 227,
+   "nsites": 2,
+   "vat": 23.888,
+   "rho": 5.049
+  },
+  {
+   "mat_id": "agm003160753",
+   "formula": "Ti",
+   "spg": 191,
+   "nsites": 3,
+   "vat": 17.122,
+   "rho": 4.642
+  },
+  {
+   "mat_id": "agm002192435",
+   "formula": "Y",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 32.717,
+   "rho": 4.512
+  },
+  {
+   "mat_id": "agm002138295",
+   "formula": "Ba",
+   "spg": 229,
+   "nsites": 1,
+   "vat": 63.235,
+   "rho": 3.606
+  },
+  {
+   "mat_id": "agm005222103",
+   "formula": "Se",
+   "spg": 14,
+   "nsites": 64,
+   "vat": 38.676,
+   "rho": 3.39
+  },
+  {
+   "mat_id": "agm095114941",
+   "formula": "I",
+   "spg": 154,
+   "nsites": 6,
+   "vat": 63.193,
+   "rho": 3.335
+  },
+  {
+   "mat_id": "agm002183876",
+   "formula": "Sc",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 24.631,
+   "rho": 3.031
+  },
+  {
+   "mat_id": "agm002133236",
+   "formula": "Al",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 16.475,
+   "rho": 2.72
+  },
+  {
+   "mat_id": "agm002042447",
+   "formula": "Br",
+   "spg": 154,
+   "nsites": 6,
+   "vat": 48.836,
+   "rho": 2.717
+  },
+  {
+   "mat_id": "agm077650727",
+   "formula": "Sr",
+   "spg": 194,
+   "nsites": 8,
+   "vat": 54.893,
+   "rho": 2.651
+  },
+  {
+   "mat_id": "agm002192429",
+   "formula": "Xe",
+   "spg": 166,
+   "nsites": 3,
+   "vat": 86.74,
+   "rho": 2.513
+  },
+  {
+   "mat_id": "agm005250256",
+   "formula": "B",
+   "spg": 166,
+   "nsites": 12,
+   "vat": 7.244,
+   "rho": 2.478
+  },
+  {
+   "mat_id": "agm003157600",
+   "formula": "Si",
+   "spg": 227,
+   "nsites": 2,
+   "vat": 20.444,
+   "rho": 2.281
+  },
+  {
+   "mat_id": "agm004442533",
+   "formula": "Kr",
+   "spg": 166,
+   "nsites": 3,
+   "vat": 66.423,
+   "rho": 2.095
+  },
+  {
+   "mat_id": "agm003188458",
+   "formula": "F2",
+   "spg": 64,
+   "nsites": 4,
+   "vat": 16.326,
+   "rho": 1.932
+  },
+  {
+   "mat_id": "agm003187822",
+   "formula": "C",
+   "spg": 194,
+   "nsites": 4,
+   "vat": 10.527,
+   "rho": 1.895
+  },
+  {
+   "mat_id": "agm002145648",
+   "formula": "Cs",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 116.658,
+   "rho": 1.892
+  },
+  {
+   "mat_id": "agm002040801",
+   "formula": "Be",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 7.92,
+   "rho": 1.889
+  },
+  {
+   "mat_id": "agm002119100",
+   "formula": "O2",
+   "spg": 2,
+   "nsites": 4,
+   "vat": 14.312,
+   "rho": 1.856
+  },
+  {
+   "mat_id": "agm003248780",
+   "formula": "P",
+   "spg": 2,
+   "nsites": 42,
+   "vat": 27.928,
+   "rho": 1.842
+  },
+  {
+   "mat_id": "agm002159593",
+   "formula": "Mg",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 22.684,
+   "rho": 1.779
+  },
+  {
+   "mat_id": "agm002056207",
+   "formula": "Cl2",
+   "spg": 2,
+   "nsites": 4,
+   "vat": 37.401,
+   "rho": 1.574
+  },
+  {
+   "mat_id": "agm002140803",
+   "formula": "Ca",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 42.499,
+   "rho": 1.566
+  },
+  {
+   "mat_id": "agm010203482",
+   "formula": "Rb",
+   "spg": 63,
+   "nsites": 6,
+   "vat": 91.108,
+   "rho": 1.558
+  },
+  {
+   "mat_id": "agm004442517",
+   "formula": "Ne",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 21.927,
+   "rho": 1.528
+  },
+  {
+   "mat_id": "agm003241027",
+   "formula": "S",
+   "spg": 13,
+   "nsites": 32,
+   "vat": 37.205,
+   "rho": 1.431
+  },
+  {
+   "mat_id": "agm004442525",
+   "formula": "Ar",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 52.552,
+   "rho": 1.262
+  },
+  {
+   "mat_id": "agm003157427",
+   "formula": "Na",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 36.929,
+   "rho": 1.034
+  },
+  {
+   "mat_id": "agm003263869",
+   "formula": "N2",
+   "spg": 205,
+   "nsites": 8,
+   "vat": 25.657,
+   "rho": 0.907
+  },
+  {
+   "mat_id": "agm002090264",
+   "formula": "K",
+   "spg": 12,
+   "nsites": 4,
+   "vat": 74.044,
+   "rho": 0.877
+  },
+  {
+   "mat_id": "agm091561368",
+   "formula": "Li",
+   "spg": 225,
+   "nsites": 1,
+   "vat": 19.951,
+   "rho": 0.578
+  },
+  {
+   "mat_id": "agm004442522",
+   "formula": "He",
+   "spg": 194,
+   "nsites": 2,
+   "vat": 16.368,
+   "rho": 0.406
+  },
+  {
+   "mat_id": "agm011136793",
+   "formula": "H2",
+   "spg": 61,
+   "nsites": 8,
+   "vat": 14.876,
+   "rho": 0.113
+  }
+ ],
+ "class_extremes": {
+  "boride": {
+   "densest": [
+    {
+     "mat_id": "agm022841925",
+     "formula": "U4BOs12",
+     "spg": 229,
+     "rho": 20.0,
+     "gap": 0.0,
+     "cls": "boride"
+    },
+    {
+     "mat_id": "agm002256195",
+     "formula": "U2BOs6",
+     "spg": 225,
+     "rho": 19.502,
+     "gap": 0.0,
+     "cls": "boride"
+    },
+    {
+     "mat_id": "agm002200449",
+     "formula": "Hf2BIr6",
+     "spg": 225,
+     "rho": 19.054,
+     "gap": 0.0,
+     "cls": "boride"
+    },
+    {
+     "mat_id": "agm039443427",
+     "formula": "Pa2B(IrOs2)2",
+     "spg": 139,
+     "rho": 18.809,
+     "gap": 0.0,
+     "cls": "boride"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm000999979",
+     "formula": "LiB",
+     "spg": 166,
+     "rho": 1.31,
+     "gap": 0.0,
+     "cls": "boride"
+    },
+    {
+     "mat_id": "agm002091298",
+     "formula": "LiBeB",
+     "spg": 11,
+     "rho": 1.426,
+     "gap": 0.0,
+     "cls": "boride"
+    },
+    {
+     "mat_id": "agm003220170",
+     "formula": "LiB3",
+     "spg": 127,
+     "rho": 1.762,
+     "gap": 0.083,
+     "cls": "boride"
+    },
+    {
+     "mat_id": "agm003229633",
+     "formula": "Na3B20",
+     "spg": 65,
+     "rho": 2.149,
+     "gap": 0.0,
+     "cls": "boride"
+    }
+   ]
+  },
+  "carbide": {
+   "densest": [
+    {
+     "mat_id": "agm015939141",
+     "formula": "Pa2Os6C",
+     "spg": 225,
+     "rho": 18.963,
+     "gap": 0.0,
+     "cls": "carbide"
+    },
+    {
+     "mat_id": "agm001042668",
+     "formula": "PuNpC",
+     "spg": 63,
+     "rho": 18.642,
+     "gap": 0.0,
+     "cls": "carbide"
+    },
+    {
+     "mat_id": "agm001268603",
+     "formula": "PuUC",
+     "spg": 156,
+     "rho": 18.157,
+     "gap": 0.0,
+     "cls": "carbide"
+    },
+    {
+     "mat_id": "agm003202068",
+     "formula": "Re2C",
+     "spg": 194,
+     "rho": 18.12,
+     "gap": 0.0,
+     "cls": "carbide"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm003222791",
+     "formula": "KC8",
+     "spg": 70,
+     "rho": 1.955,
+     "gap": 0.0,
+     "cls": "carbide"
+    },
+    {
+     "mat_id": "agm005258251",
+     "formula": "LiC12",
+     "spg": 191,
+     "rho": 2.082,
+     "gap": 0.0,
+     "cls": "carbide"
+    },
+    {
+     "mat_id": "agm003088665",
+     "formula": "LiBC",
+     "spg": 194,
+     "rho": 2.154,
+     "gap": 0.924,
+     "cls": "carbide"
+    },
+    {
+     "mat_id": "agm000999997",
+     "formula": "LiC6",
+     "spg": 191,
+     "rho": 2.165,
+     "gap": 0.0,
+     "cls": "carbide"
+    }
+   ]
+  },
+  "chalcogenide": {
+   "densest": [
+    {
+     "mat_id": "agm002315160",
+     "formula": "Np2Se",
+     "spg": 194,
+     "rho": 15.589,
+     "gap": 0.0,
+     "cls": "chalcogenide"
+    },
+    {
+     "mat_id": "agm002353132",
+     "formula": "Np2S",
+     "spg": 194,
+     "rho": 15.371,
+     "gap": 0.0,
+     "cls": "chalcogenide"
+    },
+    {
+     "mat_id": "agm002358169",
+     "formula": "Np2Te",
+     "spg": 194,
+     "rho": 15.29,
+     "gap": 0.0,
+     "cls": "chalcogenide"
+    },
+    {
+     "mat_id": "agm005547808",
+     "formula": "Pa7Te",
+     "spg": 225,
+     "rho": 14.695,
+     "gap": 0.0,
+     "cls": "chalcogenide"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm076050858",
+     "formula": "Be4H6S",
+     "spg": 216,
+     "rho": 0.946,
+     "gap": 3.917,
+     "cls": "chalcogenide"
+    },
+    {
+     "mat_id": "agm002153910",
+     "formula": "NaHS",
+     "spg": 26,
+     "rho": 1.363,
+     "gap": 3.194,
+     "cls": "chalcogenide"
+    },
+    {
+     "mat_id": "agm002156982",
+     "formula": "Li3PS4",
+     "spg": 215,
+     "rho": 1.374,
+     "gap": 3.232,
+     "cls": "chalcogenide"
+    },
+    {
+     "mat_id": "agm003232108",
+     "formula": "LiHS",
+     "spg": 135,
+     "rho": 1.389,
+     "gap": 3.563,
+     "cls": "chalcogenide"
+    }
+   ]
+  },
+  "fluoride": {
+   "densest": [
+    {
+     "mat_id": "agm006120905",
+     "formula": "Pa6C5F",
+     "spg": 12,
+     "rho": 12.406,
+     "gap": 0.0,
+     "cls": "fluoride"
+    },
+    {
+     "mat_id": "agm082165327",
+     "formula": "PuNF",
+     "spg": 129,
+     "rho": 10.876,
+     "gap": 0.136,
+     "cls": "fluoride"
+    },
+    {
+     "mat_id": "agm006120903",
+     "formula": "Th6C5F",
+     "spg": 12,
+     "rho": 10.639,
+     "gap": 0.0,
+     "cls": "fluoride"
+    },
+    {
+     "mat_id": "agm084247429",
+     "formula": "NpNF",
+     "spg": 129,
+     "rho": 10.408,
+     "gap": 0.0,
+     "cls": "fluoride"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm003249827",
+     "formula": "BeH6(NF)2",
+     "spg": 14,
+     "rho": 1.414,
+     "gap": 5.912,
+     "cls": "fluoride"
+    },
+    {
+     "mat_id": "agm003245056",
+     "formula": "BeH4NF3",
+     "spg": 14,
+     "rho": 1.562,
+     "gap": 6.823,
+     "cls": "fluoride"
+    },
+    {
+     "mat_id": "agm003234660",
+     "formula": "TiH12C2(NF)6",
+     "spg": 12,
+     "rho": 1.616,
+     "gap": 2.776,
+     "cls": "fluoride"
+    },
+    {
+     "mat_id": "agm003279340",
+     "formula": "AlH15(OF)6",
+     "spg": 167,
+     "rho": 1.648,
+     "gap": 6.248,
+     "cls": "fluoride"
+    }
+   ]
+  },
+  "germanide": {
+   "densest": [
+    {
+     "mat_id": "agm002339610",
+     "formula": "U2GeIr3",
+     "spg": 194,
+     "rho": 17.721,
+     "gap": 0.0,
+     "cls": "germanide"
+    },
+    {
+     "mat_id": "agm146734683",
+     "formula": "ZnGePt6",
+     "spg": 121,
+     "rho": 17.671,
+     "gap": 0.0,
+     "cls": "germanide"
+    },
+    {
+     "mat_id": "agm005680090",
+     "formula": "Np2GeIr3",
+     "spg": 194,
+     "rho": 17.636,
+     "gap": 0.0,
+     "cls": "germanide"
+    },
+    {
+     "mat_id": "agm003264147",
+     "formula": "GaGePt6",
+     "spg": 121,
+     "rho": 17.598,
+     "gap": 0.0,
+     "cls": "germanide"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm007762052",
+     "formula": "Li17Ge4",
+     "spg": 216,
+     "rho": 2.083,
+     "gap": 0.0,
+     "cls": "germanide"
+    },
+    {
+     "mat_id": "agm003245838",
+     "formula": "Li15Ge4",
+     "spg": 220,
+     "rho": 2.164,
+     "gap": 0.0,
+     "cls": "germanide"
+    },
+    {
+     "mat_id": "agm008243078",
+     "formula": "Li14MgGe4",
+     "spg": 122,
+     "rho": 2.227,
+     "gap": 0.073,
+     "cls": "germanide"
+    },
+    {
+     "mat_id": "agm017679544",
+     "formula": "Mg6Si2Ge",
+     "spg": 71,
+     "rho": 2.349,
+     "gap": 0.324,
+     "cls": "germanide"
+    }
+   ]
+  },
+  "heavier halide": {
+   "densest": [
+    {
+     "mat_id": "agm057617002",
+     "formula": "Pu5Bi3Br",
+     "spg": 193,
+     "rho": 12.337,
+     "gap": 0.0,
+     "cls": "heavier halide"
+    },
+    {
+     "mat_id": "agm056530520",
+     "formula": "Pu5Sb3Br",
+     "spg": 193,
+     "rho": 11.286,
+     "gap": 0.0,
+     "cls": "heavier halide"
+    },
+    {
+     "mat_id": "agm056041639",
+     "formula": "Pu5Sb3Cl",
+     "spg": 193,
+     "rho": 11.252,
+     "gap": 0.0,
+     "cls": "heavier halide"
+    },
+    {
+     "mat_id": "agm049515547",
+     "formula": "Th6Te2Os3Br",
+     "spg": 12,
+     "rho": 10.772,
+     "gap": 0.0,
+     "cls": "heavier halide"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm004946542",
+     "formula": "LiH6N2Cl",
+     "spg": 15,
+     "rho": 0.909,
+     "gap": 3.969,
+     "cls": "heavier halide"
+    },
+    {
+     "mat_id": "agm005287438",
+     "formula": "BeH12(N2Cl)2",
+     "spg": 33,
+     "rho": 1.207,
+     "gap": 4.738,
+     "cls": "heavier halide"
+    },
+    {
+     "mat_id": "agm006325120",
+     "formula": "AlPH12(CCl)4",
+     "spg": 186,
+     "rho": 1.227,
+     "gap": 5.428,
+     "cls": "heavier halide"
+    },
+    {
+     "mat_id": "agm001234396",
+     "formula": "BeH4NCl3",
+     "spg": 1,
+     "rho": 1.326,
+     "gap": 5.144,
+     "cls": "heavier halide"
+    }
+   ]
+  },
+  "hydride": {
+   "densest": [
+    {
+     "mat_id": "agm006698210",
+     "formula": "TmHPt3",
+     "spg": 25,
+     "rho": 17.094,
+     "gap": 0.0,
+     "cls": "hydride"
+    },
+    {
+     "mat_id": "agm084364864",
+     "formula": "Tb2HPt6",
+     "spg": 9,
+     "rho": 17.086,
+     "gap": 0.0,
+     "cls": "hydride"
+    },
+    {
+     "mat_id": "agm084750349",
+     "formula": "ErHPt3",
+     "spg": 166,
+     "rho": 16.992,
+     "gap": 0.0,
+     "cls": "hydride"
+    },
+    {
+     "mat_id": "agm087495072",
+     "formula": "HoHPt3",
+     "spg": 166,
+     "rho": 16.862,
+     "gap": 0.0,
+     "cls": "hydride"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm003279073",
+     "formula": "Mg(BH4)2",
+     "spg": 230,
+     "rho": 0.545,
+     "gap": 6.744,
+     "cls": "hydride"
+    },
+    {
+     "mat_id": "agm003279446",
+     "formula": "Be(BH4)2",
+     "spg": 110,
+     "rho": 0.555,
+     "gap": 6.244,
+     "cls": "hydride"
+    },
+    {
+     "mat_id": "agm003279261",
+     "formula": "Al(BH4)3",
+     "spg": 33,
+     "rho": 0.586,
+     "gap": 6.395,
+     "cls": "hydride"
+    },
+    {
+     "mat_id": "agm082991465",
+     "formula": "BeH2",
+     "spg": 88,
+     "rho": 0.67,
+     "gap": 6.02,
+     "cls": "hydride"
+    }
+   ]
+  },
+  "intermetallic": {
+   "densest": [
+    {
+     "mat_id": "agm010216502",
+     "formula": "IrOs2",
+     "spg": 63,
+     "rho": 22.019,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    },
+    {
+     "mat_id": "agm003189955",
+     "formula": "IrOs3",
+     "spg": 187,
+     "rho": 21.993,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    },
+    {
+     "mat_id": "agm003268016",
+     "formula": "Ir8Os",
+     "spg": 139,
+     "rho": 21.983,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    },
+    {
+     "mat_id": "agm003268017",
+     "formula": "ReIr8",
+     "spg": 139,
+     "rho": 21.854,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm092071825",
+     "formula": "Li7Mg",
+     "spg": 123,
+     "rho": 0.759,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    },
+    {
+     "mat_id": "agm003209289",
+     "formula": "KNa2",
+     "spg": 194,
+     "rho": 0.98,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    },
+    {
+     "mat_id": "agm003212164",
+     "formula": "Li2Ca",
+     "spg": 194,
+     "rho": 1.083,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    },
+    {
+     "mat_id": "agm118669299",
+     "formula": "Li5Mg3",
+     "spg": 10,
+     "rho": 1.118,
+     "gap": 0.0,
+     "cls": "intermetallic"
+    }
+   ]
+  },
+  "nitride": {
+   "densest": [
+    {
+     "mat_id": "agm001065321",
+     "formula": "PuNpN",
+     "spg": 63,
+     "rho": 19.076,
+     "gap": 0.0,
+     "cls": "nitride"
+    },
+    {
+     "mat_id": "agm003188837",
+     "formula": "Re3N",
+     "spg": 187,
+     "rho": 19.024,
+     "gap": 0.0,
+     "cls": "nitride"
+    },
+    {
+     "mat_id": "agm139296245",
+     "formula": "PuU5N4",
+     "spg": 87,
+     "rho": 16.379,
+     "gap": 0.0,
+     "cls": "nitride"
+    },
+    {
+     "mat_id": "agm005746601",
+     "formula": "PuWN2",
+     "spg": 62,
+     "rho": 15.51,
+     "gap": 0.0,
+     "cls": "nitride"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm003247929",
+     "formula": "LiBH7N",
+     "spg": 62,
+     "rho": 0.687,
+     "gap": 5.717,
+     "cls": "nitride"
+    },
+    {
+     "mat_id": "agm006858861",
+     "formula": "NaBH7N",
+     "spg": 62,
+     "rho": 0.777,
+     "gap": 5.348,
+     "cls": "nitride"
+    },
+    {
+     "mat_id": "agm003279102",
+     "formula": "LiMgB3(H9N)2",
+     "spg": 176,
+     "rho": 0.857,
+     "gap": 6.369,
+     "cls": "nitride"
+    },
+    {
+     "mat_id": "agm006313295",
+     "formula": "NaMgB3(H9N)2",
+     "spg": 176,
+     "rho": 0.907,
+     "gap": 6.219,
+     "cls": "nitride"
+    }
+   ]
+  },
+  "oxide": {
+   "densest": [
+    {
+     "mat_id": "agm006217877",
+     "formula": "Hf9Re4O3",
+     "spg": 194,
+     "rho": 15.065,
+     "gap": 0.0,
+     "cls": "oxide"
+    },
+    {
+     "mat_id": "agm003675426",
+     "formula": "Pu6N5O",
+     "spg": 12,
+     "rho": 14.329,
+     "gap": 0.0,
+     "cls": "oxide"
+    },
+    {
+     "mat_id": "agm005628922",
+     "formula": "PuAuO",
+     "spg": 129,
+     "rho": 13.732,
+     "gap": 0.0,
+     "cls": "oxide"
+    },
+    {
+     "mat_id": "agm091092216",
+     "formula": "Hf6O",
+     "spg": 163,
+     "rho": 13.199,
+     "gap": 0.0,
+     "cls": "oxide"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm007757794",
+     "formula": "K9O2",
+     "spg": 11,
+     "rho": 1.14,
+     "gap": 0.0,
+     "cls": "oxide"
+    },
+    {
+     "mat_id": "agm003279566",
+     "formula": "AlSiH9C3Cl2O",
+     "spg": 14,
+     "rho": 1.176,
+     "gap": 5.402,
+     "cls": "oxide"
+    },
+    {
+     "mat_id": "agm079938227",
+     "formula": "K4O",
+     "spg": 91,
+     "rho": 1.22,
+     "gap": 0.0,
+     "cls": "oxide"
+    },
+    {
+     "mat_id": "agm126862815",
+     "formula": "K3O",
+     "spg": 2,
+     "rho": 1.337,
+     "gap": 0.0,
+     "cls": "oxide"
+    }
+   ]
+  },
+  "pnictide": {
+   "densest": [
+    {
+     "mat_id": "agm028974404",
+     "formula": "TaPIr5",
+     "spg": 123,
+     "rho": 18.624,
+     "gap": 0.0,
+     "cls": "pnictide"
+    },
+    {
+     "mat_id": "agm023907122",
+     "formula": "Pu8SbPt24",
+     "spg": 221,
+     "rho": 18.421,
+     "gap": 0.0,
+     "cls": "pnictide"
+    },
+    {
+     "mat_id": "agm041728983",
+     "formula": "TaP2Ir7",
+     "spg": 139,
+     "rho": 17.797,
+     "gap": 0.0,
+     "cls": "pnictide"
+    },
+    {
+     "mat_id": "agm069693238",
+     "formula": "ZnSbPt6",
+     "spg": 123,
+     "rho": 17.609,
+     "gap": 0.0,
+     "cls": "pnictide"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm003264388",
+     "formula": "Li3P",
+     "spg": 194,
+     "rho": 1.478,
+     "gap": 0.865,
+     "cls": "pnictide"
+    },
+    {
+     "mat_id": "agm002156681",
+     "formula": "KLi2P",
+     "spg": 59,
+     "rho": 1.591,
+     "gap": 0.989,
+     "cls": "pnictide"
+    },
+    {
+     "mat_id": "agm003258434",
+     "formula": "K4BeP2",
+     "spg": 166,
+     "rho": 1.647,
+     "gap": 1.132,
+     "cls": "pnictide"
+    },
+    {
+     "mat_id": "agm005275360",
+     "formula": "Li5SiP3",
+     "spg": 9,
+     "rho": 1.682,
+     "gap": 1.304,
+     "cls": "pnictide"
+    }
+   ]
+  },
+  "silicide": {
+   "densest": [
+    {
+     "mat_id": "agm002317545",
+     "formula": "U2SiOs3",
+     "spg": 166,
+     "rho": 17.516,
+     "gap": 0.0,
+     "cls": "silicide"
+    },
+    {
+     "mat_id": "agm083595884",
+     "formula": "Lu4SiPt12",
+     "spg": 229,
+     "rho": 17.482,
+     "gap": 0.0,
+     "cls": "silicide"
+    },
+    {
+     "mat_id": "agm002355918",
+     "formula": "Np2SiOs3",
+     "spg": 166,
+     "rho": 17.463,
+     "gap": 0.0,
+     "cls": "silicide"
+    },
+    {
+     "mat_id": "agm002317280",
+     "formula": "U2SiIr3",
+     "spg": 194,
+     "rho": 17.458,
+     "gap": 0.0,
+     "cls": "silicide"
+    }
+   ],
+   "lightest": [
+    {
+     "mat_id": "agm007762048",
+     "formula": "Li17Si4",
+     "spg": 216,
+     "rho": 1.209,
+     "gap": 0.0,
+     "cls": "silicide"
+    },
+    {
+     "mat_id": "agm003242484",
+     "formula": "Li13Si4",
+     "spg": 55,
+     "rho": 1.285,
+     "gap": 0.0,
+     "cls": "silicide"
+    },
+    {
+     "mat_id": "agm003245731",
+     "formula": "Li14MgSi4",
+     "spg": 122,
+     "rho": 1.3,
+     "gap": 0.068,
+     "cls": "silicide"
+    },
+    {
+     "mat_id": "agm003282353",
+     "formula": "Li7Si3",
+     "spg": 153,
+     "rho": 1.493,
+     "gap": 0.0,
+     "cls": "silicide"
+    }
+   ]
+  }
+ },
+ "largest_volume": [
+  {
+   "mat_id": "agm002145648",
+   "formula": "Cs",
+   "vat": 116.658,
+   "rho": 1.892
+  },
+  {
+   "mat_id": "agm156273671",
+   "formula": "Cs6As",
+   "vat": 96.776,
+   "rho": 2.138
+  },
+  {
+   "mat_id": "agm005546873",
+   "formula": "Cs6Au",
+   "vat": 95.643,
+   "rho": 2.466
+  },
+  {
+   "mat_id": "agm005592347",
+   "formula": "Cs6Rb2As",
+   "vat": 95.218,
+   "rho": 2.022
+  },
+  {
+   "mat_id": "agm012347659",
+   "formula": "Cs6Rb2Au",
+   "vat": 94.22,
+   "rho": 2.282
+  },
+  {
+   "mat_id": "agm010203482",
+   "formula": "Rb",
+   "vat": 91.108,
+   "rho": 1.558
+  }
+ ],
+ "smallest_volume": [
+  {
+   "mat_id": "agm003161165",
+   "formula": "VH2",
+   "vat": 6.237,
+   "rho": 4.7
+  },
+  {
+   "mat_id": "agm003157562",
+   "formula": "NiH",
+   "vat": 6.446,
+   "rho": 7.69
+  },
+  {
+   "mat_id": "agm104169176",
+   "formula": "MnCrH2",
+   "vat": 6.449,
+   "rho": 7.014
+  },
+  {
+   "mat_id": "agm005665133",
+   "formula": "CrFeH2",
+   "vat": 6.492,
+   "rho": 7.024
+  },
+  {
+   "mat_id": "agm002279671",
+   "formula": "MnCo3H4",
+   "vat": 6.524,
+   "rho": 7.501
+  },
+  {
+   "mat_id": "agm006405783",
+   "formula": "Ti(VH3)2",
+   "vat": 6.541,
+   "rho": 4.394
+  }
+ ],
+ "gap_front": {
+  "0.5": [
+   {
+    "mat_id": "agm002278173",
+    "formula": "TaGeIr",
+    "spg": 216,
+    "rho": 13.551,
+    "gap": 1.074,
+    "cls": "germanide"
+   },
+   {
+    "mat_id": "agm002183823",
+    "formula": "TaSbOs",
+    "spg": 216,
+    "rho": 13.541,
+    "gap": 0.566,
+    "cls": "pnictide"
+   },
+   {
+    "mat_id": "agm002243561",
+    "formula": "TaSnIr",
+    "spg": 216,
+    "rho": 13.504,
+    "gap": 0.958,
+    "cls": "intermetallic"
+   },
+   {
+    "mat_id": "agm005680258",
+    "formula": "Th3Bi4Pt3",
+    "spg": 220,
+    "rho": 13.502,
+    "gap": 0.555,
+    "cls": "intermetallic"
+   }
+  ],
+  "1": [
+   {
+    "mat_id": "agm002278173",
+    "formula": "TaGeIr",
+    "spg": 216,
+    "rho": 13.551,
+    "gap": 1.074,
+    "cls": "germanide"
+   },
+   {
+    "mat_id": "agm001008954",
+    "formula": "TaGaPt",
+    "spg": 216,
+    "rho": 13.303,
+    "gap": 1.1,
+    "cls": "intermetallic"
+   },
+   {
+    "mat_id": "agm001360960",
+    "formula": "LiTaGaIr",
+    "spg": 216,
+    "rho": 12.798,
+    "gap": 1.063,
+    "cls": "intermetallic"
+   },
+   {
+    "mat_id": "agm003610227",
+    "formula": "HfGePt",
+    "spg": 216,
+    "rho": 12.609,
+    "gap": 1.076,
+    "cls": "germanide"
+   }
+  ],
+  "2": [
+   {
+    "mat_id": "agm005254832",
+    "formula": "Hf2N2O",
+    "spg": 1,
+    "rho": 10.416,
+    "gap": 2.012,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm005808711",
+    "formula": "ThH6Os",
+    "spg": 166,
+    "rho": 10.257,
+    "gap": 2.069,
+    "cls": "hydride"
+   },
+   {
+    "mat_id": "agm003245730",
+    "formula": "Lu4Hf3O12",
+    "spg": 2,
+    "rho": 9.91,
+    "gap": 4.614,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm003269278",
+    "formula": "ThO2",
+    "spg": 225,
+    "rho": 9.9,
+    "gap": 4.521,
+    "cls": "oxide"
+   }
+  ],
+  "3": [
+   {
+    "mat_id": "agm003245730",
+    "formula": "Lu4Hf3O12",
+    "spg": 2,
+    "rho": 9.91,
+    "gap": 4.614,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm003269278",
+    "formula": "ThO2",
+    "spg": 225,
+    "rho": 9.9,
+    "gap": 4.521,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm003223941",
+    "formula": "Lu6WO12",
+    "spg": 148,
+    "rho": 9.725,
+    "gap": 3.036,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm089226669",
+    "formula": "AcLuO3",
+    "spg": 62,
+    "rho": 9.718,
+    "gap": 4.423,
+    "cls": "oxide"
+   }
+  ],
+  "4": [
+   {
+    "mat_id": "agm003245730",
+    "formula": "Lu4Hf3O12",
+    "spg": 2,
+    "rho": 9.91,
+    "gap": 4.614,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm003269278",
+    "formula": "ThO2",
+    "spg": 225,
+    "rho": 9.9,
+    "gap": 4.521,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm089226669",
+    "formula": "AcLuO3",
+    "spg": 62,
+    "rho": 9.718,
+    "gap": 4.423,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm003247494",
+    "formula": "Lu2O3",
+    "spg": 206,
+    "rho": 9.528,
+    "gap": 4.029,
+    "cls": "oxide"
+   }
+  ],
+  "5": [
+   {
+    "mat_id": "agm005542591",
+    "formula": "AcF3",
+    "spg": 165,
+    "rho": 7.656,
+    "gap": 7.232,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm002137909",
+    "formula": "LuBO3",
+    "spg": 63,
+    "rho": 7.412,
+    "gap": 5.754,
+    "cls": "oxide"
+   },
+   {
+    "mat_id": "agm005275775",
+    "formula": "Th3TlF13",
+    "spg": 26,
+    "rho": 7.041,
+    "gap": 5.743,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm003239334",
+    "formula": "HfF4",
+    "spg": 15,
+    "rho": 6.913,
+    "gap": 5.425,
+    "cls": "fluoride"
+   }
+  ],
+  "6": [
+   {
+    "mat_id": "agm005542591",
+    "formula": "AcF3",
+    "spg": 165,
+    "rho": 7.656,
+    "gap": 7.232,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm005245375",
+    "formula": "CsTh3F13",
+    "spg": 26,
+    "rho": 6.518,
+    "gap": 6.54,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm082229302",
+    "formula": "AcClF2",
+    "spg": 59,
+    "rho": 6.43,
+    "gap": 6.16,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm009038019",
+    "formula": "CsLiHf5F22",
+    "spg": 125,
+    "rho": 6.278,
+    "gap": 6.324,
+    "cls": "fluoride"
+   }
+  ],
+  "7": [
+   {
+    "mat_id": "agm005542591",
+    "formula": "AcF3",
+    "spg": 165,
+    "rho": 7.656,
+    "gap": 7.232,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm003211273",
+    "formula": "LiLuF4",
+    "spg": 88,
+    "rho": 6.171,
+    "gap": 7.844,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm002147744",
+    "formula": "LuF3",
+    "spg": 221,
+    "rho": 5.031,
+    "gap": 7.207,
+    "cls": "fluoride"
+   },
+   {
+    "mat_id": "agm003215450",
+    "formula": "BaYF5",
+    "spg": 15,
+    "rho": 4.956,
+    "gap": 7.31,
+    "cls": "fluoride"
+   }
+  ]
+ },
+ "calibration_classes": {
+  "heavier halide": {
+   "n": 497,
+   "p05": 0.753,
+   "median": 0.898,
+   "p95": 0.979
+  },
+  "fluoride": {
+   "n": 681,
+   "p05": 0.876,
+   "median": 0.951,
+   "p95": 0.983
+  },
+  "chalcogenide": {
+   "n": 1128,
+   "p05": 0.869,
+   "median": 0.952,
+   "p95": 1.001
+  },
+  "oxide": {
+   "n": 2863,
+   "p05": 0.909,
+   "median": 0.962,
+   "p95": 0.992
+  },
+  "pnictide": {
+   "n": 639,
+   "p05": 0.933,
+   "median": 0.975,
+   "p95": 1.025
+  },
+  "intermetallic": {
+   "n": 1384,
+   "p05": 0.93,
+   "median": 0.977,
+   "p95": 1.02
+  },
+  "germanide": {
+   "n": 251,
+   "p05": 0.939,
+   "median": 0.98,
+   "p95": 1.021
+  },
+  "silicide": {
+   "n": 347,
+   "p05": 0.955,
+   "median": 0.985,
+   "p95": 1.027
+  },
+  "nitride": {
+   "n": 234,
+   "p05": 0.924,
+   "median": 0.985,
+   "p95": 1.021
+  },
+  "element": {
+   "n": 60,
+   "p05": 0.69,
+   "median": 0.991,
+   "p95": 1.098
+  },
+  "hydride": {
+   "n": 92,
+   "p05": 0.922,
+   "median": 0.994,
+   "p95": 1.059
+  },
+  "boride": {
+   "n": 288,
+   "p05": 0.968,
+   "median": 0.995,
+   "p95": 1.028
+  },
+  "carbide": {
+   "n": 79,
+   "p05": 0.967,
+   "median": 0.996,
+   "p95": 1.044
+  }
+ },
+ "calibration_pbesol_classes": {
+  "boride": {
+   "n": 258,
+   "pbe": 0.995,
+   "pbesol": 1.02
+  },
+  "carbide": {
+   "n": 64,
+   "pbe": 0.996,
+   "pbesol": 1.024
+  },
+  "chalcogenide": {
+   "n": 941,
+   "pbe": 0.952,
+   "pbesol": 1.021
+  },
+  "element": {
+   "n": 51,
+   "pbe": 0.992,
+   "pbesol": 1.04
+  },
+  "fluoride": {
+   "n": 507,
+   "pbe": 0.951,
+   "pbesol": 1.008
+  },
+  "germanide": {
+   "n": 199,
+   "pbe": 0.979,
+   "pbesol": 1.025
+  },
+  "heavier halide": {
+   "n": 407,
+   "pbe": 0.901,
+   "pbesol": 1.018
+  },
+  "hydride": {
+   "n": 85,
+   "pbe": 0.995,
+   "pbesol": 1.054
+  },
+  "intermetallic": {
+   "n": 1150,
+   "pbe": 0.976,
+   "pbesol": 1.026
+  },
+  "nitride": {
+   "n": 209,
+   "pbe": 0.985,
+   "pbesol": 1.025
+  },
+  "oxide": {
+   "n": 2228,
+   "pbe": 0.962,
+   "pbesol": 1.006
+  },
+  "pnictide": {
+   "n": 559,
+   "pbe": 0.975,
+   "pbesol": 1.022
+  },
+  "silicide": {
+   "n": 308,
+   "pbe": 0.986,
+   "pbesol": 1.02
+  }
+ },
+ "calibration_elements": [
+  {
+   "formula": "He",
+   "rho": 0.406,
+   "rho_x": 0.214,
+   "r": 1.899,
+   "n": 5
+  },
+  {
+   "formula": "Li",
+   "rho": 0.578,
+   "rho_x": 0.805,
+   "r": 0.718,
+   "n": 7
+  },
+  {
+   "formula": "N2",
+   "rho": 0.907,
+   "rho_x": 1.035,
+   "r": 0.876,
+   "n": 1
+  },
+  {
+   "formula": "Na",
+   "rho": 1.034,
+   "rho_x": 1.01,
+   "r": 1.024,
+   "n": 1
+  },
+  {
+   "formula": "S",
+   "rho": 1.431,
+   "rho_x": 2.051,
+   "r": 0.698,
+   "n": 4
+  },
+  {
+   "formula": "Ne",
+   "rho": 1.528,
+   "rho_x": 4.601,
+   "r": 0.332,
+   "n": 25
+  },
+  {
+   "formula": "Ca",
+   "rho": 1.566,
+   "rho_x": 1.483,
+   "r": 1.056,
+   "n": 2
+  },
+  {
+   "formula": "Mg",
+   "rho": 1.779,
+   "rho_x": 1.737,
+   "r": 1.024,
+   "n": 14
+  },
+  {
+   "formula": "P",
+   "rho": 1.842,
+   "rho_x": 1.943,
+   "r": 0.948,
+   "n": 1
+  },
+  {
+   "formula": "Be",
+   "rho": 1.889,
+   "rho_x": 1.812,
+   "r": 1.043,
+   "n": 37
+  },
+  {
+   "formula": "Cs",
+   "rho": 1.892,
+   "rho_x": 4.12,
+   "r": 0.459,
+   "n": 3
+  },
+  {
+   "formula": "C",
+   "rho": 1.895,
+   "rho_x": 3.516,
+   "r": 0.539,
+   "n": 6
+  },
+  {
+   "formula": "Si",
+   "rho": 2.281,
+   "rho_x": 2.329,
+   "r": 0.979,
+   "n": 15
+  },
+  {
+   "formula": "B",
+   "rho": 2.478,
+   "rho_x": 2.371,
+   "r": 1.046,
+   "n": 6
+  },
+  {
+   "formula": "Sr",
+   "rho": 2.651,
+   "rho_x": 2.566,
+   "r": 1.033,
+   "n": 3
+  },
+  {
+   "formula": "Al",
+   "rho": 2.72,
+   "rho_x": 2.702,
+   "r": 1.007,
+   "n": 13
+  },
+  {
+   "formula": "Sc",
+   "rho": 3.031,
+   "rho_x": 2.989,
+   "r": 1.014,
+   "n": 3
+  },
+  {
+   "formula": "Se",
+   "rho": 3.39,
+   "rho_x": 4.398,
+   "r": 0.771,
+   "n": 7
+  },
+  {
+   "formula": "Ba",
+   "rho": 3.606,
+   "rho_x": 3.634,
+   "r": 0.992,
+   "n": 4
+  },
+  {
+   "formula": "Y",
+   "rho": 4.512,
+   "rho_x": 4.449,
+   "r": 1.014,
+   "n": 3
+  },
+  {
+   "formula": "Ti",
+   "rho": 4.642,
+   "rho_x": 4.614,
+   "r": 1.006,
+   "n": 1
+  },
+  {
+   "formula": "Ge",
+   "rho": 5.049,
+   "rho_x": 7.994,
+   "r": 0.711,
+   "n": 8
+  },
+  {
+   "formula": "Sn",
+   "rho": 5.353,
+   "rho_x": 5.799,
+   "r": 0.923,
+   "n": 2
+  },
+  {
+   "formula": "As",
+   "rho": 5.515,
+   "rho_x": 5.806,
+   "r": 0.95,
+   "n": 4
+  },
+  {
+   "formula": "Ga",
+   "rho": 5.677,
+   "rho_x": 5.947,
+   "r": 0.955,
+   "n": 3
+  },
+  {
+   "formula": "Te",
+   "rho": 6.049,
+   "rho_x": 6.275,
+   "r": 0.964,
+   "n": 1
+  },
+  {
+   "formula": "La",
+   "rho": 6.19,
+   "rho_x": 6.165,
+   "r": 1.004,
+   "n": 3
+  },
+  {
+   "formula": "V",
+   "rho": 6.286,
+   "rho_x": 6.104,
+   "r": 1.03,
+   "n": 16
+  },
+  {
+   "formula": "Sb",
+   "rho": 6.346,
+   "rho_x": 6.749,
+   "r": 0.94,
+   "n": 15
+  },
+  {
+   "formula": "Sm",
+   "rho": 6.583,
+   "rho_x": 7.473,
+   "r": 0.881,
+   "n": 4
+  },
+  {
+   "formula": "Zn",
+   "rho": 7.145,
+   "rho_x": 7.141,
+   "r": 1.001,
+   "n": 3
+  },
+  {
+   "formula": "Cr",
+   "rho": 7.498,
+   "rho_x": 7.195,
+   "r": 1.042,
+   "n": 3
+  },
+  {
+   "formula": "Gd",
+   "rho": 7.769,
+   "rho_x": 7.888,
+   "r": 0.985,
+   "n": 3
+  },
+  {
+   "formula": "Fe",
+   "rho": 8.172,
+   "rho_x": 7.926,
+   "r": 1.031,
+   "n": 67
+  },
+  {
+   "formula": "Mn",
+   "rho": 8.204,
+   "rho_x": 7.478,
+   "r": 1.097,
+   "n": 3
+  },
+  {
+   "formula": "Tm",
+   "rho": 8.314,
+   "rho_x": 9.293,
+   "r": 0.895,
+   "n": 2
+  },
+  {
+   "formula": "Nb",
+   "rho": 8.438,
+   "rho_x": 8.454,
+   "r": 0.998,
+   "n": 6
+  },
+  {
+   "formula": "Ce",
+   "rho": 8.774,
+   "rho_x": 6.769,
+   "r": 1.296,
+   "n": 1
+  },
+  {
+   "formula": "Ni",
+   "rho": 8.946,
+   "rho_x": 8.818,
+   "r": 1.014,
+   "n": 98
+  },
+  {
+   "formula": "Co",
+   "rho": 9.073,
+   "rho_x": 8.755,
+   "r": 1.036,
+   "n": 6
+  },
+  {
+   "formula": "Bi",
+   "rho": 9.42,
+   "rho_x": 9.833,
+   "r": 0.958,
+   "n": 8
+  },
+  {
+   "formula": "Lu",
+   "rho": 9.909,
+   "rho_x": 9.784,
+   "r": 1.013,
+   "n": 3
+  },
+  {
+   "formula": "Ag",
+   "rho": 10.022,
+   "rho_x": 10.414,
+   "r": 0.962,
+   "n": 16
+  },
+  {
+   "formula": "Mo",
+   "rho": 10.114,
+   "rho_x": 10.252,
+   "r": 0.986,
+   "n": 6
+  },
+  {
+   "formula": "Tl",
+   "rho": 10.734,
+   "rho_x": 11.912,
+   "r": 0.901,
+   "n": 4
+  },
+  {
+   "formula": "Pb",
+   "rho": 10.773,
+   "rho_x": 11.419,
+   "r": 0.943,
+   "n": 7
+  },
+  {
+   "formula": "Tc",
+   "rho": 11.294,
+   "rho_x": 11.382,
+   "r": 0.992,
+   "n": 1
+  },
+  {
+   "formula": "Pd",
+   "rho": 11.542,
+   "rho_x": 12.01,
+   "r": 0.961,
+   "n": 11
+  },
+  {
+   "formula": "Th",
+   "rho": 11.998,
+   "rho_x": 11.742,
+   "r": 1.022,
+   "n": 2
+  },
+  {
+   "formula": "Rh",
+   "rho": 12.163,
+   "rho_x": 12.463,
+   "r": 0.976,
+   "n": 4
+  },
+  {
+   "formula": "Ru",
+   "rho": 12.193,
+   "rho_x": 12.373,
+   "r": 0.986,
+   "n": 4
+  },
+  {
+   "formula": "Hf",
+   "rho": 13.177,
+   "rho_x": 13.243,
+   "r": 0.995,
+   "n": 3
+  },
+  {
+   "formula": "Au",
+   "rho": 18.203,
+   "rho_x": 18.405,
+   "r": 0.989,
+   "n": 1
+  },
+  {
+   "formula": "W",
+   "rho": 18.907,
+   "rho_x": 18.698,
+   "r": 1.011,
+   "n": 40
+  },
+  {
+   "formula": "U",
+   "rho": 19.672,
+   "rho_x": 19.082,
+   "r": 1.031,
+   "n": 4
+  },
+  {
+   "formula": "Re",
+   "rho": 20.567,
+   "rho_x": 21.014,
+   "r": 0.979,
+   "n": 1
+  },
+  {
+   "formula": "Np",
+   "rho": 21.366,
+   "rho_x": 20.472,
+   "r": 1.044,
+   "n": 1
+  },
+  {
+   "formula": "Ir",
+   "rho": 21.969,
+   "rho_x": 22.558,
+   "r": 0.974,
+   "n": 3
+  },
+  {
+   "formula": "Os",
+   "rho": 21.997,
+   "rho_x": 22.652,
+   "r": 0.971,
+   "n": 4
+  },
+  {
+   "formula": "Pu",
+   "rho": 22.43,
+   "rho_x": 20.225,
+   "r": 1.109,
+   "n": 2
+  }
+ ],
+ "calibration_outliers_light": [
+  {
+   "formula": "CsBr",
+   "r": 0.194,
+   "cls": "heavier halide",
+   "rho": 3.494,
+   "rho_x": 18.014
+  },
+  {
+   "formula": "Ne",
+   "r": 0.332,
+   "cls": "element",
+   "rho": 1.528,
+   "rho_x": 4.601
+  },
+  {
+   "formula": "BSBr",
+   "r": 0.458,
+   "cls": "heavier halide",
+   "rho": 1.916,
+   "rho_x": 6.597
+  },
+  {
+   "formula": "Cs",
+   "r": 0.459,
+   "cls": "element",
+   "rho": 1.892,
+   "rho_x": 4.12
+  },
+  {
+   "formula": "SbICl8",
+   "r": 0.493,
+   "cls": "heavier halide",
+   "rho": 2.367,
+   "rho_x": 7.497
+  },
+  {
+   "formula": "C",
+   "r": 0.539,
+   "cls": "element",
+   "rho": 1.895,
+   "rho_x": 3.516
+  },
+  {
+   "formula": "UI4",
+   "r": 0.542,
+   "cls": "heavier halide",
+   "rho": 4.502,
+   "rho_x": 10.93
+  },
+  {
+   "formula": "V2CoO6",
+   "r": 0.603,
+   "cls": "oxide",
+   "rho": 2.571,
+   "rho_x": 4.262
+  },
+  {
+   "formula": "Cs4Sr(SnSe3)3",
+   "r": 0.665,
+   "cls": "chalcogenide",
+   "rho": 4.367,
+   "rho_x": 7.71
+  },
+  {
+   "formula": "H4IN",
+   "r": 0.668,
+   "cls": "nitride",
+   "rho": 2.615,
+   "rho_x": 3.916
+  },
+  {
+   "formula": "S",
+   "r": 0.698,
+   "cls": "element",
+   "rho": 1.431,
+   "rho_x": 2.051
+  },
+  {
+   "formula": "Ge",
+   "r": 0.711,
+   "cls": "element",
+   "rho": 5.049,
+   "rho_x": 7.994
+  },
+  {
+   "formula": "P4S3",
+   "r": 0.711,
+   "cls": "chalcogenide",
+   "rho": 1.529,
+   "rho_x": 2.149
+  },
+  {
+   "formula": "TiCl4",
+   "r": 0.712,
+   "cls": "heavier halide",
+   "rho": 1.514,
+   "rho_x": 2.126
+  },
+  {
+   "formula": "BBr3",
+   "r": 0.716,
+   "cls": "heavier halide",
+   "rho": 2.436,
+   "rho_x": 3.402
+  },
+  {
+   "formula": "YF3",
+   "r": 0.717,
+   "cls": "fluoride",
+   "rho": 2.897,
+   "rho_x": 4.042
+  },
+  {
+   "formula": "Li",
+   "r": 0.718,
+   "cls": "element",
+   "rho": 0.578,
+   "rho_x": 0.805
+  },
+  {
+   "formula": "Na2C2O5",
+   "r": 0.719,
+   "cls": "oxide",
+   "rho": 2.262,
+   "rho_x": 3.144
+  },
+  {
+   "formula": "ICl3",
+   "r": 0.722,
+   "cls": "heavier halide",
+   "rho": 2.343,
+   "rho_x": 3.245
+  },
+  {
+   "formula": "SiBr4",
+   "r": 0.723,
+   "cls": "heavier halide",
+   "rho": 2.462,
+   "rho_x": 3.406
+  },
+  {
+   "formula": "BCl3",
+   "r": 0.725,
+   "cls": "heavier halide",
+   "rho": 1.327,
+   "rho_x": 1.83
+  },
+  {
+   "formula": "GeCl4",
+   "r": 0.725,
+   "cls": "heavier halide",
+   "rho": 1.737,
+   "rho_x": 2.394
+  },
+  {
+   "formula": "InNi",
+   "r": 0.731,
+   "cls": "intermetallic",
+   "rho": 8.161,
+   "rho_x": 11.157
+  },
+  {
+   "formula": "ICl",
+   "r": 0.732,
+   "cls": "heavier halide",
+   "rho": 2.76,
+   "rho_x": 3.773
+  },
+  {
+   "formula": "AlBr3",
+   "r": 0.732,
+   "cls": "heavier halide",
+   "rho": 2.382,
+   "rho_x": 3.255
+  }
+ ],
+ "in_use": {
+  "NaI": [
+   {
+    "spg": 225,
+    "meV_above_hull": 0.0,
+    "rho": 3.57,
+    "gap": 3.57,
+    "cod_rho": [
+     3.67
+    ]
+   },
+   {
+    "hull_spg": 225,
+    "hull_rho": 3.57,
+    "cod_spg_without_phase": [
+     1
+    ]
+   }
+  ],
+  "CsI": [
+   {
+    "spg": 221,
+    "meV_above_hull": 32.3,
+    "rho": 4.23,
+    "gap": 3.69,
+    "cod_rho": [
+     4.53
+    ]
+   },
+   {
+    "hull_spg": 225,
+    "hull_rho": 3.55,
+    "cod_spg_without_phase": [
+     127
+    ]
+   }
+  ],
+  "Bi4Ge3O12": [
+   {
+    "spg": 220,
+    "meV_above_hull": 0.0,
+    "rho": 6.84,
+    "gap": 3.5,
+    "cod_rho": [
+     7.1,
+     7.15,
+     7.87
+    ]
+   },
+   {
+    "hull_spg": 220,
+    "hull_rho": 6.84,
+    "cod_spg_without_phase": []
+   }
+  ],
+  "Lu2SiO5": [
+   {
+    "spg": 14,
+    "meV_above_hull": 9.6,
+    "rho": 7.69,
+    "gap": 4.6,
+    "cod_rho": [
+     7.89
+    ]
+   },
+   {
+    "hull_spg": null,
+    "hull_rho": null,
+    "cod_spg_without_phase": [
+     15
+    ]
+   }
+  ],
+  "Gd2O2S": [
+   {
+    "spg": 164,
+    "meV_above_hull": 0.0,
+    "rho": 7.25,
+    "gap": 2.06,
+    "cod_rho": [
+     7.33,
+     7.34
+    ]
+   },
+   {
+    "hull_spg": 164,
+    "hull_rho": 7.25,
+    "cod_spg_without_phase": []
+   }
+  ],
+  "CdWO4": [
+   {
+    "spg": 13,
+    "meV_above_hull": 0.0,
+    "rho": 7.62,
+    "gap": 2.97,
+    "cod_rho": [
+     7.96,
+     7.99,
+     8.0,
+     8.01,
+     8.01,
+     8.01,
+     8.15,
+     8.29,
+     8.39
+    ]
+   },
+   {
+    "hull_spg": 13,
+    "hull_rho": 7.62,
+    "cod_spg_without_phase": [
+     88
+    ]
+   }
+  ],
+  "LaBr3": [
+   {
+    "spg": 176,
+    "meV_above_hull": 0.0,
+    "rho": 4.87,
+    "gap": 3.03,
+    "cod_rho": [
+     5.07
+    ]
+   },
+   {
+    "hull_spg": 176,
+    "hull_rho": 4.87,
+    "cod_spg_without_phase": []
+   }
+  ],
+  "Lu2O3": [
+   {
+    "spg": 206,
+    "meV_above_hull": 0.0,
+    "rho": 9.53,
+    "gap": 4.03,
+    "cod_rho": [
+     9.01,
+     9.06,
+     9.19,
+     9.41
+    ]
+   },
+   {
+    "hull_spg": 206,
+    "hull_rho": 9.53,
+    "cod_spg_without_phase": [
+     199
+    ]
+   }
+  ],
+  "HfO2": [
+   {
+    "spg": 14,
+    "meV_above_hull": 6.4,
+    "rho": 10.0,
+    "gap": 4.03,
+    "cod_rho": [
+     9.92,
+     10.1,
+     10.11
+    ]
+   },
+   {
+    "spg": 61,
+    "meV_above_hull": 15.5,
+    "rho": 10.0,
+    "gap": 3.99,
+    "cod_rho": [
+     10.55
+    ]
+   },
+   {
+    "spg": 225,
+    "meV_above_hull": 96.2,
+    "rho": 10.73,
+    "gap": 3.8,
+    "cod_rho": [
+     10.45
+    ]
+   },
+   {
+    "hull_spg": 141,
+    "hull_rho": 8.25,
+    "cod_spg_without_phase": [
+     57
+    ]
+   }
+  ],
+  "LuTaO4": [
+   {
+    "spg": 13,
+    "meV_above_hull": 0.0,
+    "rho": 9.26,
+    "gap": 4.36,
+    "cod_rho": [
+     9.75
+    ]
+   },
+   {
+    "hull_spg": 13,
+    "hull_rho": 9.26,
+    "cod_spg_without_phase": []
+   }
+  ],
+  "Pb": [
+   {
+    "spg": 166,
+    "meV_above_hull": 7.0,
+    "rho": 10.73,
+    "gap": 0.0,
+    "cod_rho": [
+     3.35
+    ]
+   },
+   {
+    "spg": 194,
+    "meV_above_hull": 8.8,
+    "rho": 10.72,
+    "gap": 0.0,
+    "cod_rho": [
+     3.24,
+     11.74
+    ]
+   },
+   {
+    "spg": 225,
+    "meV_above_hull": 0.0,
+    "rho": 10.77,
+    "gap": 0.0,
+    "cod_rho": [
+     11.34,
+     11.35,
+     11.35,
+     11.42,
+     11.49,
+     11.56,
+     11.62
+    ]
+   },
+   {
+    "hull_spg": 225,
+    "hull_rho": 10.77,
+    "cod_spg_without_phase": []
+   }
+  ],
+  "W": [
+   {
+    "spg": 229,
+    "meV_above_hull": 0.0,
+    "rho": 18.91,
+    "gap": 0.0,
+    "cod_rho": [
+     18.02,
+     18.06,
+     18.12,
+     18.16,
+     18.21,
+     18.22,
+     18.26,
+     18.35,
+     18.35,
+     18.4,
+     18.41,
+     18.43,
+     18.46,
+     18.47,
+     18.48,
+     18.5,
+     18.59,
+     18.61,
+     18.67,
+     18.67,
+     18.73,
+     18.73,
+     18.76,
+     18.79,
+     18.79,
+     18.87,
+     18.92,
+     18.94,
+     18.95,
+     18.98,
+     19.03,
+     19.1,
+     19.11,
+     19.22,
+     19.26,
+     19.26,
+     19.38,
+     19.39,
+     19.4,
+     19.44
+    ]
+   },
+   {
+    "hull_spg": 229,
+    "hull_rho": 18.91,
+    "cod_spg_without_phase": [
+     10,
+     14,
+     113,
+     223,
+     225
+    ]
+   }
+  ]
+ },
+ "wide_gap_3eV_densest": [
+  {
+   "mat_id": "agm003245730",
+   "formula": "Lu4Hf3O12",
+   "spg": 2,
+   "rho": 9.91,
+   "gap": 4.614,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm003269278",
+   "formula": "ThO2",
+   "spg": 225,
+   "rho": 9.9,
+   "gap": 4.521,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm003223941",
+   "formula": "Lu6WO12",
+   "spg": 148,
+   "rho": 9.725,
+   "gap": 3.036,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm089226669",
+   "formula": "AcLuO3",
+   "spg": 62,
+   "rho": 9.718,
+   "gap": 4.423,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm003244086",
+   "formula": "Lu2WO6",
+   "spg": 13,
+   "rho": 9.671,
+   "gap": 3.245,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm003247494",
+   "formula": "Lu2O3",
+   "spg": 206,
+   "rho": 9.528,
+   "gap": 4.029,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm001235399",
+   "formula": "LuHO",
+   "spg": 216,
+   "rho": 9.376,
+   "gap": 3.984,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm003210819",
+   "formula": "LuTaO4",
+   "spg": 13,
+   "rho": 9.258,
+   "gap": 4.357,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm005572045",
+   "formula": "Ac2Hf2O7",
+   "spg": 227,
+   "rho": 9.229,
+   "gap": 4.441,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm136661329",
+   "formula": "Ac2LuInO6",
+   "spg": 14,
+   "rho": 9.148,
+   "gap": 3.413,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm003219828",
+   "formula": "Hf3N2O3",
+   "spg": 8,
+   "rho": 9.051,
+   "gap": 3.211,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm004935840",
+   "formula": "Ac2HfMgO6",
+   "spg": 14,
+   "rho": 8.962,
+   "gap": 4.878,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm003194161",
+   "formula": "Lu2SO2",
+   "spg": 164,
+   "rho": 8.948,
+   "gap": 3.089,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm005968403",
+   "formula": "Ac3TaO7",
+   "spg": 63,
+   "rho": 8.911,
+   "gap": 3.521,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm004923312",
+   "formula": "LiAc2TaO6",
+   "spg": 14,
+   "rho": 8.859,
+   "gap": 4.076,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm142400424",
+   "formula": "RbAcHf2O6",
+   "spg": 123,
+   "rho": 8.808,
+   "gap": 3.629,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm020834916",
+   "formula": "LiTa3(Bi2O7)2",
+   "spg": 15,
+   "rho": 8.776,
+   "gap": 3.198,
+   "cls": "oxide"
+  },
+  {
+   "mat_id": "agm002176448",
+   "formula": "LuOF",
+   "spg": 14,
+   "rho": 8.76,
+   "gap": 4.935,
+   "cls": "fluoride"
+  },
+  {
+   "mat_id": "agm005747510",
+   "formula": "AcH6Ir",
+   "spg": 166,
+   "rho": 8.635,
+   "gap": 3.03,
+   "cls": "hydride"
+  },
+  {
+   "mat_id": "agm003241203",
+   "formula": "Ta4PbO11",
+   "spg": 155,
+   "rho": 8.617,
+   "gap": 3.267,
+   "cls": "oxide"
+  }
+ ],
+ "hull_lighter_than_measured": [
+  {
+   "formula": "ZnCrO4",
+   "any_same": false,
+   "rmax": 0.147,
+   "rmin": 0.147,
+   "cls": "oxide",
+   "rho": 2.473,
+   "mat_id": "agm003752599",
+   "spg": 82,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CoMoO4",
+   "any_same": false,
+   "rmax": 0.429,
+   "rmin": 0.429,
+   "cls": "oxide",
+   "rho": 2.393,
+   "mat_id": "agm075724285",
+   "spg": 144,
+   "measured_structure_meV": 92.855
+  },
+  {
+   "formula": "K2SnBr6",
+   "any_same": false,
+   "rmax": 0.448,
+   "rmin": 0.448,
+   "cls": "heavier halide",
+   "rho": 3.434,
+   "mat_id": "agm003222858",
+   "spg": 14,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "LaHg3",
+   "any_same": false,
+   "rmax": 0.474,
+   "rmin": 0.474,
+   "cls": "intermetallic",
+   "rho": 11.663,
+   "mat_id": "agm003263394",
+   "spg": 59,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "V3FeO8",
+   "any_same": false,
+   "rmax": 0.503,
+   "rmin": 0.503,
+   "cls": "oxide",
+   "rho": 2.01,
+   "mat_id": "agm003210406",
+   "spg": 5,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "V5S8",
+   "any_same": false,
+   "rmax": 0.504,
+   "rmin": 0.504,
+   "cls": "chalcogenide",
+   "rho": 4.004,
+   "mat_id": "agm062005404",
+   "spg": 194,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "MnMoO4",
+   "any_same": false,
+   "rmax": 0.523,
+   "rmin": 0.523,
+   "cls": "oxide",
+   "rho": 2.187,
+   "mat_id": "agm003741303",
+   "spg": 216,
+   "measured_structure_meV": 18.279
+  },
+  {
+   "formula": "K3SbO4",
+   "any_same": false,
+   "rmax": 0.533,
+   "rmin": 0.533,
+   "cls": "oxide",
+   "rho": 2.747,
+   "mat_id": "agm051251939",
+   "spg": 31,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "ZnMoO4",
+   "any_same": false,
+   "rmax": 0.553,
+   "rmin": 0.426,
+   "cls": "oxide",
+   "rho": 2.415,
+   "mat_id": "agm076051303",
+   "spg": 1,
+   "measured_structure_meV": 21.575
+  },
+  {
+   "formula": "AlVO4",
+   "any_same": false,
+   "rmax": 0.554,
+   "rmin": 0.554,
+   "cls": "oxide",
+   "rho": 1.837,
+   "mat_id": "agm003733759",
+   "spg": 82,
+   "measured_structure_meV": 20.486
+  },
+  {
+   "formula": "LiReO4",
+   "any_same": false,
+   "rmax": 0.561,
+   "rmin": 0.561,
+   "cls": "oxide",
+   "rho": 2.761,
+   "mat_id": "agm003733663",
+   "spg": 216,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "VFeO4",
+   "any_same": false,
+   "rmax": 0.563,
+   "rmin": 0.52,
+   "cls": "oxide",
+   "rho": 2.072,
+   "mat_id": "agm003740840",
+   "spg": 82,
+   "measured_structure_meV": 34.003
+  },
+  {
+   "formula": "CdI2",
+   "any_same": false,
+   "rmax": 0.571,
+   "rmin": 0.568,
+   "cls": "heavier halide",
+   "rho": 3.248,
+   "mat_id": "agm079500245",
+   "spg": 199,
+   "measured_structure_meV": 28.31
+  },
+  {
+   "formula": "TbF3",
+   "any_same": false,
+   "rmax": 0.572,
+   "rmin": 0.572,
+   "cls": "fluoride",
+   "rho": 4.134,
+   "mat_id": "agm002147909",
+   "spg": 221,
+   "measured_structure_meV": 26.116
+  },
+  {
+   "formula": "H5NF2",
+   "any_same": false,
+   "rmax": 0.574,
+   "rmin": 0.568,
+   "cls": "fluoride",
+   "rho": 0.855,
+   "mat_id": "agm005939148",
+   "spg": 22,
+   "measured_structure_meV": 0.544
+  },
+  {
+   "formula": "CrCoO4",
+   "any_same": false,
+   "rmax": 0.574,
+   "rmin": 0.574,
+   "cls": "oxide",
+   "rho": 2.332,
+   "mat_id": "agm076172835",
+   "spg": 1,
+   "measured_structure_meV": 23.045
+  },
+  {
+   "formula": "HoF3",
+   "any_same": false,
+   "rmax": 0.575,
+   "rmin": 0.575,
+   "cls": "fluoride",
+   "rho": 4.399,
+   "mat_id": "agm002147651",
+   "spg": 221,
+   "measured_structure_meV": 5.171
+  },
+  {
+   "formula": "YbF3",
+   "any_same": false,
+   "rmax": 0.581,
+   "rmin": 0.581,
+   "cls": "fluoride",
+   "rho": 4.753,
+   "mat_id": "agm002147941",
+   "spg": 221,
+   "measured_structure_meV": 25.961
+  },
+  {
+   "formula": "BaPbF6",
+   "any_same": false,
+   "rmax": 0.587,
+   "rmin": 0.587,
+   "cls": "fluoride",
+   "rho": 3.706,
+   "mat_id": "agm002148272",
+   "spg": 225,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CoBr2",
+   "any_same": false,
+   "rmax": 0.588,
+   "rmin": 0.569,
+   "cls": "heavier halide",
+   "rho": 2.879,
+   "mat_id": "agm079511298",
+   "spg": 199,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbBiF6",
+   "any_same": false,
+   "rmax": 0.595,
+   "rmin": 0.595,
+   "cls": "fluoride",
+   "rho": 2.982,
+   "mat_id": "agm015543878",
+   "spg": 12,
+   "measured_structure_meV": 2.712
+  },
+  {
+   "formula": "BaSiO3",
+   "any_same": false,
+   "rmax": 0.596,
+   "rmin": 0.536,
+   "cls": "oxide",
+   "rho": 4.064,
+   "mat_id": "agm002172281",
+   "spg": 15,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CoCl2",
+   "any_same": false,
+   "rmax": 0.603,
+   "rmin": 0.602,
+   "cls": "heavier halide",
+   "rho": 2.055,
+   "mat_id": "agm076970323",
+   "spg": 217,
+   "measured_structure_meV": 25.721
+  },
+  {
+   "formula": "BaZrF6",
+   "any_same": false,
+   "rmax": 0.607,
+   "rmin": 0.573,
+   "cls": "fluoride",
+   "rho": 2.871,
+   "mat_id": "agm079271247",
+   "spg": 148,
+   "measured_structure_meV": 10.833
+  },
+  {
+   "formula": "FeCl3",
+   "any_same": false,
+   "rmax": 0.609,
+   "rmin": 0.607,
+   "cls": "heavier halide",
+   "rho": 1.774,
+   "mat_id": "agm002142726",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "TiI4",
+   "any_same": false,
+   "rmax": 0.62,
+   "rmin": 0.62,
+   "cls": "heavier halide",
+   "rho": 3.124,
+   "mat_id": "agm122425000",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsUF6",
+   "any_same": false,
+   "rmax": 0.621,
+   "rmin": 0.621,
+   "cls": "fluoride",
+   "rho": 3.192,
+   "mat_id": "agm089784009",
+   "spg": 12,
+   "measured_structure_meV": 2.59
+  },
+  {
+   "formula": "TbCdF6",
+   "any_same": false,
+   "rmax": 0.628,
+   "rmin": 0.628,
+   "cls": "fluoride",
+   "rho": 3.88,
+   "mat_id": "agm002209948",
+   "spg": 225,
+   "measured_structure_meV": 27.452
+  },
+  {
+   "formula": "AuBr3",
+   "any_same": false,
+   "rmax": 0.628,
+   "rmin": 0.628,
+   "cls": "heavier halide",
+   "rho": 3.714,
+   "mat_id": "agm010198929",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "InI3",
+   "any_same": false,
+   "rmax": 0.63,
+   "rmin": 0.63,
+   "cls": "heavier halide",
+   "rho": 3.371,
+   "mat_id": "agm108512001",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KOsF6",
+   "any_same": false,
+   "rmax": 0.634,
+   "rmin": 0.634,
+   "cls": "fluoride",
+   "rho": 2.983,
+   "mat_id": "agm076051259",
+   "spg": 225,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbGd(WO4)2",
+   "any_same": false,
+   "rmax": 0.634,
+   "rmin": 0.634,
+   "cls": "oxide",
+   "rho": 4.786,
+   "mat_id": "agm002304826",
+   "spg": 164,
+   "measured_structure_meV": 2.655
+  },
+  {
+   "formula": "CaTbF6",
+   "any_same": false,
+   "rmax": 0.636,
+   "rmin": 0.636,
+   "cls": "fluoride",
+   "rho": 3.086,
+   "mat_id": "agm002148306",
+   "spg": 225,
+   "measured_structure_meV": 27.182
+  },
+  {
+   "formula": "La(AuF4)3",
+   "any_same": false,
+   "rmax": 0.641,
+   "rmin": 0.641,
+   "cls": "fluoride",
+   "rho": 3.876,
+   "mat_id": "agm080445068",
+   "spg": 200,
+   "measured_structure_meV": 8.183
+  },
+  {
+   "formula": "Re2PbO8",
+   "any_same": false,
+   "rmax": 0.643,
+   "rmin": 0.643,
+   "cls": "oxide",
+   "rho": 4.484,
+   "mat_id": "agm080917412",
+   "spg": 225,
+   "measured_structure_meV": 8.108
+  },
+  {
+   "formula": "CsCu2Br3",
+   "any_same": false,
+   "rmax": 0.645,
+   "rmin": 0.645,
+   "cls": "heavier halide",
+   "rho": 3.022,
+   "mat_id": "agm082126008",
+   "spg": 224,
+   "measured_structure_meV": 16.302
+  },
+  {
+   "formula": "SiP2",
+   "any_same": false,
+   "rmax": 0.647,
+   "rmin": 0.643,
+   "cls": "pnictide",
+   "rho": 2.098,
+   "mat_id": "agm003232154",
+   "spg": 55,
+   "measured_structure_meV": 14.078
+  },
+  {
+   "formula": "GdCl3",
+   "any_same": false,
+   "rmax": 0.651,
+   "rmin": 0.651,
+   "cls": "heavier halide",
+   "rho": 2.959,
+   "mat_id": "agm002143585",
+   "spg": 12,
+   "measured_structure_meV": 36.785
+  },
+  {
+   "formula": "KAg3S2",
+   "any_same": false,
+   "rmax": 0.656,
+   "rmin": 0.656,
+   "cls": "chalcogenide",
+   "rho": 3.977,
+   "mat_id": "agm002236674",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "VSbO4",
+   "any_same": false,
+   "rmax": 0.657,
+   "rmin": 0.657,
+   "cls": "oxide",
+   "rho": 4.025,
+   "mat_id": "agm002174013",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SrPbF6",
+   "any_same": false,
+   "rmax": 0.658,
+   "rmin": 0.658,
+   "cls": "fluoride",
+   "rho": 3.671,
+   "mat_id": "agm002149003",
+   "spg": 225,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Li2HfF6",
+   "any_same": false,
+   "rmax": 0.658,
+   "rmin": 0.658,
+   "cls": "fluoride",
+   "rho": 3.361,
+   "mat_id": "agm084756354",
+   "spg": 71,
+   "measured_structure_meV": 10.777
+  },
+  {
+   "formula": "Li2ZrF6",
+   "any_same": false,
+   "rmax": 0.658,
+   "rmin": 0.633,
+   "cls": "fluoride",
+   "rho": 2.391,
+   "mat_id": "agm081441289",
+   "spg": 12,
+   "measured_structure_meV": 8.744
+  },
+  {
+   "formula": "CsLu(WO4)2",
+   "any_same": false,
+   "rmax": 0.658,
+   "rmin": 0.658,
+   "cls": "oxide",
+   "rho": 5.072,
+   "mat_id": "agm078224685",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "H2S",
+   "any_same": false,
+   "rmax": 0.66,
+   "rmin": 0.63,
+   "cls": "chalcogenide",
+   "rho": 0.767,
+   "mat_id": "agm071203382",
+   "spg": 96,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "FeCl2",
+   "any_same": false,
+   "rmax": 0.66,
+   "rmin": 0.641,
+   "cls": "heavier halide",
+   "rho": 2.115,
+   "mat_id": "agm005541804",
+   "spg": 72,
+   "measured_structure_meV": 47.007
+  },
+  {
+   "formula": "FeBr2",
+   "any_same": false,
+   "rmax": 0.663,
+   "rmin": 0.644,
+   "cls": "heavier halide",
+   "rho": 3.086,
+   "mat_id": "agm003284867",
+   "spg": 72,
+   "measured_structure_meV": 73.706
+  },
+  {
+   "formula": "ThV2O7",
+   "any_same": false,
+   "rmax": 0.666,
+   "rmin": 0.666,
+   "cls": "oxide",
+   "rho": 3.463,
+   "mat_id": "agm012922758",
+   "spg": 205,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SCl",
+   "any_same": false,
+   "rmax": 0.666,
+   "rmin": 0.666,
+   "cls": "heavier halide",
+   "rho": 1.359,
+   "mat_id": "agm007972056",
+   "spg": 1,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "NaBeH3",
+   "any_same": false,
+   "rmax": 0.668,
+   "rmin": 0.668,
+   "cls": "hydride",
+   "rho": 1.114,
+   "mat_id": "agm090790444",
+   "spg": 19,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "BaSb2F12",
+   "any_same": false,
+   "rmax": 0.668,
+   "rmin": 0.668,
+   "cls": "fluoride",
+   "rho": 3.874,
+   "mat_id": "agm005221545",
+   "spg": 5,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KLu(WO4)2",
+   "any_same": false,
+   "rmax": 0.668,
+   "rmin": 0.664,
+   "cls": "oxide",
+   "rho": 5.107,
+   "mat_id": "agm002230883",
+   "spg": 164,
+   "measured_structure_meV": 7.147
+  },
+  {
+   "formula": "KBiF6",
+   "any_same": false,
+   "rmax": 0.668,
+   "rmin": 0.666,
+   "cls": "fluoride",
+   "rho": 2.897,
+   "mat_id": "agm002210222",
+   "spg": 225,
+   "measured_structure_meV": 4.057
+  },
+  {
+   "formula": "TeI4",
+   "any_same": false,
+   "rmax": 0.669,
+   "rmin": 0.669,
+   "cls": "heavier halide",
+   "rho": 3.881,
+   "mat_id": "agm010170960",
+   "spg": 15,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "NpCl4",
+   "any_same": false,
+   "rmax": 0.674,
+   "rmin": 0.674,
+   "cls": "heavier halide",
+   "rho": 3.344,
+   "mat_id": "agm010181314",
+   "spg": 15,
+   "measured_structure_meV": 34.979
+  },
+  {
+   "formula": "I",
+   "any_same": false,
+   "rmax": 0.675,
+   "rmin": 0.409,
+   "cls": "element",
+   "rho": 3.335,
+   "mat_id": "agm095114941",
+   "spg": 154,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "PuCl3",
+   "any_same": false,
+   "rmax": 0.677,
+   "rmin": 0.677,
+   "cls": "heavier halide",
+   "rho": 3.939,
+   "mat_id": "agm002143591",
+   "spg": 12,
+   "measured_structure_meV": 23.205
+  },
+  {
+   "formula": "SrV2O6",
+   "any_same": false,
+   "rmax": 0.677,
+   "rmin": 0.677,
+   "cls": "oxide",
+   "rho": 2.857,
+   "mat_id": "agm005678195",
+   "spg": 15,
+   "measured_structure_meV": 36.884
+  },
+  {
+   "formula": "K2TcF6",
+   "any_same": false,
+   "rmax": 0.679,
+   "rmin": 0.679,
+   "cls": "fluoride",
+   "rho": 2.437,
+   "mat_id": "agm106007891",
+   "spg": 58,
+   "measured_structure_meV": 7.902
+  },
+  {
+   "formula": "FeI2",
+   "any_same": false,
+   "rmax": 0.679,
+   "rmin": 0.679,
+   "cls": "heavier halide",
+   "rho": 3.66,
+   "mat_id": "agm005541803",
+   "spg": 72,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "ZnBr2",
+   "any_same": false,
+   "rmax": 0.679,
+   "rmin": 0.64,
+   "cls": "heavier halide",
+   "rho": 2.879,
+   "mat_id": "agm076434220",
+   "spg": 199,
+   "measured_structure_meV": 88.806
+  },
+  {
+   "formula": "TcO3F",
+   "any_same": false,
+   "rmax": 0.684,
+   "rmin": 0.684,
+   "cls": "fluoride",
+   "rho": 2.799,
+   "mat_id": "agm005727259",
+   "spg": 31,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "K2ReF6",
+   "any_same": false,
+   "rmax": 0.687,
+   "rmin": 0.667,
+   "cls": "fluoride",
+   "rho": 3.129,
+   "mat_id": "agm092395724",
+   "spg": 58,
+   "measured_structure_meV": 8.572
+  },
+  {
+   "formula": "Xe",
+   "any_same": false,
+   "rmax": 0.688,
+   "rmin": 0.664,
+   "cls": "element",
+   "rho": 2.513,
+   "mat_id": "agm002192429",
+   "spg": 166,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "GeI4",
+   "any_same": false,
+   "rmax": 0.689,
+   "rmin": 0.689,
+   "cls": "heavier halide",
+   "rho": 3.162,
+   "mat_id": "agm092694725",
+   "spg": 114,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KNbF6",
+   "any_same": false,
+   "rmax": 0.69,
+   "rmin": 0.69,
+   "cls": "fluoride",
+   "rho": 2.091,
+   "mat_id": "agm112782224",
+   "spg": 59,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "K2TiF6",
+   "any_same": false,
+   "rmax": 0.691,
+   "rmin": 0.685,
+   "cls": "fluoride",
+   "rho": 2.074,
+   "mat_id": "agm012753059",
+   "spg": 58,
+   "measured_structure_meV": 6.712
+  },
+  {
+   "formula": "CsICl2",
+   "any_same": false,
+   "rmax": 0.692,
+   "rmin": 0.317,
+   "cls": "heavier halide",
+   "rho": 2.695,
+   "mat_id": "agm098467264",
+   "spg": 62,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "H4NCl",
+   "any_same": false,
+   "rmax": 0.693,
+   "rmin": 0.51,
+   "cls": "heavier halide",
+   "rho": 0.883,
+   "mat_id": "agm002153441",
+   "spg": 216,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "ZnI2",
+   "any_same": false,
+   "rmax": 0.694,
+   "rmin": 0.633,
+   "cls": "heavier halide",
+   "rho": 3.28,
+   "mat_id": "agm076462420",
+   "spg": 199,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "VAgO3",
+   "any_same": false,
+   "rmax": 0.697,
+   "rmin": 0.625,
+   "cls": "oxide",
+   "rho": 3.4,
+   "mat_id": "agm106151453",
+   "spg": 1,
+   "measured_structure_meV": 0.093
+  },
+  {
+   "formula": "DyCl3",
+   "any_same": false,
+   "rmax": 0.698,
+   "rmin": 0.698,
+   "cls": "heavier halide",
+   "rho": 3.249,
+   "mat_id": "agm002142717",
+   "spg": 12,
+   "measured_structure_meV": 33.429
+  },
+  {
+   "formula": "ZrSnF6",
+   "any_same": false,
+   "rmax": 0.698,
+   "rmin": 0.698,
+   "cls": "fluoride",
+   "rho": 3.393,
+   "mat_id": "agm082277330",
+   "spg": 11,
+   "measured_structure_meV": 16.695
+  },
+  {
+   "formula": "Li2MoF6",
+   "any_same": false,
+   "rmax": 0.699,
+   "rmin": 0.699,
+   "cls": "fluoride",
+   "rho": 2.575,
+   "mat_id": "agm109210692",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SiAs2",
+   "any_same": false,
+   "rmax": 0.699,
+   "rmin": 0.699,
+   "cls": "pnictide",
+   "rho": 3.782,
+   "mat_id": "agm003233042",
+   "spg": 55,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "B2O3",
+   "any_same": false,
+   "rmax": 0.7,
+   "rmin": 0.463,
+   "cls": "oxide",
+   "rho": 1.787,
+   "mat_id": "agm081985540",
+   "spg": 1,
+   "measured_structure_meV": 3.922
+  },
+  {
+   "formula": "GaBO3",
+   "any_same": false,
+   "rmax": 0.704,
+   "rmin": 0.704,
+   "cls": "oxide",
+   "rho": 3.522,
+   "mat_id": "agm077837933",
+   "spg": 19,
+   "measured_structure_meV": 11.372
+  },
+  {
+   "formula": "Kr",
+   "any_same": false,
+   "rmax": 0.705,
+   "rmin": 0.681,
+   "cls": "element",
+   "rho": 2.095,
+   "mat_id": "agm004442533",
+   "spg": 166,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Li2TiF6",
+   "any_same": false,
+   "rmax": 0.705,
+   "rmin": 0.705,
+   "cls": "fluoride",
+   "rho": 2.148,
+   "mat_id": "agm083405548",
+   "spg": 12,
+   "measured_structure_meV": 8.898
+  },
+  {
+   "formula": "IrBr3",
+   "any_same": false,
+   "rmax": 0.706,
+   "rmin": 0.706,
+   "cls": "heavier halide",
+   "rho": 4.876,
+   "mat_id": "agm071347532",
+   "spg": 214,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "IrCl3",
+   "any_same": false,
+   "rmax": 0.706,
+   "rmin": 0.706,
+   "cls": "heavier halide",
+   "rho": 3.948,
+   "mat_id": "agm076432954",
+   "spg": 214,
+   "measured_structure_meV": 6.967
+  },
+  {
+   "formula": "AsCl3",
+   "any_same": false,
+   "rmax": 0.706,
+   "rmin": 0.706,
+   "cls": "heavier halide",
+   "rho": 1.844,
+   "mat_id": "agm002142643",
+   "spg": 148,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "UI3",
+   "any_same": false,
+   "rmax": 0.707,
+   "rmin": 0.704,
+   "cls": "heavier halide",
+   "rho": 4.771,
+   "mat_id": "agm002154568",
+   "spg": 193,
+   "measured_structure_meV": 0.614
+  },
+  {
+   "formula": "KAgSe",
+   "any_same": false,
+   "rmax": 0.707,
+   "rmin": 0.707,
+   "cls": "chalcogenide",
+   "rho": 3.419,
+   "mat_id": "agm003211268",
+   "spg": 62,
+   "measured_structure_meV": 50.606
+  },
+  {
+   "formula": "FeCoS2",
+   "any_same": false,
+   "rmax": 0.707,
+   "rmin": 0.707,
+   "cls": "chalcogenide",
+   "rho": 4.061,
+   "mat_id": "agm005770239",
+   "spg": 115,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "H4BrN",
+   "any_same": false,
+   "rmax": 0.707,
+   "rmin": 0.546,
+   "cls": "nitride",
+   "rho": 1.401,
+   "mat_id": "agm002153438",
+   "spg": 216,
+   "measured_structure_meV": 7.611
+  },
+  {
+   "formula": "V2HgO6",
+   "any_same": false,
+   "rmax": 0.712,
+   "rmin": 0.704,
+   "cls": "oxide",
+   "rho": 4.428,
+   "mat_id": "agm003495972",
+   "spg": 15,
+   "measured_structure_meV": 38.377
+  },
+  {
+   "formula": "PtCl2",
+   "any_same": false,
+   "rmax": 0.712,
+   "rmin": 0.68,
+   "cls": "heavier halide",
+   "rho": 4.377,
+   "mat_id": "agm079808054",
+   "spg": 221,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsAg3S2",
+   "any_same": false,
+   "rmax": 0.712,
+   "rmin": 0.712,
+   "cls": "chalcogenide",
+   "rho": 4.261,
+   "mat_id": "agm002181376",
+   "spg": 164,
+   "measured_structure_meV": 84.309
+  },
+  {
+   "formula": "SBr",
+   "any_same": false,
+   "rmax": 0.715,
+   "rmin": 0.715,
+   "cls": "heavier halide",
+   "rho": 2.215,
+   "mat_id": "agm002237695",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsEu(MoO4)2",
+   "any_same": false,
+   "rmax": 0.716,
+   "rmin": 0.716,
+   "cls": "oxide",
+   "rho": 3.668,
+   "mat_id": "agm002302077",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbCu3S2",
+   "any_same": false,
+   "rmax": 0.717,
+   "rmin": 0.717,
+   "cls": "chalcogenide",
+   "rho": 3.586,
+   "mat_id": "agm002181543",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Mg(BH4)2",
+   "any_same": false,
+   "rmax": 0.717,
+   "rmin": 0.697,
+   "cls": "hydride",
+   "rho": 0.545,
+   "mat_id": "agm003279073",
+   "spg": 230,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RhCl3",
+   "any_same": false,
+   "rmax": 0.718,
+   "rmin": 0.718,
+   "cls": "heavier halide",
+   "rho": 2.86,
+   "mat_id": "agm076313838",
+   "spg": 214,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KSm(MoO4)2",
+   "any_same": false,
+   "rmax": 0.718,
+   "rmin": 0.718,
+   "cls": "oxide",
+   "rho": 3.519,
+   "mat_id": "agm002175879",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "LiInF4",
+   "any_same": false,
+   "rmax": 0.719,
+   "rmin": 0.719,
+   "cls": "fluoride",
+   "rho": 3.409,
+   "mat_id": "agm082933594",
+   "spg": 15,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "HgI",
+   "any_same": false,
+   "rmax": 0.719,
+   "rmin": 0.709,
+   "cls": "heavier halide",
+   "rho": 5.523,
+   "mat_id": "agm123517842",
+   "spg": 12,
+   "measured_structure_meV": 1.132
+  },
+  {
+   "formula": "Li2CrF6",
+   "any_same": false,
+   "rmax": 0.72,
+   "rmin": 0.72,
+   "cls": "fluoride",
+   "rho": 2.302,
+   "mat_id": "agm083162886",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "VOF3",
+   "any_same": false,
+   "rmax": 0.72,
+   "rmin": 0.72,
+   "cls": "fluoride",
+   "rho": 2.276,
+   "mat_id": "agm003207219",
+   "spg": 36,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsAg3Se2",
+   "any_same": false,
+   "rmax": 0.72,
+   "rmin": 0.72,
+   "cls": "chalcogenide",
+   "rho": 4.708,
+   "mat_id": "agm002239244",
+   "spg": 164,
+   "measured_structure_meV": 42.661
+  },
+  {
+   "formula": "CsGd(MoO4)2",
+   "any_same": false,
+   "rmax": 0.721,
+   "rmin": 0.721,
+   "cls": "oxide",
+   "rho": 3.743,
+   "mat_id": "agm002302078",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "K2Si4O9",
+   "any_same": false,
+   "rmax": 0.721,
+   "rmin": 0.721,
+   "cls": "oxide",
+   "rho": 2.224,
+   "mat_id": "agm003239661",
+   "spg": 2,
+   "measured_structure_meV": 31.346
+  },
+  {
+   "formula": "TeO3",
+   "any_same": false,
+   "rmax": 0.722,
+   "rmin": 0.716,
+   "cls": "oxide",
+   "rho": 4.633,
+   "mat_id": "agm003263776",
+   "spg": 12,
+   "measured_structure_meV": 21.537
+  },
+  {
+   "formula": "Re2O7",
+   "any_same": false,
+   "rmax": 0.723,
+   "rmin": 0.723,
+   "cls": "oxide",
+   "rho": 4.496,
+   "mat_id": "agm003222597",
+   "spg": 36,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsS3",
+   "any_same": false,
+   "rmax": 0.724,
+   "rmin": 0.724,
+   "cls": "chalcogenide",
+   "rho": 2.247,
+   "mat_id": "agm141325206",
+   "spg": 5,
+   "measured_structure_meV": 5.835
+  },
+  {
+   "formula": "BiCl3",
+   "any_same": false,
+   "rmax": 0.724,
+   "rmin": 0.724,
+   "cls": "heavier halide",
+   "rho": 3.438,
+   "mat_id": "agm002142653",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "WCl6",
+   "any_same": false,
+   "rmax": 0.725,
+   "rmin": 0.725,
+   "cls": "heavier halide",
+   "rho": 2.677,
+   "mat_id": "agm003227392",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SrHfF6",
+   "any_same": false,
+   "rmax": 0.727,
+   "rmin": 0.727,
+   "cls": "fluoride",
+   "rho": 3.601,
+   "mat_id": "agm079371769",
+   "spg": 225,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "TlFeO3",
+   "any_same": false,
+   "rmax": 0.728,
+   "rmin": 0.728,
+   "cls": "oxide",
+   "rho": 6.606,
+   "mat_id": "agm002171372",
+   "spg": 148,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "K2S5",
+   "any_same": false,
+   "rmax": 0.729,
+   "rmin": 0.729,
+   "cls": "chalcogenide",
+   "rho": 1.547,
+   "mat_id": "agm090735158",
+   "spg": 5,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "GaBr3",
+   "any_same": false,
+   "rmax": 0.729,
+   "rmin": 0.729,
+   "cls": "heavier halide",
+   "rho": 2.86,
+   "mat_id": "agm002151374",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbScO2",
+   "any_same": false,
+   "rmax": 0.73,
+   "rmin": 0.73,
+   "cls": "oxide",
+   "rho": 3.363,
+   "mat_id": "agm003126887",
+   "spg": 33,
+   "measured_structure_meV": 46.987
+  },
+  {
+   "formula": "BiSCl",
+   "any_same": false,
+   "rmax": 0.731,
+   "rmin": 0.718,
+   "cls": "heavier halide",
+   "rho": 4.34,
+   "mat_id": "agm074539672",
+   "spg": 176,
+   "measured_structure_meV": 9.648
+  },
+  {
+   "formula": "GeSe2",
+   "any_same": false,
+   "rmax": 0.732,
+   "rmin": 0.732,
+   "cls": "chalcogenide",
+   "rho": 3.717,
+   "mat_id": "agm005259547",
+   "spg": 43,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "InTe",
+   "any_same": false,
+   "rmax": 0.732,
+   "rmin": 0.589,
+   "cls": "chalcogenide",
+   "rho": 5.039,
+   "mat_id": "agm002155106",
+   "spg": 194,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "TlF3",
+   "any_same": false,
+   "rmax": 0.732,
+   "rmin": 0.723,
+   "cls": "fluoride",
+   "rho": 6.401,
+   "mat_id": "agm002147921",
+   "spg": 167,
+   "measured_structure_meV": 23.878
+  },
+  {
+   "formula": "Hf(MoO4)2",
+   "any_same": false,
+   "rmax": 0.733,
+   "rmin": 0.733,
+   "cls": "oxide",
+   "rho": 4.273,
+   "mat_id": "agm002175901",
+   "spg": 164,
+   "measured_structure_meV": 59.071
+  },
+  {
+   "formula": "PbBr2",
+   "any_same": false,
+   "rmax": 0.733,
+   "rmin": 0.721,
+   "cls": "heavier halide",
+   "rho": 4.909,
+   "mat_id": "agm002138925",
+   "spg": 166,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SiI4",
+   "any_same": false,
+   "rmax": 0.733,
+   "rmin": 0.732,
+   "cls": "heavier halide",
+   "rho": 3.031,
+   "mat_id": "agm005545142",
+   "spg": 121,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "P4Se3I2",
+   "any_same": false,
+   "rmax": 0.734,
+   "rmin": 0.734,
+   "cls": "heavier halide",
+   "rho": 2.761,
+   "mat_id": "agm003244228",
+   "spg": 122,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "BiSI",
+   "any_same": false,
+   "rmax": 0.734,
+   "rmin": 0.734,
+   "cls": "heavier halide",
+   "rho": 5.048,
+   "mat_id": "agm003278067",
+   "spg": 11,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsPr(MoO4)2",
+   "any_same": false,
+   "rmax": 0.734,
+   "rmin": 0.734,
+   "cls": "oxide",
+   "rho": 3.568,
+   "mat_id": "agm002232051",
+   "spg": 164,
+   "measured_structure_meV": 17.136
+  },
+  {
+   "formula": "RbAg3S2",
+   "any_same": false,
+   "rmax": 0.735,
+   "rmin": 0.735,
+   "cls": "chalcogenide",
+   "rho": 4.169,
+   "mat_id": "agm002236769",
+   "spg": 164,
+   "measured_structure_meV": 62.868
+  },
+  {
+   "formula": "Al2PdCl8",
+   "any_same": false,
+   "rmax": 0.735,
+   "rmin": 0.735,
+   "cls": "heavier halide",
+   "rho": 1.732,
+   "mat_id": "agm043832237",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "NaNiO2",
+   "any_same": false,
+   "rmax": 0.736,
+   "rmin": 0.736,
+   "cls": "oxide",
+   "rho": 3.483,
+   "mat_id": "agm002170046",
+   "spg": 63,
+   "measured_structure_meV": 34.533
+  },
+  {
+   "formula": "OsSe2",
+   "any_same": false,
+   "rmax": 0.738,
+   "rmin": 0.732,
+   "cls": "chalcogenide",
+   "rho": 8.114,
+   "mat_id": "agm003203216",
+   "spg": 12,
+   "measured_structure_meV": 0.064
+  },
+  {
+   "formula": "Cs2Mo2O7",
+   "any_same": false,
+   "rmax": 0.738,
+   "rmin": 0.738,
+   "cls": "oxide",
+   "rho": 3.273,
+   "mat_id": "agm005569739",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbAg3Se2",
+   "any_same": false,
+   "rmax": 0.738,
+   "rmin": 0.738,
+   "cls": "chalcogenide",
+   "rho": 4.679,
+   "mat_id": "agm002185194",
+   "spg": 164,
+   "measured_structure_meV": 27.039
+  },
+  {
+   "formula": "CsI3",
+   "any_same": false,
+   "rmax": 0.738,
+   "rmin": 0.719,
+   "cls": "heavier halide",
+   "rho": 3.317,
+   "mat_id": "agm099096236",
+   "spg": 59,
+   "measured_structure_meV": 2.017
+  },
+  {
+   "formula": "Cs2ZrF6",
+   "any_same": false,
+   "rmax": 0.739,
+   "rmin": 0.739,
+   "cls": "fluoride",
+   "rho": 3.24,
+   "mat_id": "agm095367616",
+   "spg": 11,
+   "measured_structure_meV": 7.973
+  },
+  {
+   "formula": "HgCl2",
+   "any_same": false,
+   "rmax": 0.739,
+   "rmin": 0.361,
+   "cls": "heavier halide",
+   "rho": 3.967,
+   "mat_id": "agm083035650",
+   "spg": 141,
+   "measured_structure_meV": 68.214
+  },
+  {
+   "formula": "Rb2O",
+   "any_same": false,
+   "rmax": 0.74,
+   "rmin": 0.74,
+   "cls": "oxide",
+   "rho": 3.0,
+   "mat_id": "agm073430153",
+   "spg": 152,
+   "measured_structure_meV": 4.748
+  },
+  {
+   "formula": "SrCrF6",
+   "any_same": false,
+   "rmax": 0.74,
+   "rmin": 0.74,
+   "cls": "fluoride",
+   "rho": 3.112,
+   "mat_id": "agm081078063",
+   "spg": 148,
+   "measured_structure_meV": 15.973
+  },
+  {
+   "formula": "UVO5",
+   "any_same": false,
+   "rmax": 0.74,
+   "rmin": 0.734,
+   "cls": "oxide",
+   "rho": 4.938,
+   "mat_id": "agm028059932",
+   "spg": 15,
+   "measured_structure_meV": 37.256
+  },
+  {
+   "formula": "Cs2HfF6",
+   "any_same": false,
+   "rmax": 0.741,
+   "rmin": 0.741,
+   "cls": "fluoride",
+   "rho": 3.884,
+   "mat_id": "agm104427203",
+   "spg": 12,
+   "measured_structure_meV": 7.8
+  },
+  {
+   "formula": "LaAlO3",
+   "any_same": false,
+   "rmax": 0.741,
+   "rmin": 0.72,
+   "cls": "oxide",
+   "rho": 4.735,
+   "mat_id": "agm003239302",
+   "spg": 63,
+   "measured_structure_meV": 6.917
+  },
+  {
+   "formula": "CsNbO3",
+   "any_same": false,
+   "rmax": 0.741,
+   "rmin": 0.741,
+   "cls": "oxide",
+   "rho": 3.61,
+   "mat_id": "agm089330510",
+   "spg": 62,
+   "measured_structure_meV": 9.628
+  },
+  {
+   "formula": "KCu3S2",
+   "any_same": false,
+   "rmax": 0.741,
+   "rmin": 0.741,
+   "cls": "chalcogenide",
+   "rho": 3.307,
+   "mat_id": "agm002181770",
+   "spg": 164,
+   "measured_structure_meV": 53.394
+  },
+  {
+   "formula": "NaAlO2",
+   "any_same": false,
+   "rmax": 0.741,
+   "rmin": 0.741,
+   "cls": "oxide",
+   "rho": 2.677,
+   "mat_id": "agm003124771",
+   "spg": 33,
+   "measured_structure_meV": 64.642
+  },
+  {
+   "formula": "Li3PS4",
+   "any_same": false,
+   "rmax": 0.741,
+   "rmin": 0.741,
+   "cls": "chalcogenide",
+   "rho": 1.374,
+   "mat_id": "agm002156982",
+   "spg": 215,
+   "measured_structure_meV": 19.469
+  },
+  {
+   "formula": "V4O9",
+   "any_same": false,
+   "rmax": 0.743,
+   "rmin": 0.743,
+   "cls": "oxide",
+   "rho": 2.804,
+   "mat_id": "agm023167091",
+   "spg": 15,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Na3NbO4",
+   "any_same": false,
+   "rmax": 0.743,
+   "rmin": 0.738,
+   "cls": "oxide",
+   "rho": 2.844,
+   "mat_id": "agm003555749",
+   "spg": 31,
+   "measured_structure_meV": 7.315
+  },
+  {
+   "formula": "TlAg3S2",
+   "any_same": false,
+   "rmax": 0.743,
+   "rmin": 0.743,
+   "cls": "chalcogenide",
+   "rho": 5.798,
+   "mat_id": "agm102175385",
+   "spg": 164,
+   "measured_structure_meV": 14.489
+  },
+  {
+   "formula": "AlPS4",
+   "any_same": false,
+   "rmax": 0.744,
+   "rmin": 0.744,
+   "cls": "chalcogenide",
+   "rho": 1.598,
+   "mat_id": "agm003201137",
+   "spg": 23,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "VCl3",
+   "any_same": false,
+   "rmax": 0.745,
+   "rmin": 0.745,
+   "cls": "heavier halide",
+   "rho": 2.15,
+   "mat_id": "agm002143031",
+   "spg": 193,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "K2Mo2O7",
+   "any_same": false,
+   "rmax": 0.745,
+   "rmin": 0.745,
+   "cls": "oxide",
+   "rho": 2.723,
+   "mat_id": "agm003317772",
+   "spg": 12,
+   "measured_structure_meV": 13.224
+  },
+  {
+   "formula": "Ag2Se",
+   "any_same": false,
+   "rmax": 0.746,
+   "rmin": 0.739,
+   "cls": "chalcogenide",
+   "rho": 6.09,
+   "mat_id": "agm085238344",
+   "spg": 129,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbAu(SeO4)2",
+   "any_same": false,
+   "rmax": 0.746,
+   "rmin": 0.746,
+   "cls": "oxide",
+   "rho": 3.773,
+   "mat_id": "agm104003928",
+   "spg": 2,
+   "measured_structure_meV": 14.151
+  },
+  {
+   "formula": "V2CdO6",
+   "any_same": false,
+   "rmax": 0.746,
+   "rmin": 0.689,
+   "cls": "oxide",
+   "rho": 3.557,
+   "mat_id": "agm005670032",
+   "spg": 15,
+   "measured_structure_meV": 69.689
+  },
+  {
+   "formula": "NaInS2",
+   "any_same": false,
+   "rmax": 0.746,
+   "rmin": 0.746,
+   "cls": "chalcogenide",
+   "rho": 3.012,
+   "mat_id": "agm003114999",
+   "spg": 33,
+   "measured_structure_meV": 3.655
+  },
+  {
+   "formula": "Ar",
+   "any_same": false,
+   "rmax": 0.749,
+   "rmin": 0.688,
+   "cls": "element",
+   "rho": 1.262,
+   "mat_id": "agm004442525",
+   "spg": 194,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "NbBr5",
+   "any_same": false,
+   "rmax": 0.75,
+   "rmin": 0.75,
+   "cls": "heavier halide",
+   "rho": 3.373,
+   "mat_id": "agm003251600",
+   "spg": 62,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "NaInSe2",
+   "any_same": false,
+   "rmax": 0.75,
+   "rmin": 0.75,
+   "cls": "chalcogenide",
+   "rho": 3.87,
+   "mat_id": "agm002166298",
+   "spg": 122,
+   "measured_structure_meV": 20.597
+  },
+  {
+   "formula": "MnB2F8",
+   "any_same": false,
+   "rmax": 0.75,
+   "rmin": 0.75,
+   "cls": "fluoride",
+   "rho": 2.234,
+   "mat_id": "agm014265063",
+   "spg": 15,
+   "measured_structure_meV": 8.815
+  },
+  {
+   "formula": "Li2GeF6",
+   "any_same": false,
+   "rmax": 0.751,
+   "rmin": 0.751,
+   "cls": "fluoride",
+   "rho": 2.65,
+   "mat_id": "agm079065607",
+   "spg": 2,
+   "measured_structure_meV": 1.085
+  },
+  {
+   "formula": "AlH3I3N",
+   "any_same": false,
+   "rmax": 0.751,
+   "rmin": 0.751,
+   "cls": "nitride",
+   "rho": 2.491,
+   "mat_id": "agm006747791",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsLaCr2O8",
+   "any_same": false,
+   "rmax": 0.752,
+   "rmin": 0.752,
+   "cls": "oxide",
+   "rho": 3.182,
+   "mat_id": "agm004880731",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsEuCr2O8",
+   "any_same": false,
+   "rmax": 0.753,
+   "rmin": 0.753,
+   "cls": "oxide",
+   "rho": 3.389,
+   "mat_id": "agm084787241",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SnWO4",
+   "any_same": false,
+   "rmax": 0.753,
+   "rmin": 0.753,
+   "cls": "oxide",
+   "rho": 5.595,
+   "mat_id": "agm005291029",
+   "spg": 198,
+   "measured_structure_meV": 0.179
+  },
+  {
+   "formula": "MgSe",
+   "any_same": false,
+   "rmax": 0.753,
+   "rmin": 0.753,
+   "cls": "chalcogenide",
+   "rho": 3.189,
+   "mat_id": "agm002098979",
+   "spg": 186,
+   "measured_structure_meV": 18.479
+  },
+  {
+   "formula": "TiCl3",
+   "any_same": false,
+   "rmax": 0.753,
+   "rmin": 0.711,
+   "cls": "heavier halide",
+   "rho": 1.947,
+   "mat_id": "agm070992858",
+   "spg": 2,
+   "measured_structure_meV": 25.554
+  },
+  {
+   "formula": "ZnCl2",
+   "any_same": false,
+   "rmax": 0.753,
+   "rmin": 0.724,
+   "cls": "heavier halide",
+   "rho": 2.244,
+   "mat_id": "agm076489740",
+   "spg": 43,
+   "measured_structure_meV": 7.728
+  },
+  {
+   "formula": "TaAgF6",
+   "any_same": false,
+   "rmax": 0.756,
+   "rmin": 0.756,
+   "cls": "fluoride",
+   "rho": 4.218,
+   "mat_id": "agm003764133",
+   "spg": 12,
+   "measured_structure_meV": 19.3
+  },
+  {
+   "formula": "KAg3Se2",
+   "any_same": false,
+   "rmax": 0.756,
+   "rmin": 0.756,
+   "cls": "chalcogenide",
+   "rho": 4.541,
+   "mat_id": "agm002217985",
+   "spg": 164,
+   "measured_structure_meV": 12.027
+  },
+  {
+   "formula": "CsCoCl3",
+   "any_same": false,
+   "rmax": 0.757,
+   "rmin": 0.757,
+   "cls": "heavier halide",
+   "rho": 2.767,
+   "mat_id": "agm144813455",
+   "spg": 36,
+   "measured_structure_meV": 23.465
+  },
+  {
+   "formula": "CsCdBr3",
+   "any_same": false,
+   "rmax": 0.757,
+   "rmin": 0.499,
+   "cls": "heavier halide",
+   "rho": 3.389,
+   "mat_id": "agm095519390",
+   "spg": 4,
+   "measured_structure_meV": 2.301
+  },
+  {
+   "formula": "UCl4",
+   "any_same": false,
+   "rmax": 0.757,
+   "rmin": 0.757,
+   "cls": "heavier halide",
+   "rho": 3.706,
+   "mat_id": "agm002205284",
+   "spg": 12,
+   "measured_structure_meV": 29.421
+  },
+  {
+   "formula": "CsN3",
+   "any_same": false,
+   "rmax": 0.758,
+   "rmin": 0.758,
+   "cls": "nitride",
+   "rho": 2.544,
+   "mat_id": "agm002224494",
+   "spg": 166,
+   "measured_structure_meV": 1.35
+  },
+  {
+   "formula": "Rb2Mo2O7",
+   "any_same": false,
+   "rmax": 0.758,
+   "rmin": 0.758,
+   "cls": "oxide",
+   "rho": 3.06,
+   "mat_id": "agm005569736",
+   "spg": 12,
+   "measured_structure_meV": 9.796
+  },
+  {
+   "formula": "Cs2U(Cl2O)2",
+   "any_same": false,
+   "rmax": 0.759,
+   "rmin": 0.728,
+   "cls": "oxide",
+   "rho": 3.207,
+   "mat_id": "agm145475111",
+   "spg": 2,
+   "measured_structure_meV": 6.672
+  },
+  {
+   "formula": "Rb2ZrF6",
+   "any_same": false,
+   "rmax": 0.759,
+   "rmin": 0.759,
+   "cls": "fluoride",
+   "rho": 2.993,
+   "mat_id": "agm088621035",
+   "spg": 150,
+   "measured_structure_meV": 13.996
+  },
+  {
+   "formula": "PaBr4",
+   "any_same": false,
+   "rmax": 0.76,
+   "rmin": 0.76,
+   "cls": "heavier halide",
+   "rho": 4.485,
+   "mat_id": "agm110717916",
+   "spg": 12,
+   "measured_structure_meV": 30.771
+  },
+  {
+   "formula": "KZrF5",
+   "any_same": false,
+   "rmax": 0.761,
+   "rmin": 0.761,
+   "cls": "fluoride",
+   "rho": 2.983,
+   "mat_id": "agm027418277",
+   "spg": 63,
+   "measured_structure_meV": 15.165
+  },
+  {
+   "formula": "Rb2HfF6",
+   "any_same": false,
+   "rmax": 0.761,
+   "rmin": 0.761,
+   "cls": "fluoride",
+   "rho": 3.734,
+   "mat_id": "agm089591781",
+   "spg": 4,
+   "measured_structure_meV": 10.31
+  },
+  {
+   "formula": "KICl2",
+   "any_same": false,
+   "rmax": 0.761,
+   "rmin": 0.761,
+   "cls": "heavier halide",
+   "rho": 2.237,
+   "mat_id": "agm002760054",
+   "spg": 166,
+   "measured_structure_meV": 1.374
+  },
+  {
+   "formula": "NaMgPO4",
+   "any_same": false,
+   "rmax": 0.762,
+   "rmin": 0.761,
+   "cls": "oxide",
+   "rho": 2.351,
+   "mat_id": "agm019681020",
+   "spg": 14,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CdMoO4",
+   "any_same": false,
+   "rmax": 0.762,
+   "rmin": 0.758,
+   "cls": "oxide",
+   "rho": 4.607,
+   "mat_id": "agm089536886",
+   "spg": 63,
+   "measured_structure_meV": 28.606
+  },
+  {
+   "formula": "NaMnPO4",
+   "any_same": false,
+   "rmax": 0.762,
+   "rmin": 0.762,
+   "cls": "oxide",
+   "rho": 2.728,
+   "mat_id": "agm065505627",
+   "spg": 82,
+   "measured_structure_meV": 7.518
+  },
+  {
+   "formula": "Ag2HgS2",
+   "any_same": false,
+   "rmax": 0.763,
+   "rmin": 0.763,
+   "cls": "chalcogenide",
+   "rho": 5.99,
+   "mat_id": "agm003278029",
+   "spg": 12,
+   "measured_structure_meV": 54.962
+  },
+  {
+   "formula": "KAu(SO4)2",
+   "any_same": false,
+   "rmax": 0.764,
+   "rmin": 0.764,
+   "cls": "oxide",
+   "rho": 3.263,
+   "mat_id": "agm077721029",
+   "spg": 14,
+   "measured_structure_meV": 7.752
+  },
+  {
+   "formula": "CsPrCr2O8",
+   "any_same": false,
+   "rmax": 0.764,
+   "rmin": 0.764,
+   "cls": "oxide",
+   "rho": 3.299,
+   "mat_id": "agm004880736",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Nd2Al",
+   "any_same": false,
+   "rmax": 0.765,
+   "rmin": 0.765,
+   "cls": "intermetallic",
+   "rho": 6.255,
+   "mat_id": "agm001907280",
+   "spg": 139,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "AgBr",
+   "any_same": false,
+   "rmax": 0.765,
+   "rmin": 0.631,
+   "cls": "heavier halide",
+   "rho": 4.958,
+   "mat_id": "agm002139219",
+   "spg": 186,
+   "measured_structure_meV": 40.617
+  },
+  {
+   "formula": "CsAsSe2",
+   "any_same": false,
+   "rmax": 0.766,
+   "rmin": 0.764,
+   "cls": "chalcogenide",
+   "rho": 3.414,
+   "mat_id": "agm082984546",
+   "spg": 9,
+   "measured_structure_meV": 3.832
+  },
+  {
+   "formula": "CsAu(SO4)2",
+   "any_same": false,
+   "rmax": 0.767,
+   "rmin": 0.767,
+   "cls": "oxide",
+   "rho": 3.438,
+   "mat_id": "agm019396854",
+   "spg": 2,
+   "measured_structure_meV": 1.469
+  },
+  {
+   "formula": "KAuO2",
+   "any_same": false,
+   "rmax": 0.768,
+   "rmin": 0.768,
+   "cls": "oxide",
+   "rho": 5.424,
+   "mat_id": "agm003263166",
+   "spg": 63,
+   "measured_structure_meV": 29.834
+  },
+  {
+   "formula": "TlPbCl3",
+   "any_same": false,
+   "rmax": 0.768,
+   "rmin": 0.768,
+   "cls": "heavier halide",
+   "rho": 4.719,
+   "mat_id": "agm002332355",
+   "spg": 148,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KHF2",
+   "any_same": false,
+   "rmax": 0.768,
+   "rmin": 0.768,
+   "cls": "fluoride",
+   "rho": 1.82,
+   "mat_id": "agm002153825",
+   "spg": 166,
+   "measured_structure_meV": 11.324
+  },
+  {
+   "formula": "Ca2Nb2O7",
+   "any_same": false,
+   "rmax": 0.768,
+   "rmin": 0.757,
+   "cls": "oxide",
+   "rho": 3.438,
+   "mat_id": "agm002304012",
+   "spg": 12,
+   "measured_structure_meV": 58.285
+  },
+  {
+   "formula": "AgCl",
+   "any_same": false,
+   "rmax": 0.768,
+   "rmin": 0.604,
+   "cls": "heavier halide",
+   "rho": 4.287,
+   "mat_id": "agm002054262",
+   "spg": 186,
+   "measured_structure_meV": 27.494
+  },
+  {
+   "formula": "CsSmCr2O8",
+   "any_same": false,
+   "rmax": 0.769,
+   "rmin": 0.769,
+   "cls": "oxide",
+   "rho": 3.401,
+   "mat_id": "agm004880735",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CaUF6",
+   "any_same": false,
+   "rmax": 0.77,
+   "rmin": 0.77,
+   "cls": "fluoride",
+   "rho": 5.099,
+   "mat_id": "agm103935413",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbN3",
+   "any_same": false,
+   "rmax": 0.77,
+   "rmin": 0.769,
+   "cls": "nitride",
+   "rho": 2.175,
+   "mat_id": "agm002223555",
+   "spg": 166,
+   "measured_structure_meV": 4.528
+  },
+  {
+   "formula": "InS",
+   "any_same": false,
+   "rmax": 0.771,
+   "rmin": 0.664,
+   "cls": "chalcogenide",
+   "rho": 4.038,
+   "mat_id": "agm002183268",
+   "spg": 160,
+   "measured_structure_meV": 21.873
+  },
+  {
+   "formula": "KCuSe",
+   "any_same": false,
+   "rmax": 0.771,
+   "rmin": 0.771,
+   "cls": "chalcogenide",
+   "rho": 3.221,
+   "mat_id": "agm003201772",
+   "spg": 63,
+   "measured_structure_meV": 24.58
+  },
+  {
+   "formula": "Rb2Pu(Cl2O)2",
+   "any_same": false,
+   "rmax": 0.771,
+   "rmin": 0.771,
+   "cls": "oxide",
+   "rho": 3.206,
+   "mat_id": "agm113980458",
+   "spg": 2,
+   "measured_structure_meV": 5.831
+  },
+  {
+   "formula": "CsHgCl3",
+   "any_same": false,
+   "rmax": 0.773,
+   "rmin": 0.747,
+   "cls": "heavier halide",
+   "rho": 3.507,
+   "mat_id": "agm077654864",
+   "spg": 4,
+   "measured_structure_meV": 19.621
+  },
+  {
+   "formula": "TaTlO3",
+   "any_same": false,
+   "rmax": 0.774,
+   "rmin": 0.774,
+   "cls": "oxide",
+   "rho": 7.355,
+   "mat_id": "agm069737826",
+   "spg": 148,
+   "measured_structure_meV": 10.737
+  },
+  {
+   "formula": "NbCl4",
+   "any_same": false,
+   "rmax": 0.774,
+   "rmin": 0.774,
+   "cls": "heavier halide",
+   "rho": 2.457,
+   "mat_id": "agm002204906",
+   "spg": 71,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "InSnCl3",
+   "any_same": false,
+   "rmax": 0.775,
+   "rmin": 0.775,
+   "cls": "heavier halide",
+   "rho": 3.051,
+   "mat_id": "agm003057951",
+   "spg": 148,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "K2GeF6",
+   "any_same": false,
+   "rmax": 0.775,
+   "rmin": 0.775,
+   "cls": "fluoride",
+   "rho": 2.681,
+   "mat_id": "agm012162402",
+   "spg": 14,
+   "measured_structure_meV": 9.298
+  },
+  {
+   "formula": "Cs2ThCl6",
+   "any_same": false,
+   "rmax": 0.776,
+   "rmin": 0.776,
+   "cls": "heavier halide",
+   "rho": 3.019,
+   "mat_id": "agm117719993",
+   "spg": 14,
+   "measured_structure_meV": 1.47
+  },
+  {
+   "formula": "RbAuS",
+   "any_same": false,
+   "rmax": 0.776,
+   "rmin": 0.776,
+   "cls": "chalcogenide",
+   "rho": 4.558,
+   "mat_id": "agm092047977",
+   "spg": 62,
+   "measured_structure_meV": 2.363
+  },
+  {
+   "formula": "KDy(MoO4)2",
+   "any_same": false,
+   "rmax": 0.776,
+   "rmin": 0.776,
+   "cls": "oxide",
+   "rho": 3.679,
+   "mat_id": "agm002175867",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "PH3",
+   "any_same": false,
+   "rmax": 0.776,
+   "rmin": 0.776,
+   "cls": "hydride",
+   "rho": 0.698,
+   "mat_id": "agm081466087",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Re3Br8Cl",
+   "any_same": false,
+   "rmax": 0.777,
+   "rmin": 0.777,
+   "cls": "heavier halide",
+   "rho": 4.657,
+   "mat_id": "agm003232769",
+   "spg": 8,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KTb(MoO4)2",
+   "any_same": false,
+   "rmax": 0.777,
+   "rmin": 0.777,
+   "cls": "oxide",
+   "rho": 3.631,
+   "mat_id": "agm002175880",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsVO3",
+   "any_same": false,
+   "rmax": 0.777,
+   "rmin": 0.777,
+   "cls": "oxide",
+   "rho": 3.13,
+   "mat_id": "agm090174563",
+   "spg": 19,
+   "measured_structure_meV": 7.269
+  },
+  {
+   "formula": "RbNd(MoO4)2",
+   "any_same": false,
+   "rmax": 0.777,
+   "rmin": 0.777,
+   "cls": "oxide",
+   "rho": 3.547,
+   "mat_id": "agm002231020",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "PtS2",
+   "any_same": false,
+   "rmax": 0.777,
+   "rmin": 0.767,
+   "cls": "chalcogenide",
+   "rho": 6.106,
+   "mat_id": "agm061994342",
+   "spg": 166,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "HfCl4",
+   "any_same": false,
+   "rmax": 0.778,
+   "rmin": 0.778,
+   "cls": "heavier halide",
+   "rho": 3.024,
+   "mat_id": "agm010149553",
+   "spg": 15,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KGd(MoO4)2",
+   "any_same": false,
+   "rmax": 0.778,
+   "rmin": 0.778,
+   "cls": "oxide",
+   "rho": 3.583,
+   "mat_id": "agm002175870",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "LaI2",
+   "any_same": false,
+   "rmax": 0.778,
+   "rmin": 0.778,
+   "cls": "heavier halide",
+   "rho": 4.722,
+   "mat_id": "agm002341026",
+   "spg": 160,
+   "measured_structure_meV": 4.818
+  },
+  {
+   "formula": "Fe2SeS",
+   "any_same": false,
+   "rmax": 0.778,
+   "rmin": 0.778,
+   "cls": "chalcogenide",
+   "rho": 4.49,
+   "mat_id": "agm005778459",
+   "spg": 38,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Y2Ti2O7",
+   "any_same": false,
+   "rmax": 0.779,
+   "rmin": 0.779,
+   "cls": "oxide",
+   "rho": 3.872,
+   "mat_id": "agm002175749",
+   "spg": 12,
+   "measured_structure_meV": 21.456
+  },
+  {
+   "formula": "Cl2",
+   "any_same": false,
+   "rmax": 0.779,
+   "rmin": 0.736,
+   "cls": "element",
+   "rho": 1.574,
+   "mat_id": "agm002056207",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbSm(MoO4)2",
+   "any_same": false,
+   "rmax": 0.779,
+   "rmin": 0.767,
+   "cls": "oxide",
+   "rho": 3.637,
+   "mat_id": "agm002231023",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "K2PtF6",
+   "any_same": false,
+   "rmax": 0.779,
+   "rmin": 0.779,
+   "cls": "fluoride",
+   "rho": 3.757,
+   "mat_id": "agm005582848",
+   "spg": 14,
+   "measured_structure_meV": 8.674
+  },
+  {
+   "formula": "K2IrF6",
+   "any_same": false,
+   "rmax": 0.779,
+   "rmin": 0.779,
+   "cls": "fluoride",
+   "rho": 3.684,
+   "mat_id": "agm005583431",
+   "spg": 14,
+   "measured_structure_meV": 6.651
+  },
+  {
+   "formula": "As2(SO4)3",
+   "any_same": false,
+   "rmax": 0.78,
+   "rmin": 0.78,
+   "cls": "oxide",
+   "rho": 2.378,
+   "mat_id": "agm007971081",
+   "spg": 167,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbCNO",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "oxide",
+   "rho": 2.222,
+   "mat_id": "agm002202620",
+   "spg": 160,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "IO2F",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "fluoride",
+   "rho": 3.89,
+   "mat_id": "agm002177050",
+   "spg": 9,
+   "measured_structure_meV": 4.308
+  },
+  {
+   "formula": "TaCl4",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "heavier halide",
+   "rho": 3.405,
+   "mat_id": "agm002143195",
+   "spg": 71,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Tl2Cl3",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "heavier halide",
+   "rho": 4.588,
+   "mat_id": "agm096715066",
+   "spg": 163,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KEr(MoO4)2",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "oxide",
+   "rho": 3.756,
+   "mat_id": "agm002175868",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "AuSeBr",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "heavier halide",
+   "rho": 6.046,
+   "mat_id": "agm084516237",
+   "spg": 148,
+   "measured_structure_meV": 4.363
+  },
+  {
+   "formula": "CsWCl6",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "heavier halide",
+   "rho": 2.994,
+   "mat_id": "agm076156529",
+   "spg": 216,
+   "measured_structure_meV": 0.095
+  },
+  {
+   "formula": "CsNdCr2O8",
+   "any_same": false,
+   "rmax": 0.781,
+   "rmin": 0.781,
+   "cls": "oxide",
+   "rho": 3.332,
+   "mat_id": "agm004880734",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KHo(MoO4)2",
+   "any_same": false,
+   "rmax": 0.782,
+   "rmin": 0.782,
+   "cls": "oxide",
+   "rho": 3.719,
+   "mat_id": "agm002175872",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "PdCl2",
+   "any_same": false,
+   "rmax": 0.782,
+   "rmin": 0.782,
+   "cls": "heavier halide",
+   "rho": 3.289,
+   "mat_id": "agm003222624",
+   "spg": 148,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Ag2Mo2O7",
+   "any_same": false,
+   "rmax": 0.782,
+   "rmin": 0.781,
+   "cls": "oxide",
+   "rho": 4.589,
+   "mat_id": "agm005568382",
+   "spg": 12,
+   "measured_structure_meV": 10.368
+  },
+  {
+   "formula": "TcAgO4",
+   "any_same": false,
+   "rmax": 0.782,
+   "rmin": 0.782,
+   "cls": "oxide",
+   "rho": 4.223,
+   "mat_id": "agm083373440",
+   "spg": 14,
+   "measured_structure_meV": 34.079
+  },
+  {
+   "formula": "KCNO",
+   "any_same": false,
+   "rmax": 0.782,
+   "rmin": 0.782,
+   "cls": "oxide",
+   "rho": 1.628,
+   "mat_id": "agm002140274",
+   "spg": 160,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "AuI",
+   "any_same": false,
+   "rmax": 0.783,
+   "rmin": 0.783,
+   "cls": "heavier halide",
+   "rho": 6.48,
+   "mat_id": "agm110263495",
+   "spg": 4,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "NaHSe",
+   "any_same": false,
+   "rmax": 0.783,
+   "rmin": 0.783,
+   "cls": "chalcogenide",
+   "rho": 2.183,
+   "mat_id": "agm002340002",
+   "spg": 26,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KAl(H2N)4",
+   "any_same": false,
+   "rmax": 0.783,
+   "rmin": 0.783,
+   "cls": "nitride",
+   "rho": 1.151,
+   "mat_id": "agm007068296",
+   "spg": 14,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsI",
+   "any_same": false,
+   "rmax": 0.784,
+   "rmin": 0.255,
+   "cls": "heavier halide",
+   "rho": 3.552,
+   "mat_id": "agm003157762",
+   "spg": 225,
+   "measured_structure_meV": 32.336
+  },
+  {
+   "formula": "Nb2Cd2O7",
+   "any_same": false,
+   "rmax": 0.784,
+   "rmin": 0.784,
+   "cls": "oxide",
+   "rho": 4.884,
+   "mat_id": "agm002175605",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "TiBr3",
+   "any_same": false,
+   "rmax": 0.785,
+   "rmin": 0.775,
+   "cls": "heavier halide",
+   "rho": 3.32,
+   "mat_id": "agm002190893",
+   "spg": 193,
+   "measured_structure_meV": 31.026
+  },
+  {
+   "formula": "KN3",
+   "any_same": false,
+   "rmax": 0.785,
+   "rmin": 0.774,
+   "cls": "nitride",
+   "rho": 1.591,
+   "mat_id": "agm002163544",
+   "spg": 166,
+   "measured_structure_meV": 10.356
+  },
+  {
+   "formula": "Te2Br",
+   "any_same": false,
+   "rmax": 0.785,
+   "rmin": 0.785,
+   "cls": "heavier halide",
+   "rho": 4.556,
+   "mat_id": "agm002042303",
+   "spg": 8,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KHfF5",
+   "any_same": false,
+   "rmax": 0.786,
+   "rmin": 0.786,
+   "cls": "fluoride",
+   "rho": 4.201,
+   "mat_id": "agm027699637",
+   "spg": 63,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "RbUF5",
+   "any_same": false,
+   "rmax": 0.786,
+   "rmin": 0.786,
+   "cls": "fluoride",
+   "rho": 4.747,
+   "mat_id": "agm087209549",
+   "spg": 15,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "KLu(MoO4)2",
+   "any_same": false,
+   "rmax": 0.786,
+   "rmin": 0.786,
+   "cls": "oxide",
+   "rho": 3.883,
+   "mat_id": "agm002175875",
+   "spg": 164,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "WBrCl3O",
+   "any_same": false,
+   "rmax": 0.786,
+   "rmin": 0.786,
+   "cls": "oxide",
+   "rho": 3.488,
+   "mat_id": "agm005256280",
+   "spg": 1,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsU(PO4)2",
+   "any_same": false,
+   "rmax": 0.786,
+   "rmin": 0.786,
+   "cls": "oxide",
+   "rho": 3.998,
+   "mat_id": "agm005512822",
+   "spg": 147,
+   "measured_structure_meV": 37.807
+  },
+  {
+   "formula": "CsSbTeO6",
+   "any_same": false,
+   "rmax": 0.786,
+   "rmin": 0.786,
+   "cls": "oxide",
+   "rho": 4.678,
+   "mat_id": "agm065698697",
+   "spg": 163,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "VTe",
+   "any_same": false,
+   "rmax": 0.786,
+   "rmin": 0.786,
+   "cls": "chalcogenide",
+   "rho": 5.656,
+   "mat_id": "agm075223920",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "TlInS2",
+   "any_same": false,
+   "rmax": 0.787,
+   "rmin": 0.779,
+   "cls": "chalcogenide",
+   "rho": 5.301,
+   "mat_id": "agm003137766",
+   "spg": 15,
+   "measured_structure_meV": 19.517
+  },
+  {
+   "formula": "CsInBr3",
+   "any_same": false,
+   "rmax": 0.788,
+   "rmin": 0.788,
+   "cls": "heavier halide",
+   "rho": 3.453,
+   "mat_id": "agm003048723",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CuSeO3",
+   "any_same": false,
+   "rmax": 0.788,
+   "rmin": 0.779,
+   "cls": "oxide",
+   "rho": 3.734,
+   "mat_id": "agm081540671",
+   "spg": 62,
+   "measured_structure_meV": 12.58
+  },
+  {
+   "formula": "HBr",
+   "any_same": false,
+   "rmax": 0.789,
+   "rmin": 0.771,
+   "cls": "heavier halide",
+   "rho": 2.218,
+   "mat_id": "agm003263550",
+   "spg": 62,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SO2",
+   "any_same": false,
+   "rmax": 0.789,
+   "rmin": 0.789,
+   "cls": "oxide",
+   "rho": 1.516,
+   "mat_id": "agm002170368",
+   "spg": 92,
+   "measured_structure_meV": 5.329
+  },
+  {
+   "formula": "HgPd",
+   "any_same": false,
+   "rmax": 0.789,
+   "rmin": 0.787,
+   "cls": "intermetallic",
+   "rho": 11.868,
+   "mat_id": "agm095451305",
+   "spg": 191,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "GeAs",
+   "any_same": false,
+   "rmax": 0.789,
+   "rmin": 0.789,
+   "cls": "pnictide",
+   "rho": 4.805,
+   "mat_id": "agm002214718",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "CsFeBr4",
+   "any_same": false,
+   "rmax": 0.79,
+   "rmin": 0.79,
+   "cls": "heavier halide",
+   "rho": 3.026,
+   "mat_id": "agm104786800",
+   "spg": 121,
+   "measured_structure_meV": 0.652
+  },
+  {
+   "formula": "KDy(SeO4)2",
+   "any_same": false,
+   "rmax": 0.79,
+   "rmin": 0.79,
+   "cls": "oxide",
+   "rho": 3.664,
+   "mat_id": "agm018895488",
+   "spg": 12,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Pd(SeCl3)2",
+   "any_same": false,
+   "rmax": 0.792,
+   "rmin": 0.792,
+   "cls": "heavier halide",
+   "rho": 2.589,
+   "mat_id": "agm002143346",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SbBr3",
+   "any_same": false,
+   "rmax": 0.792,
+   "rmin": 0.79,
+   "cls": "heavier halide",
+   "rho": 3.455,
+   "mat_id": "agm002139075",
+   "spg": 148,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Ba(AuF4)2",
+   "any_same": false,
+   "rmax": 0.792,
+   "rmin": 0.792,
+   "cls": "fluoride",
+   "rho": 4.936,
+   "mat_id": "agm091826863",
+   "spg": 124,
+   "measured_structure_meV": 2.035
+  },
+  {
+   "formula": "NaAuCl4",
+   "any_same": false,
+   "rmax": 0.792,
+   "rmin": 0.792,
+   "cls": "heavier halide",
+   "rho": 3.018,
+   "mat_id": "agm077818036",
+   "spg": 15,
+   "measured_structure_meV": 0.182
+  },
+  {
+   "formula": "RbFeF4",
+   "any_same": false,
+   "rmax": 0.793,
+   "rmin": 0.782,
+   "cls": "fluoride",
+   "rho": 3.115,
+   "mat_id": "agm078781553",
+   "spg": 60,
+   "measured_structure_meV": 21.113
+  },
+  {
+   "formula": "HgPS3",
+   "any_same": false,
+   "rmax": 0.793,
+   "rmin": 0.793,
+   "cls": "chalcogenide",
+   "rho": 3.84,
+   "mat_id": "agm005838840",
+   "spg": 14,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "La6FeBr10",
+   "any_same": false,
+   "rmax": 0.793,
+   "rmin": 0.793,
+   "cls": "heavier halide",
+   "rho": 4.348,
+   "mat_id": "agm023803955",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SbCl5",
+   "any_same": false,
+   "rmax": 0.794,
+   "rmin": 0.667,
+   "cls": "heavier halide",
+   "rho": 2.025,
+   "mat_id": "agm002143627",
+   "spg": 59,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "EuF3",
+   "any_same": false,
+   "rmax": 0.794,
+   "rmin": 0.794,
+   "cls": "fluoride",
+   "rho": 5.409,
+   "mat_id": "agm117524142",
+   "spg": 164,
+   "measured_structure_meV": 14.076
+  },
+  {
+   "formula": "NaInTe2",
+   "any_same": false,
+   "rmax": 0.794,
+   "rmin": 0.794,
+   "cls": "chalcogenide",
+   "rho": 4.109,
+   "mat_id": "agm002165931",
+   "spg": 122,
+   "measured_structure_meV": 16.311
+  },
+  {
+   "formula": "CsInI4",
+   "any_same": false,
+   "rmax": 0.794,
+   "rmin": 0.794,
+   "cls": "heavier halide",
+   "rho": 3.502,
+   "mat_id": "agm088988651",
+   "spg": 121,
+   "measured_structure_meV": 4.75
+  },
+  {
+   "formula": "KCoO2",
+   "any_same": false,
+   "rmax": 0.794,
+   "rmin": 0.794,
+   "cls": "oxide",
+   "rho": 2.987,
+   "mat_id": "agm002228163",
+   "spg": 63,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SbSeI",
+   "any_same": false,
+   "rmax": 0.794,
+   "rmin": 0.794,
+   "cls": "heavier halide",
+   "rho": 4.625,
+   "mat_id": "agm001026927",
+   "spg": 12,
+   "measured_structure_meV": 9.438
+  },
+  {
+   "formula": "LiInSe2",
+   "any_same": false,
+   "rmax": 0.795,
+   "rmin": 0.795,
+   "cls": "chalcogenide",
+   "rho": 4.294,
+   "mat_id": "agm002847208",
+   "spg": 122,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SnCl2",
+   "any_same": false,
+   "rmax": 0.795,
+   "rmin": 0.795,
+   "cls": "heavier halide",
+   "rho": 3.148,
+   "mat_id": "agm005540596",
+   "spg": 14,
+   "measured_structure_meV": 15.308
+  },
+  {
+   "formula": "BaB2F8",
+   "any_same": false,
+   "rmax": 0.796,
+   "rmin": 0.655,
+   "cls": "fluoride",
+   "rho": 2.438,
+   "mat_id": "agm080895867",
+   "spg": 225,
+   "measured_structure_meV": 13.395
+  },
+  {
+   "formula": "K3InCl6",
+   "any_same": false,
+   "rmax": 0.796,
+   "rmin": 0.796,
+   "cls": "heavier halide",
+   "rho": 2.127,
+   "mat_id": "agm103548349",
+   "spg": 163,
+   "measured_structure_meV": 1.202
+  },
+  {
+   "formula": "VF4",
+   "any_same": false,
+   "rmax": 0.797,
+   "rmin": 0.797,
+   "cls": "fluoride",
+   "rho": 2.618,
+   "mat_id": "agm071009213",
+   "spg": 2,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "LiF",
+   "any_same": false,
+   "rmax": 0.797,
+   "rmin": 0.79,
+   "cls": "fluoride",
+   "rho": 2.1,
+   "mat_id": "agm003190296",
+   "spg": 186,
+   "measured_structure_meV": 5.008
+  },
+  {
+   "formula": "Li2SnS3",
+   "any_same": false,
+   "rmax": 0.797,
+   "rmin": 0.797,
+   "cls": "chalcogenide",
+   "rho": 2.795,
+   "mat_id": "agm005727775",
+   "spg": 9,
+   "measured_structure_meV": 21.153
+  },
+  {
+   "formula": "ThTl3F7",
+   "any_same": false,
+   "rmax": 0.797,
+   "rmin": 0.797,
+   "cls": "fluoride",
+   "rho": 6.559,
+   "mat_id": "agm005956460",
+   "spg": 8,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "SiTe2",
+   "any_same": false,
+   "rmax": 0.797,
+   "rmin": 0.797,
+   "cls": "chalcogenide",
+   "rho": 3.523,
+   "mat_id": "agm079522042",
+   "spg": 199,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "Cs2UCl6",
+   "any_same": false,
+   "rmax": 0.798,
+   "rmin": 0.793,
+   "cls": "heavier halide",
+   "rho": 3.215,
+   "mat_id": "agm005584634",
+   "spg": 14,
+   "measured_structure_meV": 1.966
+  },
+  {
+   "formula": "AsBr3",
+   "any_same": false,
+   "rmax": 0.798,
+   "rmin": 0.779,
+   "cls": "heavier halide",
+   "rho": 3.083,
+   "mat_id": "agm002136217",
+   "spg": 148,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "HgSO4",
+   "any_same": false,
+   "rmax": 0.799,
+   "rmin": 0.795,
+   "cls": "oxide",
+   "rho": 5.183,
+   "mat_id": "agm078024254",
+   "spg": 152,
+   "measured_structure_meV": 11.533
+  },
+  {
+   "formula": "PCl3O",
+   "any_same": false,
+   "rmax": 0.799,
+   "rmin": 0.799,
+   "cls": "oxide",
+   "rho": 1.652,
+   "mat_id": "agm002176729",
+   "spg": 62,
+   "measured_structure_meV": null
+  },
+  {
+   "formula": "BiSeI",
+   "any_same": false,
+   "rmax": 0.799,
+   "rmin": 0.799,
+   "cls": "heavier halide",
+   "rho": 5.675,
+   "mat_id": "agm076067668",
+   "spg": 216,
+   "measured_structure_meV": 29.428
+  },
+  {
+   "formula": "Cs2HgSe2",
+   "any_same": false,
+   "rmax": 0.8,
+   "rmin": 0.8,
+   "cls": "chalcogenide",
+   "rho": 4.162,
+   "mat_id": "agm005818462",
+   "spg": 12,
+   "measured_structure_meV": 10.524
+  },
+  {
+   "formula": "K2PdF6",
+   "any_same": false,
+   "rmax": 0.8,
+   "rmin": 0.8,
+   "cls": "fluoride",
+   "rho": 3.002,
+   "mat_id": "agm016641301",
+   "spg": 14,
+   "measured_structure_meV": 9.629
+  },
+  {
+   "formula": "CaSmAlO4",
+   "any_same": false,
+   "rmax": 0.8,
+   "rmin": 0.8,
+   "cls": "oxide",
+   "rho": 4.592,
+   "mat_id": "agm061657864",
+   "spg": 62,
+   "measured_structure_meV": null
+  }
+ ]
+}
