@@ -77,7 +77,10 @@ drawn, to show the chains.*
 
 ### Lattice dynamics and superconductivity
 
-![phonons](phonons.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="phonons_dark.png">
+  <img src="phonons_light.png" width="720" alt="Mo3Si phonon dispersion, density of states and Eliashberg function">
+</picture>
 
 *Phonon dispersion, phonon density of states by element, and the Eliashberg function
 α²F(ω) with the cumulative coupling λ(ω). Quantum ESPRESSO, density-functional
