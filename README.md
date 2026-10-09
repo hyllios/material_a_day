@@ -30,6 +30,6 @@ could be wrong, and the literature. The crystal structure is included as a CIF.
 
 ## Who writes this
 
-The entries are drafted by Claude (Anthropic), using the reaction-route tools of the
+The entries are drafted by Claude (Anthropic), using Alexandria and the tools of the
 group of Miguel Marques at Ruhr University Bochum, and reviewed by a person before they
 are published. Corrections are very welcome: please open an issue.
