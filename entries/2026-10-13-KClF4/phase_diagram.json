@@ -1,0 +1,274 @@
+{
+ "target": "KClF4",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Cl2",
+  "F2",
+  "K"
+ ],
+ "n_system_hull_phases": 13,
+ "phases": [
+  {
+   "formula": "Cl2",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002056207",
+   "target": false
+  },
+  {
+   "formula": "KCl3",
+   "x": [
+    0.6,
+    0.0,
+    0.4
+   ],
+   "dE_meV_per_atom": -1005.55,
+   "mat_id": "agm088312343",
+   "target": false
+  },
+  {
+   "formula": "KCl",
+   "x": [
+    0.333333,
+    0.0,
+    0.666667
+   ],
+   "dE_meV_per_atom": -1951.35,
+   "mat_id": "agm003269520",
+   "target": false
+  },
+  {
+   "formula": "ClF3",
+   "x": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "dE_meV_per_atom": -631.95,
+   "mat_id": "agm003240925",
+   "target": false
+  },
+  {
+   "formula": "KClF",
+   "x": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "dE_meV_per_atom": -1827.94,
+   "mat_id": "agm002210959",
+   "target": false
+  },
+  {
+   "formula": "KClF2",
+   "x": [
+    0.2,
+    0.4,
+    0.4
+   ],
+   "dE_meV_per_atom": -1691.72,
+   "mat_id": "agm077702790",
+   "target": false
+  },
+  {
+   "formula": "ClF5",
+   "x": [
+    0.166667,
+    0.833333,
+    0.0
+   ],
+   "dE_meV_per_atom": -599.84,
+   "mat_id": "agm002148192",
+   "target": false
+  },
+  {
+   "formula": "KClF4",
+   "x": [
+    0.142857,
+    0.571429,
+    0.285714
+   ],
+   "dE_meV_per_atom": -1458.51,
+   "mat_id": "agm002148009",
+   "target": true
+  },
+  {
+   "formula": "KClF6",
+   "x": [
+    0.111111,
+    0.666667,
+    0.222222
+   ],
+   "dE_meV_per_atom": -1190.21,
+   "mat_id": "agm121135927",
+   "target": false
+  },
+  {
+   "formula": "F2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003188458",
+   "target": false
+  },
+  {
+   "formula": "KF3",
+   "x": [
+    0.0,
+    0.6,
+    0.4
+   ],
+   "dE_meV_per_atom": -1499.04,
+   "mat_id": "agm108626110",
+   "target": false
+  },
+  {
+   "formula": "KF",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -2710.97,
+   "mat_id": "agm003157645",
+   "target": false
+  },
+  {
+   "formula": "K",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002090264",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Cl2",
+   "ClF3"
+  ],
+  [
+   "Cl2",
+   "KCl3"
+  ],
+  [
+   "Cl2",
+   "KClF"
+  ],
+  [
+   "Cl2",
+   "KClF2"
+  ],
+  [
+   "Cl2",
+   "KClF4"
+  ],
+  [
+   "ClF3",
+   "ClF5"
+  ],
+  [
+   "ClF3",
+   "KClF4"
+  ],
+  [
+   "ClF5",
+   "F2"
+  ],
+  [
+   "ClF5",
+   "KClF4"
+  ],
+  [
+   "ClF5",
+   "KClF6"
+  ],
+  [
+   "ClF5",
+   "KF3"
+  ],
+  [
+   "F2",
+   "KF3"
+  ],
+  [
+   "K",
+   "KCl"
+  ],
+  [
+   "K",
+   "KF"
+  ],
+  [
+   "KCl",
+   "KCl3"
+  ],
+  [
+   "KCl",
+   "KClF"
+  ],
+  [
+   "KCl",
+   "KF"
+  ],
+  [
+   "KCl3",
+   "KClF"
+  ],
+  [
+   "KClF",
+   "KClF2"
+  ],
+  [
+   "KClF",
+   "KF"
+  ],
+  [
+   "KClF2",
+   "KClF4"
+  ],
+  [
+   "KClF2",
+   "KF"
+  ],
+  [
+   "KClF4",
+   "KClF6"
+  ],
+  [
+   "KClF4",
+   "KF"
+  ],
+  [
+   "KClF6",
+   "KF"
+  ],
+  [
+   "KClF6",
+   "KF3"
+  ],
+  [
+   "KF",
+   "KF3"
+  ]
+ ],
+ "target_neighbours": [
+  "Cl2",
+  "ClF3",
+  "ClF5",
+  "KClF2",
+  "KClF6",
+  "KF"
+ ],
+ "note": ""
+}
