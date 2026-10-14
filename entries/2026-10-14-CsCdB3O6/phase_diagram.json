@@ -1,0 +1,245 @@
+{
+ "target": "CsCd(BO2)3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "B2O3",
+  "CdO",
+  "Cs2O"
+ ],
+ "n_system_hull_phases": 27,
+ "phases": [
+  {
+   "formula": "B2O3",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm081985540",
+   "target": false
+  },
+  {
+   "formula": "CsB5O8",
+   "x": [
+    0.833333,
+    0.0,
+    0.166667
+   ],
+   "dE_meV_per_atom": -202.38,
+   "mat_id": "agm003283824",
+   "target": false
+  },
+  {
+   "formula": "CsB3O5",
+   "x": [
+    0.75,
+    0.0,
+    0.25
+   ],
+   "dE_meV_per_atom": -278.87,
+   "mat_id": "agm003244722",
+   "target": false
+  },
+  {
+   "formula": "CdB4O7",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -90.9,
+   "mat_id": "agm005255289",
+   "target": false
+  },
+  {
+   "formula": "CsCd(BO2)3",
+   "x": [
+    0.5,
+    0.333333,
+    0.166667
+   ],
+   "dE_meV_per_atom": -234.81,
+   "mat_id": "agm018287390",
+   "target": true
+  },
+  {
+   "formula": "CsBO2",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -408.59,
+   "mat_id": "agm003039123",
+   "target": false
+  },
+  {
+   "formula": "Cd3(BO3)2",
+   "x": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "dE_meV_per_atom": -73.1,
+   "mat_id": "agm003228594",
+   "target": false
+  },
+  {
+   "formula": "CsCdBO3",
+   "x": [
+    0.25,
+    0.5,
+    0.25
+   ],
+   "dE_meV_per_atom": -290.01,
+   "mat_id": "agm003232709",
+   "target": false
+  },
+  {
+   "formula": "Cs3BO3",
+   "x": [
+    0.25,
+    0.0,
+    0.75
+   ],
+   "dE_meV_per_atom": -393.17,
+   "mat_id": "agm088084314",
+   "target": false
+  },
+  {
+   "formula": "CdO",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm001192055",
+   "target": false
+  },
+  {
+   "formula": "Cs2CdO2",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -86.38,
+   "mat_id": "agm003397045",
+   "target": false
+  },
+  {
+   "formula": "Cs2O",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm071338863",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "B2O3",
+   "CdB4O7"
+  ],
+  [
+   "B2O3",
+   "CsB5O8"
+  ],
+  [
+   "Cd3(BO3)2",
+   "CdB4O7"
+  ],
+  [
+   "Cd3(BO3)2",
+   "CdO"
+  ],
+  [
+   "Cd3(BO3)2",
+   "CsB3O5"
+  ],
+  [
+   "Cd3(BO3)2",
+   "CsCd(BO2)3"
+  ],
+  [
+   "CdB4O7",
+   "CsB3O5"
+  ],
+  [
+   "CdB4O7",
+   "CsB5O8"
+  ],
+  [
+   "CdO",
+   "Cs2CdO2"
+  ],
+  [
+   "CdO",
+   "Cs3BO3"
+  ],
+  [
+   "CdO",
+   "CsCd(BO2)3"
+  ],
+  [
+   "CdO",
+   "CsCdBO3"
+  ],
+  [
+   "Cs2CdO2",
+   "Cs2O"
+  ],
+  [
+   "Cs2CdO2",
+   "Cs3BO3"
+  ],
+  [
+   "Cs2O",
+   "Cs3BO3"
+  ],
+  [
+   "Cs3BO3",
+   "CsBO2"
+  ],
+  [
+   "Cs3BO3",
+   "CsCdBO3"
+  ],
+  [
+   "CsB3O5",
+   "CsB5O8"
+  ],
+  [
+   "CsB3O5",
+   "CsBO2"
+  ],
+  [
+   "CsB3O5",
+   "CsCd(BO2)3"
+  ],
+  [
+   "CsB3O5",
+   "CsCdBO3"
+  ],
+  [
+   "CsBO2",
+   "CsCdBO3"
+  ],
+  [
+   "CsCd(BO2)3",
+   "CsCdBO3"
+  ]
+ ],
+ "target_neighbours": [
+  "Cd3(BO3)2",
+  "CdO",
+  "CsB3O5",
+  "CsCdBO3"
+ ],
+ "note": ""
+}
