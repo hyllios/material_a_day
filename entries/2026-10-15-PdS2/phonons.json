@@ -1,0 +1,85 @@
+{
+ "source": "/home/users/marqumln/nas-data-001/espresso/agm",
+ "method": "Quantum ESPRESSO, DFPT, PBEsol",
+ "n_runs": 116536,
+ "exact": [],
+ "same_composition": [
+  {
+   "mat_id": "agm011723499",
+   "kind": "imag",
+   "run": "batch-089/imag/S2Pd_agm011723499",
+   "spacegroup": 191,
+   "conventional_cell": [
+    4.387,
+    4.387,
+    2.688,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "nsites_primitive": 3,
+   "files": [
+    "el-bs.pdf",
+    "geo_opt.cif"
+   ]
+  },
+  {
+   "mat_id": "agm2000029005",
+   "kind": "imag",
+   "run": "2d_batch-006/imag/S2Pd_agm2000029005",
+   "spacegroup": 51,
+   "conventional_cell": [
+    3.417,
+    5.499,
+    18.204,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "nsites_primitive": 6,
+   "files": [
+    "el-bs.pdf",
+    "geo_opt.cif"
+   ]
+  },
+  {
+   "mat_id": "agm2000030346",
+   "kind": "imag",
+   "run": "2d_batch-006/imag/S2Pd_agm2000030346",
+   "spacegroup": 30,
+   "conventional_cell": [
+    4.544,
+    6.939,
+    16.61,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "nsites_primitive": 6,
+   "files": [
+    "el-bs.pdf",
+    "geo_opt.cif"
+   ]
+  },
+  {
+   "mat_id": "agm2000035742",
+   "kind": "imag",
+   "run": "2d_batch-010/imag/S2Pd_agm2000035742",
+   "spacegroup": 49,
+   "conventional_cell": [
+    4.534,
+    7.09,
+    16.1,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "nsites_primitive": 6,
+   "files": [
+    "el-bs.pdf",
+    "geo_opt.cif"
+   ]
+  }
+ ],
+ "experiment": []
+}

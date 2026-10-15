@@ -1,0 +1,98 @@
+{
+ "target": "PdS2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Pd",
+  "S"
+ ],
+ "n_system_hull_phases": 6,
+ "phases": [
+  {
+   "formula": "Pd",
+   "x": [
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003277906",
+   "target": false
+  },
+  {
+   "formula": "Pd4S",
+   "x": [
+    0.8,
+    0.2
+   ],
+   "dE_meV_per_atom": -173.61,
+   "mat_id": "agm003207043",
+   "target": false
+  },
+  {
+   "formula": "Pd3S",
+   "x": [
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -214.79,
+   "mat_id": "agm003263436",
+   "target": false
+  },
+  {
+   "formula": "PdS",
+   "x": [
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -366.8,
+   "mat_id": "agm002183374",
+   "target": false
+  },
+  {
+   "formula": "PdS2",
+   "x": [
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -278.1,
+   "mat_id": "agm002181903",
+   "target": true
+  },
+  {
+   "formula": "S",
+   "x": [
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003241027",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Pd",
+   "Pd4S"
+  ],
+  [
+   "Pd3S",
+   "Pd4S"
+  ],
+  [
+   "Pd3S",
+   "PdS"
+  ],
+  [
+   "PdS",
+   "PdS2"
+  ],
+  [
+   "PdS2",
+   "S"
+  ]
+ ],
+ "target_neighbours": [
+  "PdS",
+  "S"
+ ],
+ "note": ""
+}
