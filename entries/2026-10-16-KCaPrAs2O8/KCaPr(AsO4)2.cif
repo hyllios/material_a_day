@@ -1,0 +1,40 @@
+# generated using pymatgen
+data_KCaPr(AsO4)2
+_symmetry_space_group_name_H-M   P6_2
+_cell_length_a   7.20456630
+_cell_length_b   7.20456630
+_cell_length_c   13.77273064
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   120.00000000
+_symmetry_Int_Tables_number   171
+_chemical_formula_structural   KCaPr(AsO4)2
+_chemical_formula_sum   'K3 Ca3 Pr3 As6 O24'
+_cell_volume   619.10793438
+_cell_formula_units_Z   3
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+  2  'x-y, x, z+1/3'
+  3  '-y, x-y, z+2/3'
+  4  '-x, -y, z'
+  5  '-x+y, -x, z+1/3'
+  6  'y, -x+y, z+2/3'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  3  0.00000000  0.00000000  0.15154793  1
+  Ca  Ca1  3  0.00000000  0.50000000  0.07304410  1
+  Pr  Pr2  3  0.00000000  0.50000000  0.58409782  1
+  As  As3  3  0.00000000  0.50000000  0.33821491  1
+  As  As4  3  0.00000000  0.50000000  0.82700159  1
+  O  O5  6  0.13764321  0.71321428  0.90462033  1
+  O  O6  6  0.14159486  0.42700766  0.26203185  1
+  O  O7  6  0.14188447  0.43040245  0.74927307  1
+  O  O8  6  0.14301923  0.71006200  0.41712371  1

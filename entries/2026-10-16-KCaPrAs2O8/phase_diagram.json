@@ -1,0 +1,127 @@
+{
+ "target": "KCaPr(AsO4)2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "K3AsO4",
+  "Ca3(AsO4)2",
+  "PrAsO4"
+ ],
+ "n_system_hull_phases": 64,
+ "phases": [
+  {
+   "formula": "K3AsO4",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm006033136",
+   "target": false
+  },
+  {
+   "formula": "KCaAsO4",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -62.13,
+   "mat_id": "agm066555139",
+   "target": false
+  },
+  {
+   "formula": "K3Pr(AsO4)2",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -41.84,
+   "mat_id": "agm041101992",
+   "target": false
+  },
+  {
+   "formula": "KCaPr(AsO4)2",
+   "x": [
+    0.2,
+    0.2,
+    0.6
+   ],
+   "dE_meV_per_atom": -44.9,
+   "mat_id": "agm010924429",
+   "target": true
+  },
+  {
+   "formula": "Ca3(AsO4)2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm005601681",
+   "target": false
+  },
+  {
+   "formula": "PrAsO4",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003211659",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ca3(AsO4)2",
+   "KCaAsO4"
+  ],
+  [
+   "Ca3(AsO4)2",
+   "KCaPr(AsO4)2"
+  ],
+  [
+   "Ca3(AsO4)2",
+   "PrAsO4"
+  ],
+  [
+   "K3AsO4",
+   "K3Pr(AsO4)2"
+  ],
+  [
+   "K3AsO4",
+   "KCaAsO4"
+  ],
+  [
+   "K3Pr(AsO4)2",
+   "KCaAsO4"
+  ],
+  [
+   "K3Pr(AsO4)2",
+   "KCaPr(AsO4)2"
+  ],
+  [
+   "K3Pr(AsO4)2",
+   "PrAsO4"
+  ],
+  [
+   "KCaAsO4",
+   "KCaPr(AsO4)2"
+  ],
+  [
+   "KCaPr(AsO4)2",
+   "PrAsO4"
+  ]
+ ],
+ "target_neighbours": [
+  "Ca3(AsO4)2",
+  "K3Pr(AsO4)2",
+  "KCaAsO4",
+  "PrAsO4"
+ ],
+ "note": "tie lines of the section that are not tie lines of the full hull (the equilibrium leaves the plane there): Ca3(AsO4)2-KCaPr(AsO4)2, Ca3(AsO4)2-PrAsO4"
+}
