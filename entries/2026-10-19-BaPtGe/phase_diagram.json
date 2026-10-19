@@ -1,0 +1,542 @@
+{
+ "target": "BaGePt",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Ba",
+  "Ge",
+  "Pt"
+ ],
+ "n_system_hull_phases": 26,
+ "phases": [
+  {
+   "formula": "Ba",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002138295",
+   "target": false
+  },
+  {
+   "formula": "Ba6Pt",
+   "x": [
+    0.857143,
+    0.0,
+    0.142857
+   ],
+   "dE_meV_per_atom": -328.76,
+   "mat_id": "agm005547055",
+   "target": false
+  },
+  {
+   "formula": "Ba3Pt",
+   "x": [
+    0.75,
+    0.0,
+    0.25
+   ],
+   "dE_meV_per_atom": -551.99,
+   "mat_id": "agm089272686",
+   "target": false
+  },
+  {
+   "formula": "Ba2Ge",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -515.88,
+   "mat_id": "agm003211249",
+   "target": false
+  },
+  {
+   "formula": "Ba2Pt",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -673.56,
+   "mat_id": "agm010180477",
+   "target": false
+  },
+  {
+   "formula": "BaGe",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -620.62,
+   "mat_id": "agm003161782",
+   "target": false
+  },
+  {
+   "formula": "BaPt",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -803.95,
+   "mat_id": "agm003186030",
+   "target": false
+  },
+  {
+   "formula": "Ba2Pt3",
+   "x": [
+    0.4,
+    0.0,
+    0.6
+   ],
+   "dE_meV_per_atom": -806.8,
+   "mat_id": "agm002257377",
+   "target": false
+  },
+  {
+   "formula": "Ba3Ge5",
+   "x": [
+    0.375,
+    0.625,
+    0.0
+   ],
+   "dE_meV_per_atom": -574.52,
+   "mat_id": "agm003220128",
+   "target": false
+  },
+  {
+   "formula": "BaGe2",
+   "x": [
+    0.333333,
+    0.666667,
+    0.0
+   ],
+   "dE_meV_per_atom": -550.81,
+   "mat_id": "agm003231841",
+   "target": false
+  },
+  {
+   "formula": "BaGePt",
+   "x": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "dE_meV_per_atom": -917.14,
+   "mat_id": "agm003210906",
+   "target": true
+  },
+  {
+   "formula": "BaPt2",
+   "x": [
+    0.333333,
+    0.0,
+    0.666667
+   ],
+   "dE_meV_per_atom": -772.79,
+   "mat_id": "agm003203086",
+   "target": false
+  },
+  {
+   "formula": "BaGePt2",
+   "x": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "dE_meV_per_atom": -790.62,
+   "mat_id": "agm088233173",
+   "target": false
+  },
+  {
+   "formula": "BaGe3Pt",
+   "x": [
+    0.2,
+    0.6,
+    0.2
+   ],
+   "dE_meV_per_atom": -652.36,
+   "mat_id": "agm002214413",
+   "target": false
+  },
+  {
+   "formula": "Ba(GePt)2",
+   "x": [
+    0.2,
+    0.4,
+    0.4
+   ],
+   "dE_meV_per_atom": -773.04,
+   "mat_id": "agm003389762",
+   "target": false
+  },
+  {
+   "formula": "BaGePt3",
+   "x": [
+    0.2,
+    0.2,
+    0.6
+   ],
+   "dE_meV_per_atom": -693.95,
+   "mat_id": "agm013677069",
+   "target": false
+  },
+  {
+   "formula": "BaPt5",
+   "x": [
+    0.166667,
+    0.0,
+    0.833333
+   ],
+   "dE_meV_per_atom": -504.06,
+   "mat_id": "agm003202065",
+   "target": false
+  },
+  {
+   "formula": "BaGe3Pt5",
+   "x": [
+    0.111111,
+    0.333333,
+    0.555556
+   ],
+   "dE_meV_per_atom": -634.66,
+   "mat_id": "agm005941518",
+   "target": false
+  },
+  {
+   "formula": "Ba(Ge3Pt)4",
+   "x": [
+    0.058824,
+    0.705882,
+    0.235294
+   ],
+   "dE_meV_per_atom": -373.29,
+   "mat_id": "agm003221397",
+   "target": false
+  },
+  {
+   "formula": "Ge",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157426",
+   "target": false
+  },
+  {
+   "formula": "Ge3Pt2",
+   "x": [
+    0.0,
+    0.6,
+    0.4
+   ],
+   "dE_meV_per_atom": -411.12,
+   "mat_id": "agm003226165",
+   "target": false
+  },
+  {
+   "formula": "GePt",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -464.13,
+   "mat_id": "agm002068503",
+   "target": false
+  },
+  {
+   "formula": "Ge2Pt3",
+   "x": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "dE_meV_per_atom": -425.32,
+   "mat_id": "agm003247591",
+   "target": false
+  },
+  {
+   "formula": "GePt2",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -391.72,
+   "mat_id": "agm002152627",
+   "target": false
+  },
+  {
+   "formula": "GePt3",
+   "x": [
+    0.0,
+    0.25,
+    0.75
+   ],
+   "dE_meV_per_atom": -316.88,
+   "mat_id": "agm002152630",
+   "target": false
+  },
+  {
+   "formula": "Pt",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003277942",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ba",
+   "Ba2Ge"
+  ],
+  [
+   "Ba",
+   "Ba6Pt"
+  ],
+  [
+   "Ba(Ge3Pt)4",
+   "BaGe3Pt"
+  ],
+  [
+   "Ba(Ge3Pt)4",
+   "Ge"
+  ],
+  [
+   "Ba(Ge3Pt)4",
+   "Ge3Pt2"
+  ],
+  [
+   "Ba(GePt)2",
+   "BaGe3Pt"
+  ],
+  [
+   "Ba(GePt)2",
+   "BaGe3Pt5"
+  ],
+  [
+   "Ba(GePt)2",
+   "BaGePt"
+  ],
+  [
+   "Ba(GePt)2",
+   "BaGePt2"
+  ],
+  [
+   "Ba(GePt)2",
+   "Ge3Pt2"
+  ],
+  [
+   "Ba(GePt)2",
+   "GePt"
+  ],
+  [
+   "Ba2Ge",
+   "Ba2Pt"
+  ],
+  [
+   "Ba2Ge",
+   "Ba3Pt"
+  ],
+  [
+   "Ba2Ge",
+   "Ba6Pt"
+  ],
+  [
+   "Ba2Ge",
+   "BaGe"
+  ],
+  [
+   "Ba2Ge",
+   "BaGePt"
+  ],
+  [
+   "Ba2Pt",
+   "Ba3Pt"
+  ],
+  [
+   "Ba2Pt",
+   "BaGePt"
+  ],
+  [
+   "Ba2Pt",
+   "BaPt"
+  ],
+  [
+   "Ba2Pt3",
+   "BaGePt"
+  ],
+  [
+   "Ba2Pt3",
+   "BaPt"
+  ],
+  [
+   "Ba2Pt3",
+   "BaPt2"
+  ],
+  [
+   "Ba3Ge5",
+   "BaGe"
+  ],
+  [
+   "Ba3Ge5",
+   "BaGe2"
+  ],
+  [
+   "Ba3Ge5",
+   "BaGePt"
+  ],
+  [
+   "Ba3Pt",
+   "Ba6Pt"
+  ],
+  [
+   "BaGe",
+   "BaGePt"
+  ],
+  [
+   "BaGe2",
+   "BaGe3Pt"
+  ],
+  [
+   "BaGe2",
+   "BaGePt"
+  ],
+  [
+   "BaGe2",
+   "Ge"
+  ],
+  [
+   "BaGe3Pt",
+   "BaGePt"
+  ],
+  [
+   "BaGe3Pt",
+   "Ge"
+  ],
+  [
+   "BaGe3Pt",
+   "Ge3Pt2"
+  ],
+  [
+   "BaGe3Pt5",
+   "BaGePt2"
+  ],
+  [
+   "BaGe3Pt5",
+   "BaGePt3"
+  ],
+  [
+   "BaGe3Pt5",
+   "BaPt5"
+  ],
+  [
+   "BaGe3Pt5",
+   "Ge2Pt3"
+  ],
+  [
+   "BaGe3Pt5",
+   "GePt"
+  ],
+  [
+   "BaGe3Pt5",
+   "GePt2"
+  ],
+  [
+   "BaGePt",
+   "BaGePt2"
+  ],
+  [
+   "BaGePt",
+   "BaPt"
+  ],
+  [
+   "BaGePt",
+   "BaPt2"
+  ],
+  [
+   "BaGePt2",
+   "BaGePt3"
+  ],
+  [
+   "BaGePt2",
+   "BaPt2"
+  ],
+  [
+   "BaGePt3",
+   "BaPt2"
+  ],
+  [
+   "BaGePt3",
+   "BaPt5"
+  ],
+  [
+   "BaPt2",
+   "BaPt5"
+  ],
+  [
+   "BaPt5",
+   "GePt2"
+  ],
+  [
+   "BaPt5",
+   "GePt3"
+  ],
+  [
+   "BaPt5",
+   "Pt"
+  ],
+  [
+   "Ge",
+   "Ge3Pt2"
+  ],
+  [
+   "Ge2Pt3",
+   "GePt"
+  ],
+  [
+   "Ge2Pt3",
+   "GePt2"
+  ],
+  [
+   "Ge2Pt3",
+   "GePt3"
+  ],
+  [
+   "Ge3Pt2",
+   "GePt"
+  ],
+  [
+   "GePt2",
+   "GePt3"
+  ],
+  [
+   "GePt3",
+   "Pt"
+  ]
+ ],
+ "target_neighbours": [
+  "Ba(GePt)2",
+  "Ba2Ge",
+  "Ba2Pt",
+  "Ba2Pt3",
+  "Ba3Ge5",
+  "BaGe",
+  "BaGe2",
+  "BaGe3Pt",
+  "BaGePt2",
+  "BaPt",
+  "BaPt2"
+ ],
+ "note": ""
+}
