@@ -1,0 +1,55 @@
+{
+ "source": "/home/users/marqumln/nas-data-001/espresso/agm",
+ "method": "Quantum ESPRESSO, DFPT, PBEsol",
+ "n_runs": 116536,
+ "exact": [
+  {
+   "mat_id": "agm003264320",
+   "kind": "done",
+   "run": "accurate/done/SiMo3_agm003264320",
+   "lambda": 0.4203,
+   "wlog_K": 292.7,
+   "w2_K": 312.7222334464614,
+   "Tc_K_AllenDynes": {
+    "0.100": 1.635,
+    "0.120": 1.02,
+    "0.140": 0.577,
+    "0.160": 0.287
+   },
+   "spacegroup": 223,
+   "conventional_cell": [
+    4.863,
+    4.863,
+    4.863,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "nsites_primitive": 8,
+   "phonon_max_cm1": 355.0,
+   "phonon_min_cm1": 2.0,
+   "files": [
+    "Eliashberg.dat",
+    "a2F.dos10",
+    "el-bs.pdf",
+    "geo_opt.cif",
+    "lambda",
+    "matdyn.dos",
+    "ph-bs.pdf"
+   ]
+  }
+ ],
+ "same_composition": [],
+ "experiment": [
+  {
+   "formula": "Mo3Si",
+   "spg": "223",
+   "tc": "1.7",
+   "agm_id": "agm003264320",
+   "title": "A.V. Narlikar - Superconductors",
+   "journal": "-",
+   "doi": "https://doi.org/10.1103/PhysRevB.97.054515",
+   "year": "2014"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "target": "SiMo3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Mo",
+  "Si"
+ ],
+ "n_system_hull_phases": 5,
+ "phases": [
+  {
+   "formula": "Mo",
+   "x": [
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157176",
+   "target": false
+  },
+  {
+   "formula": "SiMo3",
+   "x": [
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -316.33,
+   "mat_id": "agm003264320",
+   "target": true
+  },
+  {
+   "formula": "Si3Mo5",
+   "x": [
+    0.625,
+    0.375
+   ],
+   "dE_meV_per_atom": -399.46,
+   "mat_id": "agm003219914",
+   "target": false
+  },
+  {
+   "formula": "Si2Mo",
+   "x": [
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -493.15,
+   "mat_id": "agm003161302",
+   "target": false
+  },
+  {
+   "formula": "Si",
+   "x": [
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157600",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Mo",
+   "SiMo3"
+  ],
+  [
+   "Si",
+   "Si2Mo"
+  ],
+  [
+   "Si2Mo",
+   "Si3Mo5"
+  ],
+  [
+   "Si3Mo5",
+   "SiMo3"
+  ]
+ ],
+ "target_neighbours": [
+  "Mo",
+  "Si3Mo5"
+ ],
+ "note": ""
+}
