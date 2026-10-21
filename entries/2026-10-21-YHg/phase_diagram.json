@@ -1,0 +1,112 @@
+{
+ "target": "YHg",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Hg",
+  "Y"
+ ],
+ "n_system_hull_phases": 7,
+ "phases": [
+  {
+   "formula": "Hg",
+   "x": [
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm140794373",
+   "target": false
+  },
+  {
+   "formula": "YHg3",
+   "x": [
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -353.71,
+   "mat_id": "agm002192599",
+   "target": false
+  },
+  {
+   "formula": "Y3Hg5",
+   "x": [
+    0.625,
+    0.375
+   ],
+   "dE_meV_per_atom": -464.34,
+   "mat_id": "agm005535058",
+   "target": false
+  },
+  {
+   "formula": "Y3Hg4",
+   "x": [
+    0.571429,
+    0.428571
+   ],
+   "dE_meV_per_atom": -493.25,
+   "mat_id": "agm007934865",
+   "target": false
+  },
+  {
+   "formula": "YHg",
+   "x": [
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -514.04,
+   "mat_id": "agm001191397",
+   "target": true
+  },
+  {
+   "formula": "Y2Hg",
+   "x": [
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -396.01,
+   "mat_id": "agm003210657",
+   "target": false
+  },
+  {
+   "formula": "Y",
+   "x": [
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002192435",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Hg",
+   "YHg3"
+  ],
+  [
+   "Y",
+   "Y2Hg"
+  ],
+  [
+   "Y2Hg",
+   "YHg"
+  ],
+  [
+   "Y3Hg4",
+   "Y3Hg5"
+  ],
+  [
+   "Y3Hg4",
+   "YHg"
+  ],
+  [
+   "Y3Hg5",
+   "YHg3"
+  ]
+ ],
+ "target_neighbours": [
+  "Y2Hg",
+  "Y3Hg4"
+ ],
+ "note": ""
+}
