@@ -13,7 +13,8 @@
 > the 1954 sample was sintered from the powders at about 1500 °C. The calculations
 > get the cell right to 0.5 % and place the compound firmly on the hull, but they
 > treat it as a line compound, which it is not: the real phase is silicon-poor,
-> single-phase at 23 to 24 at.% Si.
+> single-phase at 23 to 24 at.% Si, and a sample examined at atomic resolution was
+> not even cubic, with an incommensurate modulation on a slightly distorted A15 cell.
 
 Computed numbers come from the Alexandria database and from our lattice-dynamics
 calculations; measured numbers carry a reference.
@@ -22,10 +23,10 @@ calculations; measured numbers carry a reference.
 
 | | computed | measured |
 |---|---|---|
-| Formula | Mo₃Si (25 at.% Si) | single-phase at 23–24 at.% Si after annealing [1] |
+| Formula | Mo₃Si (25 at.% Si) | single-phase at 23–24 at.% Si after annealing [1]; 23.9 at.% Si by atom probe in a stoichiometric melt [8] |
 | Alexandria id | `agm003264320` | |
-| Space group | Pm3̄n (no. 223), Z = 2 | Pm3̄n [2] |
-| a (Å) | 4.905 (PBE); 4.863 (PBEsol) | 4.886–4.913 [2] |
+| Space group | Pm3̄n (no. 223), Z = 2 | Pm3̄n by X-ray and neutron powder diffraction [2]; monoclinic (2/m) or lower by convergent-beam electron diffraction, with incommensurate satellites [8] |
+| a (Å) | 4.905 (PBE); 4.863 (PBEsol) | 4.886–4.913 [2]; a = b = 4.898, c = 4.966, γ ≈ 90.5° by electron diffraction [8] |
 | Density (g cm⁻³) | 8.89 (PBE) | |
 | Structure type | A15, Cr₃Si | |
 | Formation energy | −0.316 eV/atom (PBE) | |
@@ -76,6 +77,20 @@ drawn, to show the chains.*
   A15 type and the origin of the sharp structure in its electronic density of states.
 - **Nothing else is close in energy.** Among the eighteen other structures of this
   composition in the database, the nearest is 166 meV/atom higher.
+- **The ideal A15 is an idealisation.** Gulec *et al.* [8] examined an arc-melted
+  ingot weighed in at exactly 3 : 1 (0.34 % mass loss over five remelts) by atom-probe
+  tomography, aberration-corrected STEM and electron diffraction. Atom probe gives
+  Mo/Si = 3.18, or 23.88 at.% Si, homogeneous on the scale of the tip. Electron
+  diffraction shows weak extra reflections that A15 symmetry forbids, some
+  commensurate and some incommensurate with the main lattice, and convergent-beam
+  patterns give at most monoclinic 2/m symmetry rather than Pm3̄n. The main
+  reflections index on a pseudo-cubic cell with a = b = 4.898 Å, c = 4.966 Å and
+  γ ≈ 90.5° (the angle is printed γ in one place and β in another). Z-contrast images
+  show different intensities on molybdenum columns that are equivalent in the ideal
+  structure, which the authors read as molybdenum on silicon sites. The
+  stored structure, and everything computed from it here, is the ideal cubic one.
+  Its edge, 4.905 Å, is close to the mean of the measured pseudo-cubic edges
+  (4.92 Å); the difference is in the symmetry, not the size.
 
 ## 4. Properties
 
@@ -195,7 +210,7 @@ either the relation or the moduli can claim.
 
 Elastic constants, the upper critical field, anisotropy of the superconducting gap,
 any finite-temperature property (melting, creep), any property of the
-off-stoichiometric phase.
+off-stoichiometric phase or of the modulated structure seen in [8].
 
 ## 5. Is it stable?
 
@@ -222,8 +237,12 @@ Earlier studies quoted there put the single-phase field near 24 at.% Si, or betw
 22.3 ± 0.3 and 23.6 ± 0.6 at.% Si. The real phase is therefore silicon-poor by one to
 two atomic per cent, and the stoichiometric composition of the database is just outside
 its measured range. A silicon-poor A15 phase would normally mean molybdenum on some
-silicon sites; that is our reading, not a result of [1], and it needs defect
-calculations which are not in the database.
+silicon sites. That is not shown by [1], but it is what [8] found: in Z-contrast
+images, molybdenum columns that are equivalent in the ideal structure differ in
+intensity, and DFT (PBE) supercells of 512 atoms with molybdenum substituted at random
+on silicon sites, Mo₃.₁₃Si among them, lie within 0.01 eV/atom of the hull. Those
+supercells are not in our database. The authors leave open what drives the
+incommensurate modulation.
 
 ## 6. How to make it
 
@@ -361,8 +380,11 @@ The measured pattern of the 23 at.% Si button shows only the A15 lines [1]. Neit
 
 ## 8. How this could be wrong
 
-- **Stoichiometry.** Everything computed is for ideal Mo₃Si; the real phase is
-  silicon-deficient (section 5). The 23 at.% Si quoted for the phase is an
+- **Stoichiometry and symmetry.** Everything computed is for ideal cubic Mo₃Si; the
+  real phase is silicon-deficient (section 5), and the one sample studied at atomic
+  resolution is non-cubic and incommensurately modulated [8]. The phonons, the
+  electron-phonon coupling and the T_c are therefore those of the ideal structure;
+  that it has no soft mode says nothing about the modulated one. The 23 at.% Si quoted for the phase is an
   energy-dispersive analysis, for which [1] gives no uncertainty.
 - **The agreement in T_c is not a prediction to 0.1 K.** The Allen–Dynes formula is
   isotropic and the Coulomb parameter is chosen, not computed.
@@ -412,6 +434,10 @@ Hardy Hulm"; "Rosales Schneibel Stoichiometry and mechanical properties of Mo3Si
    doi:10.1103/PhysRevB.97.054515 — *full text read. It is about PdTe₂ (T_c = 1.7 K)
    and contains nothing on Mo₃Si; listed only because our compilation attaches its
    DOI to the Mo₃Si value.*
+8. A. Gulec, X. Yu, M. Taylor, J. H. Perepezko, L. Marks, "Direct observation of
+   incommensurate structure in Mo₃Si", *Acta Cryst.* A72, 660 (2016).
+   doi:10.1107/S2053273316012286 — *full text read; added on 21 October 2026, after a
+   reader pointed us to it.*
 
 ## 10. Provenance
 
