@@ -1,0 +1,210 @@
+{
+ "target": "As6PdRu",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "As",
+  "Pd",
+  "Ru"
+ ],
+ "n_system_hull_phases": 10,
+ "phases": [
+  {
+   "formula": "As",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm135086247",
+   "target": false
+  },
+  {
+   "formula": "As6PdRu",
+   "x": [
+    0.75,
+    0.125,
+    0.125
+   ],
+   "dE_meV_per_atom": -285.85,
+   "mat_id": "agm069759364",
+   "target": true
+  },
+  {
+   "formula": "As2Pd",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -318.38,
+   "mat_id": "agm003210853",
+   "target": false
+  },
+  {
+   "formula": "As2Ru",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -383.04,
+   "mat_id": "agm003283642",
+   "target": false
+  },
+  {
+   "formula": "AsPd2",
+   "x": [
+    0.333333,
+    0.666667,
+    0.0
+   ],
+   "dE_meV_per_atom": -362.91,
+   "mat_id": "agm003210855",
+   "target": false
+  },
+  {
+   "formula": "As2Pd3Ru",
+   "x": [
+    0.333333,
+    0.5,
+    0.166667
+   ],
+   "dE_meV_per_atom": -331.15,
+   "mat_id": "agm005857659",
+   "target": false
+  },
+  {
+   "formula": "AsPd3",
+   "x": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "dE_meV_per_atom": -352.04,
+   "mat_id": "agm003219596",
+   "target": false
+  },
+  {
+   "formula": "AsPd5",
+   "x": [
+    0.166667,
+    0.833333,
+    0.0
+   ],
+   "dE_meV_per_atom": -261.32,
+   "mat_id": "agm002254089",
+   "target": false
+  },
+  {
+   "formula": "Pd",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003277906",
+   "target": false
+  },
+  {
+   "formula": "Ru",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002180945",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "As",
+   "As2Pd"
+  ],
+  [
+   "As",
+   "As2Ru"
+  ],
+  [
+   "As",
+   "As6PdRu"
+  ],
+  [
+   "As2Pd",
+   "As2Ru"
+  ],
+  [
+   "As2Pd",
+   "As6PdRu"
+  ],
+  [
+   "As2Pd",
+   "AsPd2"
+  ],
+  [
+   "As2Pd3Ru",
+   "As2Ru"
+  ],
+  [
+   "As2Pd3Ru",
+   "AsPd3"
+  ],
+  [
+   "As2Pd3Ru",
+   "Ru"
+  ],
+  [
+   "As2Ru",
+   "As6PdRu"
+  ],
+  [
+   "As2Ru",
+   "AsPd2"
+  ],
+  [
+   "As2Ru",
+   "AsPd3"
+  ],
+  [
+   "As2Ru",
+   "Ru"
+  ],
+  [
+   "AsPd2",
+   "AsPd3"
+  ],
+  [
+   "AsPd3",
+   "AsPd5"
+  ],
+  [
+   "AsPd3",
+   "Pd"
+  ],
+  [
+   "AsPd3",
+   "Ru"
+  ],
+  [
+   "AsPd5",
+   "Pd"
+  ],
+  [
+   "AsPd5",
+   "Ru"
+  ],
+  [
+   "Pd",
+   "Ru"
+  ]
+ ],
+ "target_neighbours": [
+  "As",
+  "As2Pd",
+  "As2Ru"
+ ],
+ "note": ""
+}
