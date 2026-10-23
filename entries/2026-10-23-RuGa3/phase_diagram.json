@@ -1,0 +1,70 @@
+{
+ "target": "Ga3Ru",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Ga",
+  "Ru"
+ ],
+ "n_system_hull_phases": 4,
+ "phases": [
+  {
+   "formula": "Ga",
+   "x": [
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm135086243",
+   "target": false
+  },
+  {
+   "formula": "Ga3Ru",
+   "x": [
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -367.0,
+   "mat_id": "agm003220384",
+   "target": true
+  },
+  {
+   "formula": "Ga2Ru",
+   "x": [
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -385.43,
+   "mat_id": "agm002213090",
+   "target": false
+  },
+  {
+   "formula": "Ru",
+   "x": [
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002180945",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ga",
+   "Ga3Ru"
+  ],
+  [
+   "Ga2Ru",
+   "Ga3Ru"
+  ],
+  [
+   "Ga2Ru",
+   "Ru"
+  ]
+ ],
+ "target_neighbours": [
+  "Ga",
+  "Ga2Ru"
+ ],
+ "note": ""
+}
