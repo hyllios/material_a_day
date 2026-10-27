@@ -1,0 +1,44 @@
+{
+ "source": "/home/users/marqumln/nas-data-001/espresso/agm",
+ "method": "Quantum ESPRESSO, DFPT, PBEsol",
+ "n_runs": 92758,
+ "exact": [
+  {
+   "mat_id": "agm002346908",
+   "kind": "done",
+   "run": "batch-306/done/N6V2La3_agm002346908",
+   "lambda": 0.3189,
+   "wlog_K": 392.0,
+   "w2_K": 512.1713657910035,
+   "Tc_K_AllenDynes": {
+    "0.100": 0.337,
+    "0.120": 0.131,
+    "0.140": 0.038,
+    "0.160": 0.007
+   },
+   "spacegroup": 139,
+   "conventional_cell": [
+    3.864,
+    3.864,
+    19.808,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "nsites_primitive": 11,
+   "phonon_max_cm1": 786.0,
+   "phonon_min_cm1": 2.0,
+   "files": [
+    "Eliashberg.dat",
+    "a2F.dos10",
+    "el-bs.pdf",
+    "geo_opt.cif",
+    "lambda",
+    "matdyn.dos",
+    "ph-bs.pdf"
+   ]
+  }
+ ],
+ "same_composition": [],
+ "experiment": []
+}

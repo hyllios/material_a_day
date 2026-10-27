@@ -1,0 +1,208 @@
+{
+ "target": "La3(VN3)2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "La",
+  "N2",
+  "V"
+ ],
+ "n_system_hull_phases": 10,
+ "phases": [
+  {
+   "formula": "La",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003187590",
+   "target": false
+  },
+  {
+   "formula": "La4N3",
+   "x": [
+    0.571429,
+    0.428571,
+    0.0
+   ],
+   "dE_meV_per_atom": -1171.18,
+   "mat_id": "agm003289863",
+   "target": false
+  },
+  {
+   "formula": "LaN",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -1324.46,
+   "mat_id": "agm002164635",
+   "target": false
+  },
+  {
+   "formula": "LaN2",
+   "x": [
+    0.333333,
+    0.666667,
+    0.0
+   ],
+   "dE_meV_per_atom": -906.0,
+   "mat_id": "agm002290644",
+   "target": false
+  },
+  {
+   "formula": "La3(VN3)2",
+   "x": [
+    0.272727,
+    0.545455,
+    0.181818
+   ],
+   "dE_meV_per_atom": -1316.21,
+   "mat_id": "agm002346908",
+   "target": true
+  },
+  {
+   "formula": "N2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003263869",
+   "target": false
+  },
+  {
+   "formula": "VN",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -1159.0,
+   "mat_id": "agm002015206",
+   "target": false
+  },
+  {
+   "formula": "V2N",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -965.82,
+   "mat_id": "agm005541731",
+   "target": false
+  },
+  {
+   "formula": "V8N",
+   "x": [
+    0.0,
+    0.111111,
+    0.888889
+   ],
+   "dE_meV_per_atom": -326.98,
+   "mat_id": "agm003223175",
+   "target": false
+  },
+  {
+   "formula": "V",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157158",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "La",
+   "La4N3"
+  ],
+  [
+   "La",
+   "V"
+  ],
+  [
+   "La",
+   "V2N"
+  ],
+  [
+   "La",
+   "V8N"
+  ],
+  [
+   "La3(VN3)2",
+   "LaN"
+  ],
+  [
+   "La3(VN3)2",
+   "LaN2"
+  ],
+  [
+   "La3(VN3)2",
+   "N2"
+  ],
+  [
+   "La3(VN3)2",
+   "V2N"
+  ],
+  [
+   "La3(VN3)2",
+   "VN"
+  ],
+  [
+   "La4N3",
+   "LaN"
+  ],
+  [
+   "La4N3",
+   "V2N"
+  ],
+  [
+   "LaN",
+   "LaN2"
+  ],
+  [
+   "LaN",
+   "V2N"
+  ],
+  [
+   "LaN2",
+   "N2"
+  ],
+  [
+   "N2",
+   "VN"
+  ],
+  [
+   "V",
+   "V2N"
+  ],
+  [
+   "V",
+   "V8N"
+  ],
+  [
+   "V2N",
+   "V8N"
+  ],
+  [
+   "V2N",
+   "VN"
+  ]
+ ],
+ "target_neighbours": [
+  "LaN",
+  "LaN2",
+  "N2",
+  "V2N",
+  "VN"
+ ],
+ "note": ""
+}
