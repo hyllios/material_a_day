@@ -1,0 +1,204 @@
+{
+ "target": "Tb2Ge4Mo3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Ge",
+  "Mo",
+  "Tb"
+ ],
+ "n_system_hull_phases": 10,
+ "phases": [
+  {
+   "formula": "Ge",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157426",
+   "target": false
+  },
+  {
+   "formula": "Ge2Mo",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -158.72,
+   "mat_id": "agm003211248",
+   "target": false
+  },
+  {
+   "formula": "Tb3Ge5",
+   "x": [
+    0.625,
+    0.0,
+    0.375
+   ],
+   "dE_meV_per_atom": -702.77,
+   "mat_id": "agm003219815",
+   "target": false
+  },
+  {
+   "formula": "TbGe",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -838.46,
+   "mat_id": "agm001417660",
+   "target": false
+  },
+  {
+   "formula": "Tb2Ge4Mo3",
+   "x": [
+    0.444444,
+    0.333333,
+    0.222222
+   ],
+   "dE_meV_per_atom": -506.2,
+   "mat_id": "agm005676656",
+   "target": true
+  },
+  {
+   "formula": "Tb4Ge3",
+   "x": [
+    0.428571,
+    0.0,
+    0.571429
+   ],
+   "dE_meV_per_atom": -842.03,
+   "mat_id": "agm005533327",
+   "target": false
+  },
+  {
+   "formula": "Tb5Ge3",
+   "x": [
+    0.375,
+    0.0,
+    0.625
+   ],
+   "dE_meV_per_atom": -761.21,
+   "mat_id": "agm003220377",
+   "target": false
+  },
+  {
+   "formula": "GeMo3",
+   "x": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "dE_meV_per_atom": -146.21,
+   "mat_id": "agm003264144",
+   "target": false
+  },
+  {
+   "formula": "Mo",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157176",
+   "target": false
+  },
+  {
+   "formula": "Tb",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003160954",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ge",
+   "Ge2Mo"
+  ],
+  [
+   "Ge",
+   "Tb3Ge5"
+  ],
+  [
+   "Ge2Mo",
+   "GeMo3"
+  ],
+  [
+   "Ge2Mo",
+   "Tb2Ge4Mo3"
+  ],
+  [
+   "Ge2Mo",
+   "Tb3Ge5"
+  ],
+  [
+   "GeMo3",
+   "Mo"
+  ],
+  [
+   "GeMo3",
+   "Tb2Ge4Mo3"
+  ],
+  [
+   "Mo",
+   "Tb"
+  ],
+  [
+   "Mo",
+   "Tb2Ge4Mo3"
+  ],
+  [
+   "Mo",
+   "Tb4Ge3"
+  ],
+  [
+   "Mo",
+   "Tb5Ge3"
+  ],
+  [
+   "Mo",
+   "TbGe"
+  ],
+  [
+   "Tb",
+   "Tb5Ge3"
+  ],
+  [
+   "Tb2Ge4Mo3",
+   "Tb3Ge5"
+  ],
+  [
+   "Tb2Ge4Mo3",
+   "TbGe"
+  ],
+  [
+   "Tb3Ge5",
+   "TbGe"
+  ],
+  [
+   "Tb4Ge3",
+   "Tb5Ge3"
+  ],
+  [
+   "Tb4Ge3",
+   "TbGe"
+  ]
+ ],
+ "target_neighbours": [
+  "Ge2Mo",
+  "GeMo3",
+  "Mo",
+  "Tb3Ge5",
+  "TbGe"
+ ],
+ "note": ""
+}
