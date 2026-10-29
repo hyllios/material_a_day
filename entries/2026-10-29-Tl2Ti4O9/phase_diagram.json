@@ -1,0 +1,318 @@
+{
+ "target": "Ti4Tl2O9",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "O2",
+  "Ti",
+  "Tl"
+ ],
+ "n_system_hull_phases": 15,
+ "phases": [
+  {
+   "formula": "O2",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  },
+  {
+   "formula": "TiO2",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -3034.04,
+   "mat_id": "agm003210965",
+   "target": false
+  },
+  {
+   "formula": "Ti2O3",
+   "x": [
+    0.6,
+    0.4,
+    0.0
+   ],
+   "dE_meV_per_atom": -2887.34,
+   "mat_id": "agm089622866",
+   "target": false
+  },
+  {
+   "formula": "Ti4Tl2O9",
+   "x": [
+    0.6,
+    0.266667,
+    0.133333
+   ],
+   "dE_meV_per_atom": -2585.63,
+   "mat_id": "agm003239593",
+   "target": true
+  },
+  {
+   "formula": "Tl2O3",
+   "x": [
+    0.6,
+    0.0,
+    0.4
+   ],
+   "dE_meV_per_atom": -659.1,
+   "mat_id": "agm003272257",
+   "target": false
+  },
+  {
+   "formula": "TiO",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -2553.87,
+   "mat_id": "agm003201843",
+   "target": false
+  },
+  {
+   "formula": "TiTl2O3",
+   "x": [
+    0.5,
+    0.166667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1904.46,
+   "mat_id": "agm003232441",
+   "target": false
+  },
+  {
+   "formula": "Tl4O3",
+   "x": [
+    0.428571,
+    0.0,
+    0.571429
+   ],
+   "dE_meV_per_atom": -627.4,
+   "mat_id": "agm003215806",
+   "target": false
+  },
+  {
+   "formula": "Ti2O",
+   "x": [
+    0.333333,
+    0.666667,
+    0.0
+   ],
+   "dE_meV_per_atom": -1820.04,
+   "mat_id": "agm078795362",
+   "target": false
+  },
+  {
+   "formula": "Tl2O",
+   "x": [
+    0.333333,
+    0.0,
+    0.666667
+   ],
+   "dE_meV_per_atom": -579.04,
+   "mat_id": "agm003202036",
+   "target": false
+  },
+  {
+   "formula": "Ti3O",
+   "x": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "dE_meV_per_atom": -1392.29,
+   "mat_id": "agm003219669",
+   "target": false
+  },
+  {
+   "formula": "Ti6O",
+   "x": [
+    0.142857,
+    0.857143,
+    0.0
+   ],
+   "dE_meV_per_atom": -814.57,
+   "mat_id": "agm089072283",
+   "target": false
+  },
+  {
+   "formula": "Ti",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003160753",
+   "target": false
+  },
+  {
+   "formula": "Ti3Tl",
+   "x": [
+    0.0,
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -11.79,
+   "mat_id": "agm005542374",
+   "target": false
+  },
+  {
+   "formula": "Tl",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002028582",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "O2",
+   "TiO2"
+  ],
+  [
+   "O2",
+   "Tl2O3"
+  ],
+  [
+   "Ti",
+   "Ti3O"
+  ],
+  [
+   "Ti",
+   "Ti3Tl"
+  ],
+  [
+   "Ti",
+   "Ti6O"
+  ],
+  [
+   "Ti",
+   "Tl"
+  ],
+  [
+   "Ti2O",
+   "Ti3O"
+  ],
+  [
+   "Ti2O",
+   "TiO"
+  ],
+  [
+   "Ti2O",
+   "Tl"
+  ],
+  [
+   "Ti2O3",
+   "TiO"
+  ],
+  [
+   "Ti2O3",
+   "TiO2"
+  ],
+  [
+   "Ti2O3",
+   "Tl"
+  ],
+  [
+   "Ti3O",
+   "Ti6O"
+  ],
+  [
+   "Ti3O",
+   "TiO"
+  ],
+  [
+   "Ti3O",
+   "Tl"
+  ],
+  [
+   "Ti3Tl",
+   "Ti6O"
+  ],
+  [
+   "Ti3Tl",
+   "Tl"
+  ],
+  [
+   "Ti4Tl2O9",
+   "TiO2"
+  ],
+  [
+   "Ti4Tl2O9",
+   "TiTl2O3"
+  ],
+  [
+   "Ti4Tl2O9",
+   "Tl"
+  ],
+  [
+   "Ti4Tl2O9",
+   "Tl2O3"
+  ],
+  [
+   "Ti6O",
+   "Tl"
+  ],
+  [
+   "TiO",
+   "Tl"
+  ],
+  [
+   "TiO2",
+   "Tl"
+  ],
+  [
+   "TiO2",
+   "Tl2O3"
+  ],
+  [
+   "TiTl2O3",
+   "Tl"
+  ],
+  [
+   "TiTl2O3",
+   "Tl2O"
+  ],
+  [
+   "TiTl2O3",
+   "Tl2O3"
+  ],
+  [
+   "TiTl2O3",
+   "Tl4O3"
+  ],
+  [
+   "Tl",
+   "Tl2O"
+  ],
+  [
+   "Tl2O",
+   "Tl2O3"
+  ],
+  [
+   "Tl2O",
+   "Tl4O3"
+  ],
+  [
+   "Tl2O3",
+   "Tl4O3"
+  ]
+ ],
+ "target_neighbours": [
+  "TiO2",
+  "TiTl2O3",
+  "Tl",
+  "Tl2O3"
+ ],
+ "note": ""
+}
