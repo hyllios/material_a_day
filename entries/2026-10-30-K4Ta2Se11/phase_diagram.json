@@ -1,0 +1,309 @@
+{
+ "target": "K4Ta2Se11",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "K",
+  "Se",
+  "Ta"
+ ],
+ "n_system_hull_phases": 15,
+ "phases": [
+  {
+   "formula": "K",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002090264",
+   "target": false
+  },
+  {
+   "formula": "K2Se",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -1101.33,
+   "mat_id": "agm003160518",
+   "target": false
+  },
+  {
+   "formula": "KSe",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -945.33,
+   "mat_id": "agm003210932",
+   "target": false
+  },
+  {
+   "formula": "K2Se3",
+   "x": [
+    0.4,
+    0.6,
+    0.0
+   ],
+   "dE_meV_per_atom": -801.37,
+   "mat_id": "agm003206705",
+   "target": false
+  },
+  {
+   "formula": "K3TaSe4",
+   "x": [
+    0.375,
+    0.5,
+    0.125
+   ],
+   "dE_meV_per_atom": -1143.61,
+   "mat_id": "agm014674439",
+   "target": false
+  },
+  {
+   "formula": "K2Se5",
+   "x": [
+    0.285714,
+    0.714286,
+    0.0
+   ],
+   "dE_meV_per_atom": -592.99,
+   "mat_id": "agm002217592",
+   "target": false
+  },
+  {
+   "formula": "K4Ta2Se11",
+   "x": [
+    0.235294,
+    0.647059,
+    0.117647
+   ],
+   "dE_meV_per_atom": -830.49,
+   "mat_id": "agm007903709",
+   "target": true
+  },
+  {
+   "formula": "K(TaSe2)3",
+   "x": [
+    0.1,
+    0.6,
+    0.3
+   ],
+   "dE_meV_per_atom": -959.77,
+   "mat_id": "agm124010644",
+   "target": false
+  },
+  {
+   "formula": "Se",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm005222103",
+   "target": false
+  },
+  {
+   "formula": "TaSe3",
+   "x": [
+    0.0,
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -652.41,
+   "mat_id": "agm005237062",
+   "target": false
+  },
+  {
+   "formula": "TaSe2",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -809.19,
+   "mat_id": "agm005240464",
+   "target": false
+  },
+  {
+   "formula": "Ta2Se3",
+   "x": [
+    0.0,
+    0.6,
+    0.4
+   ],
+   "dE_meV_per_atom": -753.74,
+   "mat_id": "agm002185450",
+   "target": false
+  },
+  {
+   "formula": "Ta2Se",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -444.85,
+   "mat_id": "agm003203222",
+   "target": false
+  },
+  {
+   "formula": "Ta5Se2",
+   "x": [
+    0.0,
+    0.285714,
+    0.714286
+   ],
+   "dE_meV_per_atom": -384.73,
+   "mat_id": "agm022668893",
+   "target": false
+  },
+  {
+   "formula": "Ta",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003239263",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "K",
+   "K2Se"
+  ],
+  [
+   "K",
+   "Ta"
+  ],
+  [
+   "K(TaSe2)3",
+   "K3TaSe4"
+  ],
+  [
+   "K(TaSe2)3",
+   "Ta"
+  ],
+  [
+   "K(TaSe2)3",
+   "Ta2Se"
+  ],
+  [
+   "K(TaSe2)3",
+   "Ta2Se3"
+  ],
+  [
+   "K(TaSe2)3",
+   "Ta5Se2"
+  ],
+  [
+   "K(TaSe2)3",
+   "TaSe2"
+  ],
+  [
+   "K(TaSe2)3",
+   "TaSe3"
+  ],
+  [
+   "K2Se",
+   "K3TaSe4"
+  ],
+  [
+   "K2Se",
+   "KSe"
+  ],
+  [
+   "K2Se",
+   "Ta"
+  ],
+  [
+   "K2Se3",
+   "K2Se5"
+  ],
+  [
+   "K2Se3",
+   "K3TaSe4"
+  ],
+  [
+   "K2Se3",
+   "KSe"
+  ],
+  [
+   "K2Se5",
+   "K3TaSe4"
+  ],
+  [
+   "K2Se5",
+   "Se"
+  ],
+  [
+   "K3TaSe4",
+   "K4Ta2Se11"
+  ],
+  [
+   "K3TaSe4",
+   "KSe"
+  ],
+  [
+   "K3TaSe4",
+   "Se"
+  ],
+  [
+   "K3TaSe4",
+   "Ta"
+  ],
+  [
+   "K3TaSe4",
+   "TaSe3"
+  ],
+  [
+   "K4Ta2Se11",
+   "Se"
+  ],
+  [
+   "K4Ta2Se11",
+   "TaSe3"
+  ],
+  [
+   "Se",
+   "TaSe3"
+  ],
+  [
+   "Ta",
+   "Ta5Se2"
+  ],
+  [
+   "Ta2Se",
+   "Ta2Se3"
+  ],
+  [
+   "Ta2Se",
+   "Ta5Se2"
+  ],
+  [
+   "Ta2Se3",
+   "Ta5Se2"
+  ],
+  [
+   "Ta2Se3",
+   "TaSe2"
+  ],
+  [
+   "TaSe2",
+   "TaSe3"
+  ]
+ ],
+ "target_neighbours": [
+  "K3TaSe4",
+  "Se",
+  "TaSe3"
+ ],
+ "note": ""
+}
