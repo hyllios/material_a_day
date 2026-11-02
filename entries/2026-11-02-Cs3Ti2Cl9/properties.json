@@ -1,0 +1,384 @@
+{
+ "agm003237189": {
+  "formula": "Cs3Ti2Cl9",
+  "gaps": {
+   "pbe": {
+    "formula": "Cs3Ti2Cl9",
+    "spg": 194,
+    "band_gap_ind": 0.3714,
+    "band_gap_dir": 0.3971,
+    "total_mag": 0.0,
+    "dos_ef": 6.163607
+   },
+   "scan": {
+    "formula": "Cs3Ti2Cl9",
+    "spg": 194,
+    "band_gap_ind": 0.0,
+    "band_gap_dir": 0.0,
+    "total_mag": 4.0008993,
+    "dos_ef": 17.361092
+   }
+  },
+  "dielectric": {
+   "eps_inf_tensor": [
+    [
+     3.476,
+     0.0,
+     0.0
+    ],
+    [
+     0.0,
+     3.476,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     4.049
+    ]
+   ],
+   "eps_inf_principal": [
+    3.476,
+    3.476,
+    4.049
+   ],
+   "eps_inf_without_local_fields": [
+    4.139,
+    4.139,
+    6.106
+   ],
+   "eps_inf_avg": 3.667,
+   "refractive_index": 1.915,
+   "born_principal": {
+    "Cs": {
+     "min": 0.85,
+     "max": 1.66,
+     "mean_trace_third": 1.35
+    },
+    "Ti": {
+     "min": 2.6,
+     "max": 2.94,
+     "mean_trace_third": 2.71
+    },
+    "Cl": {
+     "min": -1.87,
+     "max": -0.69,
+     "mean_trace_third": -1.05
+    }
+   },
+   "piezo_clamped_ion_max": 0.0,
+   "asr_violation": 4e-08
+  },
+  "transport_pbe": {
+   "gap_from_edges_eV": 0.365,
+   "m_dos_electron": 9.39,
+   "m_dos_hole": 5.13,
+   "branch_point_minus_vbm_eV": -0.118,
+   "bpe_window_ok": true,
+   "nkpts_irr": 10,
+   "grid": [
+    {
+     "t_k": 300.0,
+     "carrier": "n",
+     "n_target": 1e+18,
+     "s_mean_uvk": -46.062027,
+     "s_uvk": [
+      -334.3,
+      98.1,
+      98.1
+     ],
+     "sigma_tau_mean": 4077223236602240.5,
+     "pf_tau": 8650687.182661556,
+     "m_cond": 6.2733345,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 300.0,
+     "carrier": "n",
+     "n_target": 1e+19,
+     "s_mean_uvk": -524.2918,
+     "s_uvk": [
+      -546.3,
+      -513.3,
+      -513.3
+     ],
+     "sigma_tau_mean": 9187356846863794.0,
+     "pf_tau": 2525438146.5799174,
+     "m_cond": 29.940773,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 300.0,
+     "carrier": "n",
+     "n_target": 1e+20,
+     "s_mean_uvk": -387.51962,
+     "s_uvk": [
+      -396.3,
+      -396.3,
+      -370.0
+     ],
+     "sigma_tau_mean": 8.645271307288966e+16,
+     "pf_tau": 12982730584.306683,
+     "m_cond": 32.588493,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 300.0,
+     "carrier": "n",
+     "n_target": 1e+21,
+     "s_mean_uvk": -182.75745,
+     "s_uvk": [
+      -188.9,
+      -188.9,
+      -170.4
+     ],
+     "sigma_tau_mean": 8.314592698820737e+17,
+     "pf_tau": 27770973914.851837,
+     "m_cond": 34.84841,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 600.0,
+     "carrier": "n",
+     "n_target": 1e+19,
+     "s_mean_uvk": 26.005926,
+     "s_uvk": [
+      -115.0,
+      96.5,
+      96.5
+     ],
+     "sigma_tau_mean": 1.5187032150182835e+17,
+     "pf_tau": 102711137.16404568,
+     "m_cond": 2.577571,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 600.0,
+     "carrier": "n",
+     "n_target": 1e+20,
+     "s_mean_uvk": -101.51582,
+     "s_uvk": [
+      -222.6,
+      -41.0,
+      -41.0
+     ],
+     "sigma_tau_mean": 1.4948513459112915e+17,
+     "pf_tau": 1540513482.4628851,
+     "m_cond": 19.665905,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 600.0,
+     "carrier": "n",
+     "n_target": 1e+21,
+     "s_mean_uvk": -185.48482,
+     "s_uvk": [
+      -199.5,
+      -178.5,
+      -178.5
+     ],
+     "sigma_tau_mean": 5.72668961456917e+17,
+     "pf_tau": 19702458126.422962,
+     "m_cond": 50.377377,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 900.0,
+     "carrier": "n",
+     "n_target": 1e+19,
+     "s_mean_uvk": 13.490177,
+     "s_uvk": [
+      -89.4,
+      64.9,
+      64.9
+     ],
+     "sigma_tau_mean": 4.260045997024061e+17,
+     "pf_tau": 77526394.6521908,
+     "m_cond": 0.62729955,
+     "bipolar_risk": true
+    },
+    {
+     "t_k": 900.0,
+     "carrier": "n",
+     "n_target": 1e+20,
+     "s_mean_uvk": -6.467276,
+     "s_uvk": [
+      -112.0,
+      46.3,
+      46.3
+     ],
+     "sigma_tau_mean": 4.130188284564578e+17,
+     "pf_tau": 17274784.04541645,
+     "m_cond": 7.024641,
+     "bipolar_risk": true
+    },
+    {
+     "t_k": 900.0,
+     "carrier": "n",
+     "n_target": 1e+21,
+     "s_mean_uvk": -118.86217,
+     "s_uvk": [
+      -176.3,
+      -90.1,
+      -90.1
+     ],
+     "sigma_tau_mean": 5.2664094566776166e+17,
+     "pf_tau": 7440496370.1308365,
+     "m_cond": 54.450424,
+     "bipolar_risk": true
+    },
+    {
+     "t_k": 300.0,
+     "carrier": "p",
+     "n_target": 1e+18,
+     "s_mean_uvk": 249.53522,
+     "s_uvk": [
+      -17.4,
+      383.0,
+      383.0
+     ],
+     "sigma_tau_mean": 4919384047747284.0,
+     "pf_tau": 306319327.90078324,
+     "m_cond": 5.195862,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 300.0,
+     "carrier": "p",
+     "n_target": 1e+19,
+     "s_mean_uvk": 514.64844,
+     "s_uvk": [
+      498.6,
+      522.7,
+      522.7
+     ],
+     "sigma_tau_mean": 1.8214861885688628e+16,
+     "pf_tau": 4824442682.749905,
+     "m_cond": 15.077049,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 300.0,
+     "carrier": "p",
+     "n_target": 1e+20,
+     "s_mean_uvk": 347.42133,
+     "s_uvk": [
+      340.7,
+      340.7,
+      360.9
+     ],
+     "sigma_tau_mean": 1.7497256769696317e+17,
+     "pf_tau": 21119464637.11428,
+     "m_cond": 15.836502,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 300.0,
+     "carrier": "p",
+     "n_target": 1e+21,
+     "s_mean_uvk": 130.77074,
+     "s_uvk": [
+      124.0,
+      124.0,
+      144.3
+     ],
+     "sigma_tau_mean": 1.6230702903576822e+18,
+     "pf_tau": 27756104810.61027,
+     "m_cond": 17.955547,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 600.0,
+     "carrier": "p",
+     "n_target": 1e+19,
+     "s_mean_uvk": 67.300606,
+     "s_uvk": [
+      -67.5,
+      134.7,
+      134.7
+     ],
+     "sigma_tau_mean": 1.6020624456413686e+17,
+     "pf_tau": 725633554.06339,
+     "m_cond": 2.5427654,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 600.0,
+     "carrier": "p",
+     "n_target": 1e+20,
+     "s_mean_uvk": 161.14938,
+     "s_uvk": [
+      72.0,
+      205.7,
+      205.7
+     ],
+     "sigma_tau_mean": 2.1001524720667376e+17,
+     "pf_tau": 5453911758.678688,
+     "m_cond": 13.93978,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 600.0,
+     "carrier": "p",
+     "n_target": 1e+21,
+     "s_mean_uvk": 125.42579,
+     "s_uvk": [
+      121.7,
+      121.7,
+      132.8
+     ],
+     "sigma_tau_mean": 1.0340496794355112e+18,
+     "pf_tau": 16267284895.885206,
+     "m_cond": 27.115248,
+     "bipolar_risk": false
+    },
+    {
+     "t_k": 900.0,
+     "carrier": "p",
+     "n_target": 1e+19,
+     "s_mean_uvk": 18.280184,
+     "s_uvk": [
+      -83.5,
+      69.2,
+      69.2
+     ],
+     "sigma_tau_mean": 4.3023898900901e+17,
+     "pf_tau": 143770855.53469557,
+     "m_cond": 0.895807,
+     "bipolar_risk": true
+    },
+    {
+     "t_k": 900.0,
+     "carrier": "p",
+     "n_target": 1e+20,
+     "s_mean_uvk": 36.269714,
+     "s_uvk": [
+      -59.1,
+      84.0,
+      84.0
+     ],
+     "sigma_tau_mean": 4.51096535524715e+17,
+     "pf_tau": 593413964.1348306,
+     "m_cond": 6.6279964,
+     "bipolar_risk": true
+    },
+    {
+     "t_k": 900.0,
+     "carrier": "p",
+     "n_target": 1e+21,
+     "s_mean_uvk": 80.34718,
+     "s_uvk": [
+      59.8,
+      90.6,
+      90.6
+     ],
+     "sigma_tau_mean": 8.277774860672191e+17,
+     "pf_tau": 5343858620.533343,
+     "m_cond": 33.553955,
+     "bipolar_risk": true
+    }
+   ]
+  },
+  "transport_mbj": null
+ }
+}

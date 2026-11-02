@@ -1,0 +1,250 @@
+{
+ "target": "Cs3Ti2Cl9",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Cl2",
+  "Cs",
+  "Ti"
+ ],
+ "n_system_hull_phases": 12,
+ "phases": [
+  {
+   "formula": "Cl2",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002056207",
+   "target": false
+  },
+  {
+   "formula": "CsCl4",
+   "x": [
+    0.8,
+    0.2,
+    0.0
+   ],
+   "dE_meV_per_atom": -841.13,
+   "mat_id": "agm108240951",
+   "target": false
+  },
+  {
+   "formula": "TiCl4",
+   "x": [
+    0.8,
+    0.0,
+    0.2
+   ],
+   "dE_meV_per_atom": -1583.31,
+   "mat_id": "agm003226013",
+   "target": false
+  },
+  {
+   "formula": "CsCl3",
+   "x": [
+    0.75,
+    0.25,
+    0.0
+   ],
+   "dE_meV_per_atom": -1050.77,
+   "mat_id": "agm092726243",
+   "target": false
+  },
+  {
+   "formula": "TiCl3",
+   "x": [
+    0.75,
+    0.0,
+    0.25
+   ],
+   "dE_meV_per_atom": -1607.0,
+   "mat_id": "agm070992858",
+   "target": false
+  },
+  {
+   "formula": "Cs2TiCl6",
+   "x": [
+    0.666667,
+    0.222222,
+    0.111111
+   ],
+   "dE_meV_per_atom": -1836.85,
+   "mat_id": "agm003267965",
+   "target": false
+  },
+  {
+   "formula": "TiCl2",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1502.62,
+   "mat_id": "agm003295150",
+   "target": false
+  },
+  {
+   "formula": "Cs3Ti2Cl9",
+   "x": [
+    0.642857,
+    0.214286,
+    0.142857
+   ],
+   "dE_meV_per_atom": -1828.81,
+   "mat_id": "agm003237189",
+   "target": true
+  },
+  {
+   "formula": "CsCl",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -1960.34,
+   "mat_id": "agm003157644",
+   "target": false
+  },
+  {
+   "formula": "TiCl",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -1168.03,
+   "mat_id": "agm002332131",
+   "target": false
+  },
+  {
+   "formula": "Cs",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002145648",
+   "target": false
+  },
+  {
+   "formula": "Ti",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003160753",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Cl2",
+   "Cs2TiCl6"
+  ],
+  [
+   "Cl2",
+   "CsCl3"
+  ],
+  [
+   "Cl2",
+   "CsCl4"
+  ],
+  [
+   "Cl2",
+   "TiCl4"
+  ],
+  [
+   "Cs",
+   "CsCl"
+  ],
+  [
+   "Cs",
+   "Ti"
+  ],
+  [
+   "Cs2TiCl6",
+   "Cs3Ti2Cl9"
+  ],
+  [
+   "Cs2TiCl6",
+   "CsCl"
+  ],
+  [
+   "Cs2TiCl6",
+   "CsCl3"
+  ],
+  [
+   "Cs2TiCl6",
+   "CsCl4"
+  ],
+  [
+   "Cs2TiCl6",
+   "TiCl3"
+  ],
+  [
+   "Cs2TiCl6",
+   "TiCl4"
+  ],
+  [
+   "Cs3Ti2Cl9",
+   "CsCl"
+  ],
+  [
+   "Cs3Ti2Cl9",
+   "TiCl"
+  ],
+  [
+   "Cs3Ti2Cl9",
+   "TiCl2"
+  ],
+  [
+   "Cs3Ti2Cl9",
+   "TiCl3"
+  ],
+  [
+   "CsCl",
+   "CsCl3"
+  ],
+  [
+   "CsCl",
+   "Ti"
+  ],
+  [
+   "CsCl",
+   "TiCl"
+  ],
+  [
+   "CsCl3",
+   "CsCl4"
+  ],
+  [
+   "Ti",
+   "TiCl"
+  ],
+  [
+   "TiCl",
+   "TiCl2"
+  ],
+  [
+   "TiCl2",
+   "TiCl3"
+  ],
+  [
+   "TiCl3",
+   "TiCl4"
+  ]
+ ],
+ "target_neighbours": [
+  "Cs2TiCl6",
+  "CsCl",
+  "TiCl",
+  "TiCl2",
+  "TiCl3"
+ ],
+ "note": ""
+}
