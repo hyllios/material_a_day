@@ -1,0 +1,505 @@
+{
+ "target": "Rb3As5O9",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "As",
+  "O2",
+  "Rb"
+ ],
+ "n_system_hull_phases": 24,
+ "phases": [
+  {
+   "formula": "As",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm135086247",
+   "target": false
+  },
+  {
+   "formula": "Rb3As11",
+   "x": [
+    0.785714,
+    0.0,
+    0.214286
+   ],
+   "dE_meV_per_atom": -280.9,
+   "mat_id": "agm003283687",
+   "target": false
+  },
+  {
+   "formula": "Rb2As3",
+   "x": [
+    0.6,
+    0.0,
+    0.4
+   ],
+   "dE_meV_per_atom": -418.08,
+   "mat_id": "agm003206697",
+   "target": false
+  },
+  {
+   "formula": "RbAs",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -427.6,
+   "mat_id": "agm003219892",
+   "target": false
+  },
+  {
+   "formula": "Rb5As4",
+   "x": [
+    0.444444,
+    0.0,
+    0.555556
+   ],
+   "dE_meV_per_atom": -406.19,
+   "mat_id": "agm002198500",
+   "target": false
+  },
+  {
+   "formula": "As2O3",
+   "x": [
+    0.4,
+    0.6,
+    0.0
+   ],
+   "dE_meV_per_atom": -1206.4,
+   "mat_id": "agm005289754",
+   "target": false
+  },
+  {
+   "formula": "AsO2",
+   "x": [
+    0.333333,
+    0.666667,
+    0.0
+   ],
+   "dE_meV_per_atom": -1122.25,
+   "mat_id": "agm077815953",
+   "target": false
+  },
+  {
+   "formula": "Rb3As5O9",
+   "x": [
+    0.294118,
+    0.529412,
+    0.176471
+   ],
+   "dE_meV_per_atom": -1432.73,
+   "mat_id": "agm008108183",
+   "target": true
+  },
+  {
+   "formula": "As2O5",
+   "x": [
+    0.285714,
+    0.714286,
+    0.0
+   ],
+   "dE_meV_per_atom": -1052.31,
+   "mat_id": "agm003236583",
+   "target": false
+  },
+  {
+   "formula": "RbAs3O8",
+   "x": [
+    0.25,
+    0.666667,
+    0.083333
+   ],
+   "dE_meV_per_atom": -1259.99,
+   "mat_id": "agm002304691",
+   "target": false
+  },
+  {
+   "formula": "RbAsO2",
+   "x": [
+    0.25,
+    0.5,
+    0.25
+   ],
+   "dE_meV_per_atom": -1515.67,
+   "mat_id": "agm003120087",
+   "target": false
+  },
+  {
+   "formula": "Rb3As",
+   "x": [
+    0.25,
+    0.0,
+    0.75
+   ],
+   "dE_meV_per_atom": -258.07,
+   "mat_id": "agm003262956",
+   "target": false
+  },
+  {
+   "formula": "RbAsO3",
+   "x": [
+    0.2,
+    0.6,
+    0.2
+   ],
+   "dE_meV_per_atom": -1516.7,
+   "mat_id": "agm002170794",
+   "target": false
+  },
+  {
+   "formula": "Rb3AsO3",
+   "x": [
+    0.142857,
+    0.428571,
+    0.428571
+   ],
+   "dE_meV_per_atom": -1500.91,
+   "mat_id": "agm090077197",
+   "target": false
+  },
+  {
+   "formula": "Rb3AsO4",
+   "x": [
+    0.125,
+    0.5,
+    0.375
+   ],
+   "dE_meV_per_atom": -1663.58,
+   "mat_id": "agm006032876",
+   "target": false
+  },
+  {
+   "formula": "O2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  },
+  {
+   "formula": "RbO4",
+   "x": [
+    0.0,
+    0.8,
+    0.2
+   ],
+   "dE_meV_per_atom": -581.73,
+   "mat_id": "agm083220590",
+   "target": false
+  },
+  {
+   "formula": "RbO2",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -855.75,
+   "mat_id": "agm003161250",
+   "target": false
+  },
+  {
+   "formula": "Rb3O4",
+   "x": [
+    0.0,
+    0.571429,
+    0.428571
+   ],
+   "dE_meV_per_atom": -948.38,
+   "mat_id": "agm124521929",
+   "target": false
+  },
+  {
+   "formula": "Rb2O2",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -995.2,
+   "mat_id": "agm002170258",
+   "target": false
+  },
+  {
+   "formula": "Rb2O",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -905.64,
+   "mat_id": "agm073430153",
+   "target": false
+  },
+  {
+   "formula": "Rb3O",
+   "x": [
+    0.0,
+    0.25,
+    0.75
+   ],
+   "dE_meV_per_atom": -726.56,
+   "mat_id": "agm078858088",
+   "target": false
+  },
+  {
+   "formula": "Rb9O2",
+   "x": [
+    0.0,
+    0.181818,
+    0.818182
+   ],
+   "dE_meV_per_atom": -535.97,
+   "mat_id": "agm003228707",
+   "target": false
+  },
+  {
+   "formula": "Rb",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm010203482",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "As",
+   "As2O3"
+  ],
+  [
+   "As",
+   "Rb2As3"
+  ],
+  [
+   "As",
+   "Rb3As11"
+  ],
+  [
+   "As",
+   "Rb3As5O9"
+  ],
+  [
+   "As",
+   "RbAsO2"
+  ],
+  [
+   "As2O3",
+   "AsO2"
+  ],
+  [
+   "As2O3",
+   "Rb3As5O9"
+  ],
+  [
+   "As2O3",
+   "RbAs3O8"
+  ],
+  [
+   "As2O3",
+   "RbAsO3"
+  ],
+  [
+   "As2O5",
+   "AsO2"
+  ],
+  [
+   "As2O5",
+   "O2"
+  ],
+  [
+   "As2O5",
+   "RbAs3O8"
+  ],
+  [
+   "AsO2",
+   "RbAs3O8"
+  ],
+  [
+   "O2",
+   "RbAs3O8"
+  ],
+  [
+   "O2",
+   "RbAsO3"
+  ],
+  [
+   "O2",
+   "RbO4"
+  ],
+  [
+   "Rb",
+   "Rb3As"
+  ],
+  [
+   "Rb",
+   "Rb3AsO3"
+  ],
+  [
+   "Rb",
+   "Rb3O"
+  ],
+  [
+   "Rb",
+   "Rb9O2"
+  ],
+  [
+   "Rb2As3",
+   "Rb3As11"
+  ],
+  [
+   "Rb2As3",
+   "Rb3AsO3"
+  ],
+  [
+   "Rb2As3",
+   "Rb3AsO4"
+  ],
+  [
+   "Rb2As3",
+   "RbAs"
+  ],
+  [
+   "Rb2O",
+   "Rb2O2"
+  ],
+  [
+   "Rb2O",
+   "Rb3AsO4"
+  ],
+  [
+   "Rb2O",
+   "Rb3O"
+  ],
+  [
+   "Rb2O",
+   "Rb3O4"
+  ],
+  [
+   "Rb2O2",
+   "Rb3AsO4"
+  ],
+  [
+   "Rb2O2",
+   "Rb3O4"
+  ],
+  [
+   "Rb3As",
+   "Rb3AsO3"
+  ],
+  [
+   "Rb3As",
+   "Rb5As4"
+  ],
+  [
+   "Rb3As",
+   "RbAs"
+  ],
+  [
+   "Rb3As11",
+   "Rb3AsO4"
+  ],
+  [
+   "Rb3As11",
+   "RbAsO2"
+  ],
+  [
+   "Rb3As5O9",
+   "RbAsO2"
+  ],
+  [
+   "Rb3As5O9",
+   "RbAsO3"
+  ],
+  [
+   "Rb3AsO3",
+   "Rb3AsO4"
+  ],
+  [
+   "Rb3AsO3",
+   "Rb3O"
+  ],
+  [
+   "Rb3AsO3",
+   "Rb5As4"
+  ],
+  [
+   "Rb3AsO3",
+   "Rb9O2"
+  ],
+  [
+   "Rb3AsO3",
+   "RbAs"
+  ],
+  [
+   "Rb3AsO4",
+   "Rb3O"
+  ],
+  [
+   "Rb3AsO4",
+   "Rb3O4"
+  ],
+  [
+   "Rb3AsO4",
+   "RbAsO2"
+  ],
+  [
+   "Rb3AsO4",
+   "RbAsO3"
+  ],
+  [
+   "Rb3AsO4",
+   "RbO2"
+  ],
+  [
+   "Rb3AsO4",
+   "RbO4"
+  ],
+  [
+   "Rb3O",
+   "Rb9O2"
+  ],
+  [
+   "Rb3O4",
+   "RbO2"
+  ],
+  [
+   "Rb5As4",
+   "RbAs"
+  ],
+  [
+   "RbAs3O8",
+   "RbAsO3"
+  ],
+  [
+   "RbAsO2",
+   "RbAsO3"
+  ],
+  [
+   "RbAsO3",
+   "RbO4"
+  ],
+  [
+   "RbO2",
+   "RbO4"
+  ]
+ ],
+ "target_neighbours": [
+  "As",
+  "As2O3",
+  "RbAsO2",
+  "RbAsO3"
+ ],
+ "note": ""
+}
