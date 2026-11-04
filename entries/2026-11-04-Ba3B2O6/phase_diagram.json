@@ -1,0 +1,320 @@
+{
+ "target": "Ba3(BO3)2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "B",
+  "Ba",
+  "O2"
+ ],
+ "n_system_hull_phases": 15,
+ "phases": [
+  {
+   "formula": "B",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm005250256",
+   "target": false
+  },
+  {
+   "formula": "BaB6",
+   "x": [
+    0.857143,
+    0.142857,
+    0.0
+   ],
+   "dE_meV_per_atom": -431.78,
+   "mat_id": "agm003258554",
+   "target": false
+  },
+  {
+   "formula": "B6O",
+   "x": [
+    0.857143,
+    0.0,
+    0.142857
+   ],
+   "dE_meV_per_atom": -706.17,
+   "mat_id": "agm003216030",
+   "target": false
+  },
+  {
+   "formula": "B2O3",
+   "x": [
+    0.4,
+    0.0,
+    0.6
+   ],
+   "dE_meV_per_atom": -2381.39,
+   "mat_id": "agm081985540",
+   "target": false
+  },
+  {
+   "formula": "BaB8O13",
+   "x": [
+    0.363636,
+    0.045455,
+    0.590909
+   ],
+   "dE_meV_per_atom": -2534.97,
+   "mat_id": "agm003284040",
+   "target": false
+  },
+  {
+   "formula": "Ba2B10O17",
+   "x": [
+    0.344828,
+    0.068966,
+    0.586207
+   ],
+   "dE_meV_per_atom": -2588.89,
+   "mat_id": "agm003283846",
+   "target": false
+  },
+  {
+   "formula": "Ba(BO2)2",
+   "x": [
+    0.285714,
+    0.142857,
+    0.571429
+   ],
+   "dE_meV_per_atom": -2711.44,
+   "mat_id": "agm003283984",
+   "target": false
+  },
+  {
+   "formula": "Ba2B2O5",
+   "x": [
+    0.222222,
+    0.222222,
+    0.555556
+   ],
+   "dE_meV_per_atom": -2783.0,
+   "mat_id": "agm005268922",
+   "target": false
+  },
+  {
+   "formula": "Ba3(BO3)2",
+   "x": [
+    0.181818,
+    0.272727,
+    0.545455
+   ],
+   "dE_meV_per_atom": -2808.41,
+   "mat_id": "agm003228560",
+   "target": true
+  },
+  {
+   "formula": "Ba",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002138295",
+   "target": false
+  },
+  {
+   "formula": "Ba2O",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1741.24,
+   "mat_id": "agm093541972",
+   "target": false
+  },
+  {
+   "formula": "BaO",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -2543.18,
+   "mat_id": "agm001192060",
+   "target": false
+  },
+  {
+   "formula": "Ba2O3",
+   "x": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "dE_meV_per_atom": -2162.4,
+   "mat_id": "agm104473427",
+   "target": false
+  },
+  {
+   "formula": "BaO2",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -1904.85,
+   "mat_id": "agm001907021",
+   "target": false
+  },
+  {
+   "formula": "O2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "B",
+   "B6O"
+  ],
+  [
+   "B",
+   "BaB6"
+  ],
+  [
+   "B2O3",
+   "B6O"
+  ],
+  [
+   "B2O3",
+   "BaB8O13"
+  ],
+  [
+   "B2O3",
+   "O2"
+  ],
+  [
+   "B6O",
+   "Ba(BO2)2"
+  ],
+  [
+   "B6O",
+   "Ba2B10O17"
+  ],
+  [
+   "B6O",
+   "BaB6"
+  ],
+  [
+   "B6O",
+   "BaB8O13"
+  ],
+  [
+   "Ba",
+   "Ba2O"
+  ],
+  [
+   "Ba",
+   "BaB6"
+  ],
+  [
+   "Ba",
+   "BaO"
+  ],
+  [
+   "Ba(BO2)2",
+   "Ba2B10O17"
+  ],
+  [
+   "Ba(BO2)2",
+   "Ba2B2O5"
+  ],
+  [
+   "Ba(BO2)2",
+   "BaB6"
+  ],
+  [
+   "Ba(BO2)2",
+   "O2"
+  ],
+  [
+   "Ba2B10O17",
+   "BaB8O13"
+  ],
+  [
+   "Ba2B10O17",
+   "O2"
+  ],
+  [
+   "Ba2B2O5",
+   "Ba3(BO3)2"
+  ],
+  [
+   "Ba2B2O5",
+   "BaB6"
+  ],
+  [
+   "Ba2B2O5",
+   "O2"
+  ],
+  [
+   "Ba2O",
+   "BaB6"
+  ],
+  [
+   "Ba2O",
+   "BaO"
+  ],
+  [
+   "Ba2O3",
+   "Ba3(BO3)2"
+  ],
+  [
+   "Ba2O3",
+   "BaO"
+  ],
+  [
+   "Ba2O3",
+   "BaO2"
+  ],
+  [
+   "Ba3(BO3)2",
+   "BaB6"
+  ],
+  [
+   "Ba3(BO3)2",
+   "BaO"
+  ],
+  [
+   "Ba3(BO3)2",
+   "BaO2"
+  ],
+  [
+   "Ba3(BO3)2",
+   "O2"
+  ],
+  [
+   "BaB6",
+   "BaO"
+  ],
+  [
+   "BaB8O13",
+   "O2"
+  ],
+  [
+   "BaO2",
+   "O2"
+  ]
+ ],
+ "target_neighbours": [
+  "Ba2B2O5",
+  "Ba2O3",
+  "BaB6",
+  "BaO",
+  "BaO2",
+  "O2"
+ ],
+ "note": ""
+}
