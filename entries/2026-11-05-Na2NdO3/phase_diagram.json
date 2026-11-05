@@ -1,0 +1,302 @@
+{
+ "target": "Na2NdO3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Na",
+  "Nd",
+  "O2"
+ ],
+ "n_system_hull_phases": 14,
+ "phases": [
+  {
+   "formula": "Na",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157427",
+   "target": false
+  },
+  {
+   "formula": "Na2O",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1207.59,
+   "mat_id": "agm003160913",
+   "target": false
+  },
+  {
+   "formula": "Na2O2",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -1068.72,
+   "mat_id": "agm005226133",
+   "target": false
+  },
+  {
+   "formula": "Na3O4",
+   "x": [
+    0.428571,
+    0.0,
+    0.571429
+   ],
+   "dE_meV_per_atom": -956.97,
+   "mat_id": "agm089841710",
+   "target": false
+  },
+  {
+   "formula": "Na4NdO5",
+   "x": [
+    0.4,
+    0.1,
+    0.5
+   ],
+   "dE_meV_per_atom": -1803.98,
+   "mat_id": "agm002174297",
+   "target": false
+  },
+  {
+   "formula": "Na2NdO3",
+   "x": [
+    0.333333,
+    0.166667,
+    0.5
+   ],
+   "dE_meV_per_atom": -2288.83,
+   "mat_id": "agm002300984",
+   "target": true
+  },
+  {
+   "formula": "NaO2",
+   "x": [
+    0.333333,
+    0.0,
+    0.666667
+   ],
+   "dE_meV_per_atom": -797.65,
+   "mat_id": "agm099652574",
+   "target": false
+  },
+  {
+   "formula": "NaNdO2",
+   "x": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "dE_meV_per_atom": -2670.04,
+   "mat_id": "agm003263598",
+   "target": false
+  },
+  {
+   "formula": "NaO4",
+   "x": [
+    0.2,
+    0.0,
+    0.8
+   ],
+   "dE_meV_per_atom": -510.4,
+   "mat_id": "agm136634462",
+   "target": false
+  },
+  {
+   "formula": "Nd",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm010173752",
+   "target": false
+  },
+  {
+   "formula": "NdO",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -2917.38,
+   "mat_id": "agm003157416",
+   "target": false
+  },
+  {
+   "formula": "Nd2O3",
+   "x": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "dE_meV_per_atom": -3378.52,
+   "mat_id": "agm003247496",
+   "target": false
+  },
+  {
+   "formula": "NdO2",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -2978.95,
+   "mat_id": "agm003274063",
+   "target": false
+  },
+  {
+   "formula": "O2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Na",
+   "Na2O"
+  ],
+  [
+   "Na",
+   "NaNdO2"
+  ],
+  [
+   "Na",
+   "Nd"
+  ],
+  [
+   "Na",
+   "Nd2O3"
+  ],
+  [
+   "Na",
+   "NdO"
+  ],
+  [
+   "Na2NdO3",
+   "Na2O"
+  ],
+  [
+   "Na2NdO3",
+   "Na4NdO5"
+  ],
+  [
+   "Na2NdO3",
+   "NaNdO2"
+  ],
+  [
+   "Na2NdO3",
+   "NaO2"
+  ],
+  [
+   "Na2NdO3",
+   "NaO4"
+  ],
+  [
+   "Na2NdO3",
+   "Nd2O3"
+  ],
+  [
+   "Na2NdO3",
+   "NdO2"
+  ],
+  [
+   "Na2O",
+   "Na2O2"
+  ],
+  [
+   "Na2O",
+   "Na3O4"
+  ],
+  [
+   "Na2O",
+   "Na4NdO5"
+  ],
+  [
+   "Na2O",
+   "NaNdO2"
+  ],
+  [
+   "Na2O2",
+   "Na3O4"
+  ],
+  [
+   "Na2O2",
+   "Na4NdO5"
+  ],
+  [
+   "Na3O4",
+   "Na4NdO5"
+  ],
+  [
+   "Na3O4",
+   "NaO2"
+  ],
+  [
+   "Na3O4",
+   "NaO4"
+  ],
+  [
+   "Na3O4",
+   "O2"
+  ],
+  [
+   "Na4NdO5",
+   "NaO2"
+  ],
+  [
+   "NaNdO2",
+   "Nd2O3"
+  ],
+  [
+   "NaO2",
+   "NaO4"
+  ],
+  [
+   "NaO4",
+   "NdO2"
+  ],
+  [
+   "NaO4",
+   "O2"
+  ],
+  [
+   "Nd",
+   "NdO"
+  ],
+  [
+   "Nd2O3",
+   "NdO"
+  ],
+  [
+   "Nd2O3",
+   "NdO2"
+  ],
+  [
+   "NdO2",
+   "O2"
+  ]
+ ],
+ "target_neighbours": [
+  "Na2O",
+  "Na4NdO5",
+  "NaNdO2",
+  "NaO2",
+  "NaO4",
+  "Nd2O3",
+  "NdO2"
+ ],
+ "note": ""
+}
