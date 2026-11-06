@@ -1,0 +1,98 @@
+{
+ "target": "SrSi2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Si",
+  "Sr"
+ ],
+ "n_system_hull_phases": 6,
+ "phases": [
+  {
+   "formula": "Si",
+   "x": [
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157600",
+   "target": false
+  },
+  {
+   "formula": "SrSi2",
+   "x": [
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -363.39,
+   "mat_id": "agm003201892",
+   "target": true
+  },
+  {
+   "formula": "SrSi",
+   "x": [
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -468.49,
+   "mat_id": "agm002317778",
+   "target": false
+  },
+  {
+   "formula": "Sr5Si3",
+   "x": [
+    0.375,
+    0.625
+   ],
+   "dE_meV_per_atom": -393.86,
+   "mat_id": "agm003219887",
+   "target": false
+  },
+  {
+   "formula": "Sr2Si",
+   "x": [
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -365.66,
+   "mat_id": "agm003210683",
+   "target": false
+  },
+  {
+   "formula": "Sr",
+   "x": [
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm077650727",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Si",
+   "SrSi2"
+  ],
+  [
+   "Sr",
+   "Sr2Si"
+  ],
+  [
+   "Sr2Si",
+   "Sr5Si3"
+  ],
+  [
+   "Sr5Si3",
+   "SrSi"
+  ],
+  [
+   "SrSi",
+   "SrSi2"
+  ]
+ ],
+ "target_neighbours": [
+  "Si",
+  "SrSi"
+ ],
+ "note": ""
+}

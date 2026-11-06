@@ -1,0 +1,116 @@
+{
+ "source": "/home/users/marqumln/nas-data-001/espresso/agm",
+ "method": "Quantum ESPRESSO, DFPT, PBEsol",
+ "n_runs": 93120,
+ "exact": [],
+ "same_composition": [
+  {
+   "mat_id": "agm002186576",
+   "kind": "done",
+   "run": "batch-022/done/Si2Sr_agm002186576",
+   "lambda": 0.161,
+   "wlog_K": 251.8,
+   "w2_K": 320.33938075945224,
+   "Tc_K_AllenDynes": {
+    "0.100": 0.0,
+    "0.120": 0.0,
+    "0.140": 0.0
+   },
+   "spacegroup": 166,
+   "conventional_cell": [
+    3.891,
+    3.891,
+    16.637,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "nsites_primitive": 3,
+   "phonon_max_cm1": 405.0,
+   "phonon_min_cm1": 2.0,
+   "files": [
+    "Eliashberg.dat",
+    "a2F.dos10",
+    "el-bs.pdf",
+    "geo_opt.cif",
+    "lambda",
+    "matdyn.dos",
+    "ph-bs.pdf"
+   ]
+  },
+  {
+   "mat_id": "agm002186575",
+   "kind": "done",
+   "run": "batch-320b/done/Si2Sr_agm002186575",
+   "lambda": 0.2598,
+   "wlog_K": 264.0,
+   "w2_K": 346.0082422695315,
+   "Tc_K_AllenDynes": {
+    "0.100": 0.024,
+    "0.120": 0.004,
+    "0.140": 0.0,
+    "0.160": 0.0
+   },
+   "spacegroup": 164,
+   "conventional_cell": [
+    3.959,
+    3.959,
+    5.014,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "nsites_primitive": 3,
+   "phonon_max_cm1": 422.0,
+   "phonon_min_cm1": 2.0,
+   "files": [
+    "Eliashberg.dat",
+    "a2F.dos10",
+    "el-bs.pdf",
+    "geo_opt.cif",
+    "lambda",
+    "matdyn.dos",
+    "ph-bs.pdf"
+   ]
+  },
+  {
+   "mat_id": "agm002186578",
+   "kind": "imag",
+   "run": "batch-014/imag/Si2Sr_agm002186578",
+   "spacegroup": 191,
+   "conventional_cell": [
+    4.092,
+    4.092,
+    4.555,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "nsites_primitive": 3,
+   "files": [
+    "el-bs.pdf",
+    "geo_opt.cif"
+   ]
+  },
+  {
+   "mat_id": "agm011723659",
+   "kind": "imag",
+   "run": "batch-089/imag/Si2Sr_agm011723659",
+   "spacegroup": 191,
+   "conventional_cell": [
+    4.092,
+    4.092,
+    4.555,
+    90.0,
+    90.0,
+    120.0
+   ],
+   "nsites_primitive": 3,
+   "files": [
+    "el-bs.pdf",
+    "geo_opt.cif"
+   ]
+  }
+ ],
+ "experiment": []
+}
