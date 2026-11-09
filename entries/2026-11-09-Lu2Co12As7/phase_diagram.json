@@ -1,0 +1,309 @@
+{
+ "target": "Lu2Co12As7",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "As",
+  "Co",
+  "Lu"
+ ],
+ "n_system_hull_phases": 15,
+ "phases": [
+  {
+   "formula": "As",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm135086247",
+   "target": false
+  },
+  {
+   "formula": "CoAs3",
+   "x": [
+    0.75,
+    0.25,
+    0.0
+   ],
+   "dE_meV_per_atom": -304.17,
+   "mat_id": "agm003220504",
+   "target": false
+  },
+  {
+   "formula": "CoAs2",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -324.47,
+   "mat_id": "agm002205885",
+   "target": false
+  },
+  {
+   "formula": "CoAs",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -295.12,
+   "mat_id": "agm003262905",
+   "target": false
+  },
+  {
+   "formula": "LuAs",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -1463.95,
+   "mat_id": "agm003157503",
+   "target": false
+  },
+  {
+   "formula": "Lu2Co12As7",
+   "x": [
+    0.333333,
+    0.571429,
+    0.095238
+   ],
+   "dE_meV_per_atom": -453.55,
+   "mat_id": "agm081708447",
+   "target": true
+  },
+  {
+   "formula": "Co",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157425",
+   "target": false
+  },
+  {
+   "formula": "Lu2Co17",
+   "x": [
+    0.0,
+    0.894737,
+    0.105263
+   ],
+   "dE_meV_per_atom": -114.8,
+   "mat_id": "agm006220979",
+   "target": false
+  },
+  {
+   "formula": "LuCo3",
+   "x": [
+    0.0,
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -236.23,
+   "mat_id": "agm005232882",
+   "target": false
+  },
+  {
+   "formula": "LuCo2",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -289.6,
+   "mat_id": "agm005439385",
+   "target": false
+  },
+  {
+   "formula": "LuCo",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -279.45,
+   "mat_id": "agm002206338",
+   "target": false
+  },
+  {
+   "formula": "Lu3Co2",
+   "x": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "dE_meV_per_atom": -259.01,
+   "mat_id": "agm127820007",
+   "target": false
+  },
+  {
+   "formula": "Lu5Co2",
+   "x": [
+    0.0,
+    0.285714,
+    0.714286
+   ],
+   "dE_meV_per_atom": -232.53,
+   "mat_id": "agm077931495",
+   "target": false
+  },
+  {
+   "formula": "Lu3Co",
+   "x": [
+    0.0,
+    0.25,
+    0.75
+   ],
+   "dE_meV_per_atom": -211.46,
+   "mat_id": "agm005255529",
+   "target": false
+  },
+  {
+   "formula": "Lu",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002159529",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "As",
+   "CoAs3"
+  ],
+  [
+   "As",
+   "LuAs"
+  ],
+  [
+   "Co",
+   "CoAs"
+  ],
+  [
+   "Co",
+   "Lu2Co12As7"
+  ],
+  [
+   "Co",
+   "Lu2Co17"
+  ],
+  [
+   "Co",
+   "LuAs"
+  ],
+  [
+   "CoAs",
+   "CoAs2"
+  ],
+  [
+   "CoAs",
+   "CoAs3"
+  ],
+  [
+   "CoAs",
+   "Lu2Co12As7"
+  ],
+  [
+   "CoAs",
+   "LuAs"
+  ],
+  [
+   "CoAs2",
+   "CoAs3"
+  ],
+  [
+   "CoAs2",
+   "LuAs"
+  ],
+  [
+   "CoAs3",
+   "LuAs"
+  ],
+  [
+   "Lu",
+   "Lu3Co"
+  ],
+  [
+   "Lu",
+   "Lu5Co2"
+  ],
+  [
+   "Lu",
+   "LuAs"
+  ],
+  [
+   "Lu2Co12As7",
+   "LuAs"
+  ],
+  [
+   "Lu2Co17",
+   "LuAs"
+  ],
+  [
+   "Lu2Co17",
+   "LuCo3"
+  ],
+  [
+   "Lu3Co",
+   "Lu5Co2"
+  ],
+  [
+   "Lu3Co",
+   "LuAs"
+  ],
+  [
+   "Lu3Co2",
+   "Lu5Co2"
+  ],
+  [
+   "Lu3Co2",
+   "LuAs"
+  ],
+  [
+   "Lu3Co2",
+   "LuCo"
+  ],
+  [
+   "Lu5Co2",
+   "LuAs"
+  ],
+  [
+   "Lu5Co2",
+   "LuCo"
+  ],
+  [
+   "LuAs",
+   "LuCo"
+  ],
+  [
+   "LuAs",
+   "LuCo2"
+  ],
+  [
+   "LuAs",
+   "LuCo3"
+  ],
+  [
+   "LuCo",
+   "LuCo2"
+  ],
+  [
+   "LuCo2",
+   "LuCo3"
+  ]
+ ],
+ "target_neighbours": [
+  "Co",
+  "CoAs",
+  "LuAs"
+ ],
+ "note": ""
+}
