@@ -1,0 +1,186 @@
+{
+ "target": "KNpAgS3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "K2S",
+  "Ag2S",
+  "NpS2"
+ ],
+ "n_system_hull_phases": 29,
+ "phases": [
+  {
+   "formula": "K2S",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm003160941",
+   "target": false
+  },
+  {
+   "formula": "K3AgS2",
+   "x": [
+    0.75,
+    0.25,
+    0.0
+   ],
+   "dE_meV_per_atom": -98.93,
+   "mat_id": "agm002236671",
+   "target": false
+  },
+  {
+   "formula": "KAgS",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -154.21,
+   "mat_id": "agm005512559",
+   "target": false
+  },
+  {
+   "formula": "K2NpS3",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -189.98,
+   "mat_id": "agm005671999",
+   "target": false
+  },
+  {
+   "formula": "KAg3S2",
+   "x": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "dE_meV_per_atom": -105.13,
+   "mat_id": "agm002236674",
+   "target": false
+  },
+  {
+   "formula": "KNpAgS3",
+   "x": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "dE_meV_per_atom": -147.3,
+   "mat_id": "agm003211451",
+   "target": true
+  },
+  {
+   "formula": "KAg5S3",
+   "x": [
+    0.166667,
+    0.833333,
+    0.0
+   ],
+   "dE_meV_per_atom": -84.9,
+   "mat_id": "agm003278329",
+   "target": false
+  },
+  {
+   "formula": "Ag2S",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003201862",
+   "target": false
+  },
+  {
+   "formula": "NpS2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm008035325",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ag2S",
+   "KAg5S3"
+  ],
+  [
+   "Ag2S",
+   "KNpAgS3"
+  ],
+  [
+   "Ag2S",
+   "NpS2"
+  ],
+  [
+   "K2NpS3",
+   "K2S"
+  ],
+  [
+   "K2NpS3",
+   "K3AgS2"
+  ],
+  [
+   "K2NpS3",
+   "KAgS"
+  ],
+  [
+   "K2NpS3",
+   "KNpAgS3"
+  ],
+  [
+   "K2NpS3",
+   "NpS2"
+  ],
+  [
+   "K2S",
+   "K3AgS2"
+  ],
+  [
+   "K3AgS2",
+   "KAgS"
+  ],
+  [
+   "KAg3S2",
+   "KAg5S3"
+  ],
+  [
+   "KAg3S2",
+   "KAgS"
+  ],
+  [
+   "KAg3S2",
+   "KNpAgS3"
+  ],
+  [
+   "KAg5S3",
+   "KNpAgS3"
+  ],
+  [
+   "KAgS",
+   "KNpAgS3"
+  ],
+  [
+   "KNpAgS3",
+   "NpS2"
+  ]
+ ],
+ "target_neighbours": [
+  "Ag2S",
+  "K2NpS3",
+  "KAg3S2",
+  "KAg5S3",
+  "KAgS",
+  "NpS2"
+ ],
+ "note": "tie lines of the section that are not tie lines of the full hull (the equilibrium leaves the plane there): K2NpS3-NpS2"
+}
