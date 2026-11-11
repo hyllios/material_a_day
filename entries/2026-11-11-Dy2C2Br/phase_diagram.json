@@ -1,0 +1,235 @@
+{
+ "target": "Dy2C2Br",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Br",
+  "C",
+  "Dy"
+ ],
+ "n_system_hull_phases": 11,
+ "phases": [
+  {
+   "formula": "Br",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002042447",
+   "target": false
+  },
+  {
+   "formula": "DyBr3",
+   "x": [
+    0.75,
+    0.0,
+    0.25
+   ],
+   "dE_meV_per_atom": -1799.34,
+   "mat_id": "agm002138980",
+   "target": false
+  },
+  {
+   "formula": "DyBr2",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1832.41,
+   "mat_id": "agm002257517",
+   "target": false
+  },
+  {
+   "formula": "Dy3CBr3",
+   "x": [
+    0.428571,
+    0.142857,
+    0.428571
+   ],
+   "dE_meV_per_atom": -1323.76,
+   "mat_id": "agm005916766",
+   "target": false
+  },
+  {
+   "formula": "DyCBr",
+   "x": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1073.73,
+   "mat_id": "agm003609968",
+   "target": false
+  },
+  {
+   "formula": "Dy2CBr",
+   "x": [
+    0.25,
+    0.25,
+    0.5
+   ],
+   "dE_meV_per_atom": -907.03,
+   "mat_id": "agm013354591",
+   "target": false
+  },
+  {
+   "formula": "Dy2C2Br",
+   "x": [
+    0.2,
+    0.4,
+    0.4
+   ],
+   "dE_meV_per_atom": -789.84,
+   "mat_id": "agm002201807",
+   "target": true
+  },
+  {
+   "formula": "C",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003187822",
+   "target": false
+  },
+  {
+   "formula": "Dy2C3",
+   "x": [
+    0.0,
+    0.6,
+    0.4
+   ],
+   "dE_meV_per_atom": -256.76,
+   "mat_id": "agm003225208",
+   "target": false
+  },
+  {
+   "formula": "Dy2C",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -155.64,
+   "mat_id": "agm010156460",
+   "target": false
+  },
+  {
+   "formula": "Dy",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm005252088",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Br",
+   "C"
+  ],
+  [
+   "Br",
+   "DyBr3"
+  ],
+  [
+   "C",
+   "Dy2C2Br"
+  ],
+  [
+   "C",
+   "Dy2C3"
+  ],
+  [
+   "C",
+   "DyBr2"
+  ],
+  [
+   "C",
+   "DyBr3"
+  ],
+  [
+   "C",
+   "DyCBr"
+  ],
+  [
+   "Dy",
+   "Dy2C"
+  ],
+  [
+   "Dy",
+   "Dy2CBr"
+  ],
+  [
+   "Dy",
+   "Dy3CBr3"
+  ],
+  [
+   "Dy",
+   "DyBr2"
+  ],
+  [
+   "Dy2C",
+   "Dy2C3"
+  ],
+  [
+   "Dy2C",
+   "Dy2CBr"
+  ],
+  [
+   "Dy2C2Br",
+   "Dy2C3"
+  ],
+  [
+   "Dy2C2Br",
+   "Dy2CBr"
+  ],
+  [
+   "Dy2C2Br",
+   "Dy3CBr3"
+  ],
+  [
+   "Dy2C2Br",
+   "DyCBr"
+  ],
+  [
+   "Dy2C3",
+   "Dy2CBr"
+  ],
+  [
+   "Dy2CBr",
+   "Dy3CBr3"
+  ],
+  [
+   "Dy3CBr3",
+   "DyBr2"
+  ],
+  [
+   "Dy3CBr3",
+   "DyCBr"
+  ],
+  [
+   "DyBr2",
+   "DyBr3"
+  ],
+  [
+   "DyBr2",
+   "DyCBr"
+  ]
+ ],
+ "target_neighbours": [
+  "C",
+  "Dy2C3",
+  "Dy2CBr",
+  "Dy3CBr3",
+  "DyCBr"
+ ],
+ "note": ""
+}
