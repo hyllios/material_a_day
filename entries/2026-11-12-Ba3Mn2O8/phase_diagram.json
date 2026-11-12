@@ -1,0 +1,306 @@
+{
+ "target": "Ba3Mn2O8",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "BaO",
+  "Mn3O4",
+  "O2"
+ ],
+ "n_system_hull_phases": 17,
+ "phases": [
+  {
+   "formula": "BaO",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm001192060",
+   "target": false
+  },
+  {
+   "formula": "Ba4Mn2O7",
+   "x": [
+    0.8,
+    0.133333,
+    0.066667
+   ],
+   "dE_meV_per_atom": -237.59,
+   "mat_id": "agm025055564",
+   "target": false
+  },
+  {
+   "formula": "Ba2O3",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -127.85,
+   "mat_id": "agm104473427",
+   "target": false
+  },
+  {
+   "formula": "Ba4Mn3O10",
+   "x": [
+    0.571429,
+    0.142857,
+    0.285714
+   ],
+   "dE_meV_per_atom": -515.58,
+   "mat_id": "agm006219650",
+   "target": false
+  },
+  {
+   "formula": "Ba8Mn8O23",
+   "x": [
+    0.533333,
+    0.177778,
+    0.288889
+   ],
+   "dE_meV_per_atom": -483.01,
+   "mat_id": "agm006230115",
+   "target": false
+  },
+  {
+   "formula": "BaMnO3",
+   "x": [
+    0.5,
+    0.166667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -534.91,
+   "mat_id": "agm011671498",
+   "target": false
+  },
+  {
+   "formula": "Ba3Mn2O8",
+   "x": [
+    0.5,
+    0.111111,
+    0.388889
+   ],
+   "dE_meV_per_atom": -606.09,
+   "mat_id": "agm003274752",
+   "target": true
+  },
+  {
+   "formula": "BaO2",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -209.39,
+   "mat_id": "agm001907021",
+   "target": false
+  },
+  {
+   "formula": "BaMnO4",
+   "x": [
+    0.333333,
+    0.111111,
+    0.555556
+   ],
+   "dE_meV_per_atom": -630.49,
+   "mat_id": "agm005237395",
+   "target": false
+  },
+  {
+   "formula": "BaMn6O12",
+   "x": [
+    0.166667,
+    0.333333,
+    0.5
+   ],
+   "dE_meV_per_atom": -470.71,
+   "mat_id": "agm005262681",
+   "target": false
+  },
+  {
+   "formula": "Mn3O4",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm003215415",
+   "target": false
+  },
+  {
+   "formula": "Mn5O8",
+   "x": [
+    0.0,
+    0.555556,
+    0.444444
+   ],
+   "dE_meV_per_atom": -232.56,
+   "mat_id": "agm003212979",
+   "target": false
+  },
+  {
+   "formula": "MnO2",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -443.54,
+   "mat_id": "agm003211147",
+   "target": false
+  },
+  {
+   "formula": "O2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ba2O3",
+   "Ba3Mn2O8"
+  ],
+  [
+   "Ba2O3",
+   "BaO"
+  ],
+  [
+   "Ba2O3",
+   "BaO2"
+  ],
+  [
+   "Ba3Mn2O8",
+   "Ba4Mn3O10"
+  ],
+  [
+   "Ba3Mn2O8",
+   "BaMn6O12"
+  ],
+  [
+   "Ba3Mn2O8",
+   "BaMnO3"
+  ],
+  [
+   "Ba3Mn2O8",
+   "BaMnO4"
+  ],
+  [
+   "Ba3Mn2O8",
+   "BaO"
+  ],
+  [
+   "Ba3Mn2O8",
+   "BaO2"
+  ],
+  [
+   "Ba4Mn2O7",
+   "Ba4Mn3O10"
+  ],
+  [
+   "Ba4Mn2O7",
+   "Ba8Mn8O23"
+  ],
+  [
+   "Ba4Mn2O7",
+   "BaO"
+  ],
+  [
+   "Ba4Mn2O7",
+   "Mn3O4"
+  ],
+  [
+   "Ba4Mn3O10",
+   "Ba8Mn8O23"
+  ],
+  [
+   "Ba4Mn3O10",
+   "BaMnO3"
+  ],
+  [
+   "Ba4Mn3O10",
+   "BaO"
+  ],
+  [
+   "Ba8Mn8O23",
+   "BaMn6O12"
+  ],
+  [
+   "Ba8Mn8O23",
+   "BaMnO3"
+  ],
+  [
+   "Ba8Mn8O23",
+   "Mn3O4"
+  ],
+  [
+   "BaMn6O12",
+   "BaMnO3"
+  ],
+  [
+   "BaMn6O12",
+   "BaMnO4"
+  ],
+  [
+   "BaMn6O12",
+   "Mn3O4"
+  ],
+  [
+   "BaMn6O12",
+   "Mn5O8"
+  ],
+  [
+   "BaMn6O12",
+   "MnO2"
+  ],
+  [
+   "BaMnO4",
+   "BaO2"
+  ],
+  [
+   "BaMnO4",
+   "MnO2"
+  ],
+  [
+   "BaMnO4",
+   "O2"
+  ],
+  [
+   "BaO",
+   "Mn3O4"
+  ],
+  [
+   "BaO2",
+   "O2"
+  ],
+  [
+   "Mn3O4",
+   "Mn5O8"
+  ],
+  [
+   "Mn5O8",
+   "MnO2"
+  ],
+  [
+   "MnO2",
+   "O2"
+  ]
+ ],
+ "target_neighbours": [
+  "Ba2O3",
+  "Ba4Mn3O10",
+  "BaMn6O12",
+  "BaMnO3",
+  "BaMnO4",
+  "BaO",
+  "BaO2"
+ ],
+ "note": ""
+}
