@@ -1,0 +1,378 @@
+{
+ "target": "Y4BPt12",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "B",
+  "Pt",
+  "Y"
+ ],
+ "n_system_hull_phases": 18,
+ "phases": [
+  {
+   "formula": "B",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm005250256",
+   "target": false
+  },
+  {
+   "formula": "YB12",
+   "x": [
+    0.923077,
+    0.0,
+    0.076923
+   ],
+   "dE_meV_per_atom": -245.07,
+   "mat_id": "agm003213503",
+   "target": false
+  },
+  {
+   "formula": "YB4",
+   "x": [
+    0.8,
+    0.0,
+    0.2
+   ],
+   "dE_meV_per_atom": -599.92,
+   "mat_id": "agm003226730",
+   "target": false
+  },
+  {
+   "formula": "YB2",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -577.0,
+   "mat_id": "agm003161130",
+   "target": false
+  },
+  {
+   "formula": "BPt2",
+   "x": [
+    0.333333,
+    0.666667,
+    0.0
+   ],
+   "dE_meV_per_atom": -253.52,
+   "mat_id": "agm002137999",
+   "target": false
+  },
+  {
+   "formula": "YBPt2",
+   "x": [
+    0.25,
+    0.5,
+    0.25
+   ],
+   "dE_meV_per_atom": -1014.26,
+   "mat_id": "agm002201130",
+   "target": false
+  },
+  {
+   "formula": "Y(BPt3)2",
+   "x": [
+    0.222222,
+    0.666667,
+    0.111111
+   ],
+   "dE_meV_per_atom": -695.84,
+   "mat_id": "agm083083040",
+   "target": false
+  },
+  {
+   "formula": "Y4BPt12",
+   "x": [
+    0.058824,
+    0.705882,
+    0.235294
+   ],
+   "dE_meV_per_atom": -1035.29,
+   "mat_id": "agm023344463",
+   "target": true
+  },
+  {
+   "formula": "Pt",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003277942",
+   "target": false
+  },
+  {
+   "formula": "YPt5",
+   "x": [
+    0.0,
+    0.833333,
+    0.166667
+   ],
+   "dE_meV_per_atom": -677.75,
+   "mat_id": "agm002192703",
+   "target": false
+  },
+  {
+   "formula": "YPt3",
+   "x": [
+    0.0,
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -981.91,
+   "mat_id": "agm002384315",
+   "target": false
+  },
+  {
+   "formula": "YPt2",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1128.92,
+   "mat_id": "agm013190044",
+   "target": false
+  },
+  {
+   "formula": "Y3Pt5",
+   "x": [
+    0.0,
+    0.625,
+    0.375
+   ],
+   "dE_meV_per_atom": -1172.25,
+   "mat_id": "agm008954889",
+   "target": false
+  },
+  {
+   "formula": "YPt",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -1263.79,
+   "mat_id": "agm003264381",
+   "target": false
+  },
+  {
+   "formula": "Y5Pt3",
+   "x": [
+    0.0,
+    0.375,
+    0.625
+   ],
+   "dE_meV_per_atom": -1019.06,
+   "mat_id": "agm005535504",
+   "target": false
+  },
+  {
+   "formula": "Y2Pt",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -934.45,
+   "mat_id": "agm002192479",
+   "target": false
+  },
+  {
+   "formula": "Y3Pt",
+   "x": [
+    0.0,
+    0.25,
+    0.75
+   ],
+   "dE_meV_per_atom": -709.73,
+   "mat_id": "agm003219519",
+   "target": false
+  },
+  {
+   "formula": "Y",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002192435",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "B",
+   "BPt2"
+  ],
+  [
+   "B",
+   "Y(BPt3)2"
+  ],
+  [
+   "B",
+   "YB12"
+  ],
+  [
+   "BPt2",
+   "Pt"
+  ],
+  [
+   "BPt2",
+   "Y(BPt3)2"
+  ],
+  [
+   "Pt",
+   "Y(BPt3)2"
+  ],
+  [
+   "Pt",
+   "Y4BPt12"
+  ],
+  [
+   "Pt",
+   "YPt3"
+  ],
+  [
+   "Pt",
+   "YPt5"
+  ],
+  [
+   "Y",
+   "Y3Pt"
+  ],
+  [
+   "Y",
+   "YB2"
+  ],
+  [
+   "Y(BPt3)2",
+   "Y4BPt12"
+  ],
+  [
+   "Y(BPt3)2",
+   "YB12"
+  ],
+  [
+   "Y(BPt3)2",
+   "YBPt2"
+  ],
+  [
+   "Y2Pt",
+   "Y3Pt"
+  ],
+  [
+   "Y2Pt",
+   "Y5Pt3"
+  ],
+  [
+   "Y2Pt",
+   "YB2"
+  ],
+  [
+   "Y3Pt",
+   "Y5Pt3"
+  ],
+  [
+   "Y3Pt",
+   "YB2"
+  ],
+  [
+   "Y3Pt5",
+   "Y4BPt12"
+  ],
+  [
+   "Y3Pt5",
+   "YBPt2"
+  ],
+  [
+   "Y3Pt5",
+   "YPt"
+  ],
+  [
+   "Y3Pt5",
+   "YPt2"
+  ],
+  [
+   "Y4BPt12",
+   "YBPt2"
+  ],
+  [
+   "Y4BPt12",
+   "YPt2"
+  ],
+  [
+   "Y4BPt12",
+   "YPt3"
+  ],
+  [
+   "Y4BPt12",
+   "YPt5"
+  ],
+  [
+   "Y5Pt3",
+   "YB2"
+  ],
+  [
+   "Y5Pt3",
+   "YPt"
+  ],
+  [
+   "YB12",
+   "YB4"
+  ],
+  [
+   "YB12",
+   "YBPt2"
+  ],
+  [
+   "YB2",
+   "YB4"
+  ],
+  [
+   "YB2",
+   "YPt"
+  ],
+  [
+   "YB4",
+   "YBPt2"
+  ],
+  [
+   "YB4",
+   "YPt"
+  ],
+  [
+   "YBPt2",
+   "YPt"
+  ],
+  [
+   "YPt",
+   "YPt2"
+  ],
+  [
+   "YPt2",
+   "YPt3"
+  ],
+  [
+   "YPt3",
+   "YPt5"
+  ]
+ ],
+ "target_neighbours": [
+  "Pt",
+  "Y(BPt3)2",
+  "Y3Pt5",
+  "YBPt2",
+  "YPt2",
+  "YPt3",
+  "YPt5"
+ ],
+ "note": ""
+}
