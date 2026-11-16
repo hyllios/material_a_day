@@ -1,0 +1,197 @@
+{
+ "target": "Nd2Re2C3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "C",
+  "Nd",
+  "Re"
+ ],
+ "n_system_hull_phases": 9,
+ "phases": [
+  {
+   "formula": "C",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003187822",
+   "target": false
+  },
+  {
+   "formula": "Nd2C3",
+   "x": [
+    0.6,
+    0.4,
+    0.0
+   ],
+   "dE_meV_per_atom": -229.78,
+   "mat_id": "agm003226733",
+   "target": false
+  },
+  {
+   "formula": "Nd12(ReC3)5",
+   "x": [
+    0.46875,
+    0.375,
+    0.15625
+   ],
+   "dE_meV_per_atom": -264.54,
+   "mat_id": "agm003241553",
+   "target": false
+  },
+  {
+   "formula": "Nd2Re2C3",
+   "x": [
+    0.428571,
+    0.285714,
+    0.285714
+   ],
+   "dE_meV_per_atom": -233.71,
+   "mat_id": "agm003305506",
+   "target": true
+  },
+  {
+   "formula": "Nd2ReC2",
+   "x": [
+    0.4,
+    0.4,
+    0.2
+   ],
+   "dE_meV_per_atom": -271.77,
+   "mat_id": "agm003226711",
+   "target": false
+  },
+  {
+   "formula": "Re2C",
+   "x": [
+    0.333333,
+    0.0,
+    0.666667
+   ],
+   "dE_meV_per_atom": -26.45,
+   "mat_id": "agm003202068",
+   "target": false
+  },
+  {
+   "formula": "Nd",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm010173752",
+   "target": false
+  },
+  {
+   "formula": "NdRe2",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -9.58,
+   "mat_id": "agm002167020",
+   "target": false
+  },
+  {
+   "formula": "Re",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002180347",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "C",
+   "Nd12(ReC3)5"
+  ],
+  [
+   "C",
+   "Nd2C3"
+  ],
+  [
+   "C",
+   "Nd2Re2C3"
+  ],
+  [
+   "C",
+   "Re2C"
+  ],
+  [
+   "Nd",
+   "Nd2C3"
+  ],
+  [
+   "Nd",
+   "Nd2ReC2"
+  ],
+  [
+   "Nd",
+   "NdRe2"
+  ],
+  [
+   "Nd",
+   "Re"
+  ],
+  [
+   "Nd12(ReC3)5",
+   "Nd2C3"
+  ],
+  [
+   "Nd12(ReC3)5",
+   "Nd2Re2C3"
+  ],
+  [
+   "Nd12(ReC3)5",
+   "Nd2ReC2"
+  ],
+  [
+   "Nd2C3",
+   "Nd2ReC2"
+  ],
+  [
+   "Nd2Re2C3",
+   "Nd2ReC2"
+  ],
+  [
+   "Nd2Re2C3",
+   "Re"
+  ],
+  [
+   "Nd2Re2C3",
+   "Re2C"
+  ],
+  [
+   "Nd2ReC2",
+   "NdRe2"
+  ],
+  [
+   "Nd2ReC2",
+   "Re"
+  ],
+  [
+   "NdRe2",
+   "Re"
+  ],
+  [
+   "Re",
+   "Re2C"
+  ]
+ ],
+ "target_neighbours": [
+  "C",
+  "Nd12(ReC3)5",
+  "Nd2ReC2",
+  "Re",
+  "Re2C"
+ ],
+ "note": ""
+}
