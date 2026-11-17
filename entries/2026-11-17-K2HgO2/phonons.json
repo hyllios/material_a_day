@@ -1,0 +1,32 @@
+{
+ "source": "/home/users/marqumln/nas-data-001/espresso/agm",
+ "method": "Quantum ESPRESSO, DFPT, PBEsol",
+ "n_runs": 93597,
+ "exact": [
+  {
+   "mat_id": "agm003194197",
+   "kind": "semi",
+   "run": "batch-semi/semi/O2K2Hg_agm003194197",
+   "spacegroup": 139,
+   "conventional_cell": [
+    3.888,
+    3.888,
+    13.86,
+    90.0,
+    90.0,
+    90.0
+   ],
+   "nsites_primitive": 5,
+   "phonon_max_cm1": 689.0,
+   "phonon_min_cm1": 1.0,
+   "files": [
+    "el-bs.pdf",
+    "geo_opt.cif",
+    "matdyn.dos",
+    "ph-bs.pdf"
+   ]
+  }
+ ],
+ "same_composition": [],
+ "experiment": []
+}

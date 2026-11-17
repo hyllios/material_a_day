@@ -1,0 +1,458 @@
+{
+ "target": "K2HgO2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Hg",
+  "K",
+  "O2"
+ ],
+ "n_system_hull_phases": 22,
+ "phases": [
+  {
+   "formula": "Hg",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm140794373",
+   "target": false
+  },
+  {
+   "formula": "KHg11",
+   "x": [
+    0.916667,
+    0.083333,
+    0.0
+   ],
+   "dE_meV_per_atom": -93.47,
+   "mat_id": "agm003243983",
+   "target": false
+  },
+  {
+   "formula": "KHg6",
+   "x": [
+    0.857143,
+    0.142857,
+    0.0
+   ],
+   "dE_meV_per_atom": -150.08,
+   "mat_id": "agm003237596",
+   "target": false
+  },
+  {
+   "formula": "K2Hg7",
+   "x": [
+    0.777778,
+    0.222222,
+    0.0
+   ],
+   "dE_meV_per_atom": -215.94,
+   "mat_id": "agm003267564",
+   "target": false
+  },
+  {
+   "formula": "KHg2",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -274.88,
+   "mat_id": "agm002341771",
+   "target": false
+  },
+  {
+   "formula": "KHg",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -251.39,
+   "mat_id": "agm003263562",
+   "target": false
+  },
+  {
+   "formula": "HgO",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -272.57,
+   "mat_id": "agm003263607",
+   "target": false
+  },
+  {
+   "formula": "K5Hg3",
+   "x": [
+    0.375,
+    0.625,
+    0.0
+   ],
+   "dE_meV_per_atom": -196.74,
+   "mat_id": "agm005534806",
+   "target": false
+  },
+  {
+   "formula": "K3Hg",
+   "x": [
+    0.25,
+    0.75,
+    0.0
+   ],
+   "dE_meV_per_atom": -137.7,
+   "mat_id": "agm069109135",
+   "target": false
+  },
+  {
+   "formula": "K2HgO2",
+   "x": [
+    0.2,
+    0.4,
+    0.4
+   ],
+   "dE_meV_per_atom": -1068.37,
+   "mat_id": "agm003194197",
+   "target": true
+  },
+  {
+   "formula": "K",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002090264",
+   "target": false
+  },
+  {
+   "formula": "K9O2",
+   "x": [
+    0.0,
+    0.818182,
+    0.181818
+   ],
+   "dE_meV_per_atom": -575.71,
+   "mat_id": "agm007757794",
+   "target": false
+  },
+  {
+   "formula": "K4O",
+   "x": [
+    0.0,
+    0.8,
+    0.2
+   ],
+   "dE_meV_per_atom": -631.8,
+   "mat_id": "agm079938227",
+   "target": false
+  },
+  {
+   "formula": "K3O",
+   "x": [
+    0.0,
+    0.75,
+    0.25
+   ],
+   "dE_meV_per_atom": -785.47,
+   "mat_id": "agm126862815",
+   "target": false
+  },
+  {
+   "formula": "K2O",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1018.64,
+   "mat_id": "agm002176596",
+   "target": false
+  },
+  {
+   "formula": "K2O2",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -1058.34,
+   "mat_id": "agm002169795",
+   "target": false
+  },
+  {
+   "formula": "K3O4",
+   "x": [
+    0.0,
+    0.428571,
+    0.571429
+   ],
+   "dE_meV_per_atom": -990.17,
+   "mat_id": "agm125624905",
+   "target": false
+  },
+  {
+   "formula": "K2O3",
+   "x": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "dE_meV_per_atom": -958.89,
+   "mat_id": "agm079144505",
+   "target": false
+  },
+  {
+   "formula": "KO2",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -870.74,
+   "mat_id": "agm003161242",
+   "target": false
+  },
+  {
+   "formula": "KO4",
+   "x": [
+    0.0,
+    0.2,
+    0.8
+   ],
+   "dE_meV_per_atom": -541.44,
+   "mat_id": "agm091574739",
+   "target": false
+  },
+  {
+   "formula": "KO8",
+   "x": [
+    0.0,
+    0.111111,
+    0.888889
+   ],
+   "dE_meV_per_atom": -308.56,
+   "mat_id": "agm075873690",
+   "target": false
+  },
+  {
+   "formula": "O2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Hg",
+   "HgO"
+  ],
+  [
+   "Hg",
+   "K2HgO2"
+  ],
+  [
+   "Hg",
+   "KHg11"
+  ],
+  [
+   "Hg",
+   "KHg6"
+  ],
+  [
+   "HgO",
+   "K2HgO2"
+  ],
+  [
+   "HgO",
+   "KO2"
+  ],
+  [
+   "HgO",
+   "KO4"
+  ],
+  [
+   "HgO",
+   "KO8"
+  ],
+  [
+   "HgO",
+   "O2"
+  ],
+  [
+   "K",
+   "K3Hg"
+  ],
+  [
+   "K",
+   "K9O2"
+  ],
+  [
+   "K2Hg7",
+   "K2HgO2"
+  ],
+  [
+   "K2Hg7",
+   "KHg2"
+  ],
+  [
+   "K2Hg7",
+   "KHg6"
+  ],
+  [
+   "K2HgO2",
+   "K2O"
+  ],
+  [
+   "K2HgO2",
+   "K2O2"
+  ],
+  [
+   "K2HgO2",
+   "K2O3"
+  ],
+  [
+   "K2HgO2",
+   "K3O4"
+  ],
+  [
+   "K2HgO2",
+   "KHg11"
+  ],
+  [
+   "K2HgO2",
+   "KHg2"
+  ],
+  [
+   "K2HgO2",
+   "KHg6"
+  ],
+  [
+   "K2HgO2",
+   "KO2"
+  ],
+  [
+   "K2O",
+   "K2O2"
+  ],
+  [
+   "K2O",
+   "K3O"
+  ],
+  [
+   "K2O",
+   "KHg"
+  ],
+  [
+   "K2O",
+   "KHg2"
+  ],
+  [
+   "K2O2",
+   "K2O3"
+  ],
+  [
+   "K2O2",
+   "K3O4"
+  ],
+  [
+   "K2O3",
+   "K3O4"
+  ],
+  [
+   "K2O3",
+   "KO2"
+  ],
+  [
+   "K3Hg",
+   "K3O"
+  ],
+  [
+   "K3Hg",
+   "K4O"
+  ],
+  [
+   "K3Hg",
+   "K5Hg3"
+  ],
+  [
+   "K3Hg",
+   "K9O2"
+  ],
+  [
+   "K3Hg",
+   "KHg"
+  ],
+  [
+   "K3O",
+   "K4O"
+  ],
+  [
+   "K3O",
+   "K5Hg3"
+  ],
+  [
+   "K3O",
+   "K9O2"
+  ],
+  [
+   "K3O",
+   "KHg"
+  ],
+  [
+   "K4O",
+   "K9O2"
+  ],
+  [
+   "K5Hg3",
+   "KHg"
+  ],
+  [
+   "KHg",
+   "KHg2"
+  ],
+  [
+   "KHg11",
+   "KHg6"
+  ],
+  [
+   "KO2",
+   "KO4"
+  ],
+  [
+   "KO4",
+   "KO8"
+  ],
+  [
+   "KO4",
+   "O2"
+  ],
+  [
+   "KO8",
+   "O2"
+  ]
+ ],
+ "target_neighbours": [
+  "Hg",
+  "HgO",
+  "K2Hg7",
+  "K2O",
+  "K2O2",
+  "K2O3",
+  "K3O4",
+  "KHg11",
+  "KHg2",
+  "KHg6",
+  "KO2"
+ ],
+ "note": ""
+}
