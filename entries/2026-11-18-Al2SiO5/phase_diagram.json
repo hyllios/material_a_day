@@ -1,0 +1,127 @@
+{
+ "target": "Al2SiO5",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Al",
+  "O2",
+  "Si"
+ ],
+ "n_system_hull_phases": 6,
+ "phases": [
+  {
+   "formula": "Al",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002133236",
+   "target": false
+  },
+  {
+   "formula": "Al2O3",
+   "x": [
+    0.4,
+    0.6,
+    0.0
+   ],
+   "dE_meV_per_atom": -3006.5,
+   "mat_id": "agm003206244",
+   "target": false
+  },
+  {
+   "formula": "Al2SiO5",
+   "x": [
+    0.25,
+    0.625,
+    0.125
+   ],
+   "dE_meV_per_atom": -2936.66,
+   "mat_id": "agm005225700",
+   "target": true
+  },
+  {
+   "formula": "O2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002119100",
+   "target": false
+  },
+  {
+   "formula": "SiO2",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -2799.01,
+   "mat_id": "agm002228342",
+   "target": false
+  },
+  {
+   "formula": "Si",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157600",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Al",
+   "Al2O3"
+  ],
+  [
+   "Al",
+   "Si"
+  ],
+  [
+   "Al2O3",
+   "Al2SiO5"
+  ],
+  [
+   "Al2O3",
+   "O2"
+  ],
+  [
+   "Al2O3",
+   "Si"
+  ],
+  [
+   "Al2SiO5",
+   "O2"
+  ],
+  [
+   "Al2SiO5",
+   "Si"
+  ],
+  [
+   "Al2SiO5",
+   "SiO2"
+  ],
+  [
+   "O2",
+   "SiO2"
+  ],
+  [
+   "Si",
+   "SiO2"
+  ]
+ ],
+ "target_neighbours": [
+  "Al2O3",
+  "O2",
+  "Si",
+  "SiO2"
+ ],
+ "note": ""
+}
