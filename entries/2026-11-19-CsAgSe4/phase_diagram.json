@@ -1,0 +1,326 @@
+{
+ "target": "CsAgSe4",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Ag",
+  "Cs",
+  "Se"
+ ],
+ "n_system_hull_phases": 15,
+ "phases": [
+  {
+   "formula": "Ag",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157151",
+   "target": false
+  },
+  {
+   "formula": "Ag2Se",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -96.0,
+   "mat_id": "agm085238344",
+   "target": false
+  },
+  {
+   "formula": "CsAg",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -3.41,
+   "mat_id": "agm010156980",
+   "target": false
+  },
+  {
+   "formula": "CsAg3Se2",
+   "x": [
+    0.5,
+    0.166667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -481.76,
+   "mat_id": "agm002239244",
+   "target": false
+  },
+  {
+   "formula": "CsAgSe",
+   "x": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "dE_meV_per_atom": -737.48,
+   "mat_id": "agm078118398",
+   "target": false
+  },
+  {
+   "formula": "Cs3AgSe2",
+   "x": [
+    0.166667,
+    0.5,
+    0.333333
+   ],
+   "dE_meV_per_atom": -930.35,
+   "mat_id": "agm002239245",
+   "target": false
+  },
+  {
+   "formula": "CsAgSe4",
+   "x": [
+    0.166667,
+    0.166667,
+    0.666667
+   ],
+   "dE_meV_per_atom": -407.05,
+   "mat_id": "agm003232993",
+   "target": true
+  },
+  {
+   "formula": "Cs",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002145648",
+   "target": false
+  },
+  {
+   "formula": "Cs2Se",
+   "x": [
+    0.0,
+    0.666667,
+    0.333333
+   ],
+   "dE_meV_per_atom": -1069.11,
+   "mat_id": "agm003160984",
+   "target": false
+  },
+  {
+   "formula": "CsSe",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -966.08,
+   "mat_id": "agm002185649",
+   "target": false
+  },
+  {
+   "formula": "Cs2Se3",
+   "x": [
+    0.0,
+    0.4,
+    0.6
+   ],
+   "dE_meV_per_atom": -832.06,
+   "mat_id": "agm003282952",
+   "target": false
+  },
+  {
+   "formula": "CsSe2",
+   "x": [
+    0.0,
+    0.333333,
+    0.666667
+   ],
+   "dE_meV_per_atom": -713.71,
+   "mat_id": "agm002017995",
+   "target": false
+  },
+  {
+   "formula": "Cs2Se5",
+   "x": [
+    0.0,
+    0.285714,
+    0.714286
+   ],
+   "dE_meV_per_atom": -620.11,
+   "mat_id": "agm003237795",
+   "target": false
+  },
+  {
+   "formula": "CsSe4",
+   "x": [
+    0.0,
+    0.2,
+    0.8
+   ],
+   "dE_meV_per_atom": -435.72,
+   "mat_id": "agm070534929",
+   "target": false
+  },
+  {
+   "formula": "Se",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm005222103",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ag",
+   "Ag2Se"
+  ],
+  [
+   "Ag",
+   "Cs"
+  ],
+  [
+   "Ag",
+   "Cs2Se"
+  ],
+  [
+   "Ag",
+   "Cs3AgSe2"
+  ],
+  [
+   "Ag",
+   "CsAg"
+  ],
+  [
+   "Ag",
+   "CsAg3Se2"
+  ],
+  [
+   "Ag",
+   "CsAgSe"
+  ],
+  [
+   "Ag2Se",
+   "CsAg3Se2"
+  ],
+  [
+   "Ag2Se",
+   "Se"
+  ],
+  [
+   "Cs",
+   "Cs2Se"
+  ],
+  [
+   "Cs",
+   "CsAg"
+  ],
+  [
+   "Cs2Se",
+   "Cs3AgSe2"
+  ],
+  [
+   "Cs2Se",
+   "CsAg"
+  ],
+  [
+   "Cs2Se",
+   "CsSe"
+  ],
+  [
+   "Cs2Se3",
+   "CsAg3Se2"
+  ],
+  [
+   "Cs2Se3",
+   "CsAgSe"
+  ],
+  [
+   "Cs2Se3",
+   "CsSe"
+  ],
+  [
+   "Cs2Se3",
+   "CsSe2"
+  ],
+  [
+   "Cs2Se5",
+   "CsAg3Se2"
+  ],
+  [
+   "Cs2Se5",
+   "CsAgSe4"
+  ],
+  [
+   "Cs2Se5",
+   "CsSe2"
+  ],
+  [
+   "Cs2Se5",
+   "CsSe4"
+  ],
+  [
+   "Cs3AgSe2",
+   "CsAgSe"
+  ],
+  [
+   "Cs3AgSe2",
+   "CsSe"
+  ],
+  [
+   "CsAg3Se2",
+   "CsAgSe"
+  ],
+  [
+   "CsAg3Se2",
+   "CsAgSe4"
+  ],
+  [
+   "CsAg3Se2",
+   "CsSe2"
+  ],
+  [
+   "CsAg3Se2",
+   "Se"
+  ],
+  [
+   "CsAgSe",
+   "CsSe"
+  ],
+  [
+   "CsAgSe4",
+   "CsSe4"
+  ],
+  [
+   "CsAgSe4",
+   "Se"
+  ],
+  [
+   "CsSe",
+   "CsSe2"
+  ],
+  [
+   "CsSe2",
+   "CsSe4"
+  ],
+  [
+   "CsSe2",
+   "Se"
+  ],
+  [
+   "CsSe4",
+   "Se"
+  ]
+ ],
+ "target_neighbours": [
+  "Cs2Se5",
+  "CsAg3Se2",
+  "CsSe4",
+  "Se"
+ ],
+ "note": ""
+}
