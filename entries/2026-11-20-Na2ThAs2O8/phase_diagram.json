@@ -1,0 +1,228 @@
+{
+ "target": "Na2Th(AsO4)2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "As2O5",
+  "Na3AsO4",
+  "ThO2"
+ ],
+ "n_system_hull_phases": 30,
+ "phases": [
+  {
+   "formula": "As2O5",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm003236583",
+   "target": false
+  },
+  {
+   "formula": "Na2As4O11",
+   "x": [
+    0.714286,
+    0.285714,
+    0.0
+   ],
+   "dE_meV_per_atom": -57.07,
+   "mat_id": "agm003242097",
+   "target": false
+  },
+  {
+   "formula": "NaAsO3",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -76.34,
+   "mat_id": "agm002171826",
+   "target": false
+  },
+  {
+   "formula": "ThAs2O7",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -102.12,
+   "mat_id": "agm012638719",
+   "target": false
+  },
+  {
+   "formula": "NaTh2(AsO4)3",
+   "x": [
+    0.363636,
+    0.090909,
+    0.545455
+   ],
+   "dE_meV_per_atom": -113.01,
+   "mat_id": "agm031718019",
+   "target": false
+  },
+  {
+   "formula": "Th2As2O9",
+   "x": [
+    0.333333,
+    0.0,
+    0.666667
+   ],
+   "dE_meV_per_atom": -101.15,
+   "mat_id": "agm007850527",
+   "target": false
+  },
+  {
+   "formula": "Na5As3O10",
+   "x": [
+    0.285714,
+    0.714286,
+    0.0
+   ],
+   "dE_meV_per_atom": -63.31,
+   "mat_id": "agm008191977",
+   "target": false
+  },
+  {
+   "formula": "Na2Th(AsO4)2",
+   "x": [
+    0.285714,
+    0.285714,
+    0.428571
+   ],
+   "dE_meV_per_atom": -100.94,
+   "mat_id": "agm003234204",
+   "target": true
+  },
+  {
+   "formula": "Na4As2O7",
+   "x": [
+    0.2,
+    0.8,
+    0.0
+   ],
+   "dE_meV_per_atom": -50.25,
+   "mat_id": "agm003234167",
+   "target": false
+  },
+  {
+   "formula": "Na3AsO4",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003219666",
+   "target": false
+  },
+  {
+   "formula": "ThO2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm003269278",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "As2O5",
+   "Na2As4O11"
+  ],
+  [
+   "As2O5",
+   "ThAs2O7"
+  ],
+  [
+   "Na2As4O11",
+   "NaAsO3"
+  ],
+  [
+   "Na2As4O11",
+   "ThAs2O7"
+  ],
+  [
+   "Na2Th(AsO4)2",
+   "Na3AsO4"
+  ],
+  [
+   "Na2Th(AsO4)2",
+   "Na4As2O7"
+  ],
+  [
+   "Na2Th(AsO4)2",
+   "Na5As3O10"
+  ],
+  [
+   "Na2Th(AsO4)2",
+   "NaAsO3"
+  ],
+  [
+   "Na2Th(AsO4)2",
+   "NaTh2(AsO4)3"
+  ],
+  [
+   "Na2Th(AsO4)2",
+   "ThO2"
+  ],
+  [
+   "Na3AsO4",
+   "Na4As2O7"
+  ],
+  [
+   "Na3AsO4",
+   "ThO2"
+  ],
+  [
+   "Na4As2O7",
+   "Na5As3O10"
+  ],
+  [
+   "Na5As3O10",
+   "NaAsO3"
+  ],
+  [
+   "NaAsO3",
+   "NaTh2(AsO4)3"
+  ],
+  [
+   "NaAsO3",
+   "ThAs2O7"
+  ],
+  [
+   "NaTh2(AsO4)3",
+   "Th2As2O9"
+  ],
+  [
+   "NaTh2(AsO4)3",
+   "ThAs2O7"
+  ],
+  [
+   "NaTh2(AsO4)3",
+   "ThO2"
+  ],
+  [
+   "Th2As2O9",
+   "ThAs2O7"
+  ],
+  [
+   "Th2As2O9",
+   "ThO2"
+  ]
+ ],
+ "target_neighbours": [
+  "Na3AsO4",
+  "Na4As2O7",
+  "Na5As3O10",
+  "NaAsO3",
+  "NaTh2(AsO4)3",
+  "ThO2"
+ ],
+ "note": ""
+}
