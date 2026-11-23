@@ -22,7 +22,11 @@ outdir.mkdir(parents=True, exist_ok=True)
 _, r = db.q(f"select structure, formula, band_gap_ind, band_gap_dir, total_mag, e_form, "
             f"e_above_hull, e_phase_separation from {table} where mat_id=%s", (mat_id,))
 d = r[0][0]
-s = Structure.from_dict(json.loads(d) if isinstance(d, str) else d)
+d = json.loads(d) if isinstance(d, str) else d
+if isinstance(d.get("lattice"), list):                 # compact form: lattice, species, frac
+    s = Structure(d["lattice"], d["species"], d["frac"])
+else:
+    s = Structure.from_dict(d)
 sga = SpacegroupAnalyzer(s, 0.01)
 s = sga.get_conventional_standard_structure()
 sga = SpacegroupAnalyzer(s, 0.01)

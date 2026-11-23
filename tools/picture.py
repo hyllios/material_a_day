@@ -29,7 +29,12 @@ FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 EDGE = (0.55, 0.58, 0.62)            # a mid grey: visible on black and on white
 
 
+OVERRIDE = {}                         # --colours Tb=#e0a030: for elements whose jmol colours clash
+
+
 def colour(sym):
+    if sym in OVERRIDE:
+        return OVERRIDE[sym]
     r, g, b = jmol_colors[atomic_numbers[sym]]
     h, l, s = colorsys.rgb_to_hls(r, g, b)
     if s < 0.08:                                  # a grey element stays grey
@@ -195,10 +200,14 @@ def main():
                     help="cations whose nearest anion is farther than this get no bonds")
     ap.add_argument("--bonds", default=None,
                     help="explicit pair cutoffs in angstrom, e.g. Mo-Mo:2.6,Mo-Si:2.8; nothing else is drawn")
+    ap.add_argument("--colours", default=None,
+                    help="override element colours, e.g. Tb=#e0a030,Mo=#7a5cc8")
     ap.add_argument("--views", default="top,side")
     ap.add_argument("--height", type=int, default=1400)
     ap.add_argument("--out", default=None)
     o = ap.parse_args()
+    for k, hexc in (x.split("=") for x in (o.colours.split(",") if o.colours else [])):
+        OVERRIDE[k] = tuple(int(hexc.lstrip("#")[j:j + 2], 16) / 255 for j in (0, 2, 4))
     cif = pathlib.Path(o.cif)
     s = Structure.from_file(cif)
     rep = o.rep or [max(1, round(15 / x)) for x in s.lattice.abc]

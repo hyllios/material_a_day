@@ -34,6 +34,7 @@ INK = {"light": dict(text="#0b0b0b", second="#52514e", line="#898781", mark="#52
 
 
 LABELS = {}                                    # reduced formula -> the spelling a chemist uses
+PLACE = {}                                     # reduced formula -> label direction (ternary, inside phases)
 
 
 def pretty(f):
@@ -115,7 +116,9 @@ def ties(pts, facets):
 
 
 def section(target, phases, corner_names, els):
-    cs = [phases[f]["comp"] for f in corner_names]
+    # an element corner counts one atom, so a Cl2 or O2 corner gives atomic fractions
+    cs = [phases[f]["comp"] if len(phases[f]["comp"]) > 1 else Composition(phases[f]["comp"].elements[0].symbol)
+          for f in corner_names]
     pts = []
     for f, p in phases.items():
         r = coords(p["comp"], cs, els)
@@ -181,6 +184,9 @@ def draw_ternary(pts, facets, corner_names, mode, dest):
         d = d / (np.linalg.norm(d) or 1)
         on_edge = min(p["x"]) < 1e-9
         if on_edge:                               # outside the triangle, away from its centre
+            if p["formula"] in PLACE and not corner:  # crowded edge: a direction given by hand
+                a = {"e": 0, "ne": 45, "n": 90, "nw": 135, "w": 180, "sw": 225, "s": 270, "se": 315}[PLACE[p["formula"]]]
+                d = np.array([np.cos(np.radians(a)), np.sin(np.radians(a))])
             off = d * 0.055
             ha = "center" if abs(d[0]) < 0.35 else ("left" if d[0] > 0 else "right")
         else:                                     # inside: the direction farthest from every other phase
@@ -188,6 +194,9 @@ def draw_ternary(pts, facets, corner_names, mode, dest):
             r = 0.075 if p["target"] else 0.06
             cands = [r * np.array([np.cos(a), np.sin(a)]) for a in np.arange(0, 2 * np.pi, np.pi / 4)]
             best = max(cands, key=lambda c: np.linalg.norm(others - (q + 1.6 * c), axis=1).min())
+            if p["formula"] in PLACE:                 # a direction given by hand: n, ne, e, se, s, sw, w, nw
+                a = {"e": 0, "ne": 45, "n": 90, "nw": 135, "w": 180, "sw": 225, "s": 270, "se": 315}[PLACE[p["formula"]]]
+                best = r * np.array([np.cos(np.radians(a)), np.sin(np.radians(a))])
             off = best
             ha = "center" if abs(best[0]) < 0.02 else ("left" if best[0] > 0 else "right")
         ax.text(*(q + off), pretty(p["formula"]), ha=ha, va="center", zorder=5,
@@ -217,7 +226,7 @@ def draw_binary(pts, corner_names, mode, dest):
         ax.annotate(pretty(p["formula"]), (x, y), xytext=(0, -14), textcoords="offset points", ha="center",
                     va="top", fontsize=13 if p["target"] else 10.5, fontweight="bold" if p["target"] else "normal",
                     color=ink["text"] if p["target"] else ink["second"])
-    ax.set_xlabel(f"atomic fraction of {corner_names[1]}" if len(Composition(corner_names[1])) == 1 else f"fraction of {pretty(corner_names[1])}", color=ink["second"], fontsize=11)
+    ax.set_xlabel(f"atomic fraction of {Composition(corner_names[1]).elements[0]}" if len(Composition(corner_names[1])) == 1 else f"fraction of {pretty(corner_names[1])}", color=ink["second"], fontsize=11)
     ax.set_ylabel("formation energy (eV/atom)", color=ink["second"], fontsize=11)
     for s in ("top", "right"):
         ax.spines[s].set_visible(False)
@@ -235,9 +244,13 @@ def main():
     ap.add_argument("outdir")
     ap.add_argument("--corners", default=None)
     ap.add_argument("--labels", default=None, help="respell phases in the picture, e.g. SiMo3=Mo3Si,Si2Mo=MoSi2")
+    ap.add_argument("--place", default=None,
+                    help="label direction for phases inside a triangle, e.g. RbAuSe2=nw,RbAuSe=sw (n, ne, e, ... nw)")
     o = ap.parse_args()
     if o.labels:
         LABELS.update(x.split("=") for x in o.labels.split(","))
+    if o.place:
+        PLACE.update(x.split("=") for x in o.place.split(","))
     target = Composition(o.formula).reduced_composition
     els = sorted(e.symbol for e in target.elements)
     phases = hull_phases(els)

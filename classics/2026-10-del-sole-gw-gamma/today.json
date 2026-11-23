@@ -1,0 +1,224 @@
+{
+ "check_table_I": {
+  "C": {
+   "paper": 1.6,
+   "here": 1.751
+  },
+  "Si": {
+   "paper": 0.57,
+   "here": 0.564
+  },
+  "Ge": {
+   "paper": 0.41,
+   "here": 0.41
+  },
+  "Sn": {
+   "paper": 0.24,
+   "here": 0.212
+  }
+ },
+ "hull_with_pbe_mbj_eps": 4515,
+ "used": 1475,
+ "median_bd": 1.284,
+ "median_mbj_minus_pbe": 1.065,
+ "pearson": 0.848,
+ "spearman": 0.827,
+ "median_abs_diff": 0.224,
+ "within_0.5_eV": 0.745,
+ "slope_through_origin": 0.774,
+ "pearson_with_1_over_eps": 0.809,
+ "tetrahedral_binaries": [
+  {
+   "formula": "AlSb",
+   "spg": 216,
+   "pbe": 1.22,
+   "mbj": 1.79,
+   "eps": 11.75,
+   "bd": 0.51
+  },
+  {
+   "formula": "Si",
+   "spg": 227,
+   "pbe": 0.62,
+   "mbj": 1.27,
+   "eps": 12.85,
+   "bd": 0.52
+  },
+  {
+   "formula": "CdTe",
+   "spg": 216,
+   "pbe": 0.58,
+   "mbj": 1.62,
+   "eps": 8.88,
+   "bd": 0.63
+  },
+  {
+   "formula": "GaP",
+   "spg": 216,
+   "pbe": 1.58,
+   "mbj": 2.45,
+   "eps": 10.48,
+   "bd": 0.64
+  },
+  {
+   "formula": "ZnTe",
+   "spg": 216,
+   "pbe": 1.06,
+   "mbj": 2.3,
+   "eps": 8.88,
+   "bd": 0.68
+  },
+  {
+   "formula": "AlAs",
+   "spg": 216,
+   "pbe": 1.56,
+   "mbj": 2.28,
+   "eps": 9.45,
+   "bd": 0.68
+  },
+  {
+   "formula": "AlP",
+   "spg": 216,
+   "pbe": 1.7,
+   "mbj": 2.5,
+   "eps": 8.11,
+   "bd": 0.82
+  },
+  {
+   "formula": "BP",
+   "spg": 216,
+   "pbe": 1.28,
+   "mbj": 2.08,
+   "eps": 9.17,
+   "bd": 0.87
+  },
+  {
+   "formula": "ZnSe",
+   "spg": 216,
+   "pbe": 1.14,
+   "mbj": 2.63,
+   "eps": 7.28,
+   "bd": 0.88
+  },
+  {
+   "formula": "BeTe",
+   "spg": 216,
+   "pbe": 2.05,
+   "mbj": 2.78,
+   "eps": 7.41,
+   "bd": 0.88
+  },
+  {
+   "formula": "SnI2",
+   "spg": 186,
+   "pbe": 1.97,
+   "mbj": 2.63,
+   "eps": 5.49,
+   "bd": 0.95
+  },
+  {
+   "formula": "ZnS",
+   "spg": 216,
+   "pbe": 2.01,
+   "mbj": 3.59,
+   "eps": 5.91,
+   "bd": 1.14
+  },
+  {
+   "formula": "SiC",
+   "spg": 186,
+   "pbe": 2.09,
+   "mbj": 3.01,
+   "eps": 7.1,
+   "bd": 1.17
+  },
+  {
+   "formula": "BeSe",
+   "spg": 216,
+   "pbe": 2.67,
+   "mbj": 3.65,
+   "eps": 6.01,
+   "bd": 1.18
+  },
+  {
+   "formula": "MgSe",
+   "spg": 186,
+   "pbe": 2.55,
+   "mbj": 3.87,
+   "eps": 4.66,
+   "bd": 1.32
+  },
+  {
+   "formula": "GaN",
+   "spg": 186,
+   "pbe": 1.72,
+   "mbj": 2.93,
+   "eps": 5.95,
+   "bd": 1.34
+  },
+  {
+   "formula": "BeS",
+   "spg": 216,
+   "pbe": 3.21,
+   "mbj": 4.37,
+   "eps": 5.27,
+   "bd": 1.42
+  },
+  {
+   "formula": "ZnO",
+   "spg": 186,
+   "pbe": 0.72,
+   "mbj": 2.68,
+   "eps": 5.18,
+   "bd": 1.52
+  },
+  {
+   "formula": "CdBr2",
+   "spg": 186,
+   "pbe": 2.92,
+   "mbj": 4.65,
+   "eps": 3.52,
+   "bd": 1.63
+  },
+  {
+   "formula": "AlN",
+   "spg": 186,
+   "pbe": 4.06,
+   "mbj": 5.22,
+   "eps": 4.54,
+   "bd": 1.82
+  },
+  {
+   "formula": "LiBr",
+   "spg": 186,
+   "pbe": 4.91,
+   "mbj": 6.72,
+   "eps": 2.75,
+   "bd": 2.28
+  },
+  {
+   "formula": "LiCl",
+   "spg": 186,
+   "pbe": 5.94,
+   "mbj": 8.06,
+   "eps": 2.46,
+   "bd": 2.72
+  },
+  {
+   "formula": "BeO",
+   "spg": 186,
+   "pbe": 7.41,
+   "mbj": 9.24,
+   "eps": 3.1,
+   "bd": 3.01
+  },
+  {
+   "formula": "LiF",
+   "spg": 186,
+   "pbe": 7.64,
+   "mbj": 10.84,
+   "eps": 1.87,
+   "bd": 4.45
+  }
+ ]
+}

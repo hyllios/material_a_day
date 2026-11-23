@@ -1,0 +1,440 @@
+{
+ "papers": 2774,
+ "regions": {
+  "Europe": 855,
+  "elsewhere": 1178,
+  "None": 741
+ },
+ "coauthors": {
+  "Del Sole": 229,
+  "Bechstedt": 637,
+  "Louie": 1267,
+  "Hybertsen": 511
+ },
+ "bins": {
+  "1985-1994 Europe": {
+   "papers": 42,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.167,
+    "within 1": 0.333,
+    "within 2": 0.429
+   },
+   "Del Sole": {
+    "within 0": 0.095,
+    "within 1": 0.286,
+    "within 2": 0.333
+   },
+   "Bechstedt": {
+    "within 0": 0.143,
+    "within 1": 0.238,
+    "within 2": 0.429
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.0,
+    "within 1": 0.0,
+    "within 2": 0.429
+   }
+  },
+  "1985-1994 elsewhere": {
+   "papers": 35,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.086,
+    "within 2": 0.486
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.086,
+    "within 2": 0.486
+   },
+   "Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.029,
+    "within 2": 0.486
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.343,
+    "within 1": 0.629,
+    "within 2": 0.657
+   }
+  },
+  "1995-1999 Europe": {
+   "papers": 69,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.072,
+    "within 1": 0.406,
+    "within 2": 0.667
+   },
+   "Del Sole": {
+    "within 0": 0.043,
+    "within 1": 0.377,
+    "within 2": 0.478
+   },
+   "Bechstedt": {
+    "within 0": 0.043,
+    "within 1": 0.13,
+    "within 2": 0.652
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.0,
+    "within 1": 0.232,
+    "within 2": 0.652
+   }
+  },
+  "1995-1999 elsewhere": {
+   "papers": 27,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.185,
+    "within 2": 0.407
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.185,
+    "within 2": 0.407
+   },
+   "Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.0,
+    "within 2": 0.333
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.259,
+    "within 1": 0.37,
+    "within 2": 0.444
+   }
+  },
+  "2000-2004 Europe": {
+   "papers": 66,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.106,
+    "within 1": 0.409,
+    "within 2": 0.788
+   },
+   "Del Sole": {
+    "within 0": 0.076,
+    "within 1": 0.379,
+    "within 2": 0.742
+   },
+   "Bechstedt": {
+    "within 0": 0.045,
+    "within 1": 0.258,
+    "within 2": 0.682
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.0,
+    "within 1": 0.394,
+    "within 2": 0.803
+   }
+  },
+  "2000-2004 elsewhere": {
+   "papers": 61,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.0,
+    "within 2": 0.361
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.0,
+    "within 2": 0.262
+   },
+   "Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.0,
+    "within 2": 0.361
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.148,
+    "within 1": 0.361,
+    "within 2": 0.574
+   }
+  },
+  "2005-2009 Europe": {
+   "papers": 108,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.12,
+    "within 1": 0.556,
+    "within 2": 0.778
+   },
+   "Del Sole": {
+    "within 0": 0.028,
+    "within 1": 0.481,
+    "within 2": 0.75
+   },
+   "Bechstedt": {
+    "within 0": 0.102,
+    "within 1": 0.343,
+    "within 2": 0.704
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.0,
+    "within 1": 0.324,
+    "within 2": 0.815
+   }
+  },
+  "2005-2009 elsewhere": {
+   "papers": 79,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.038,
+    "within 2": 0.519
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.013,
+    "within 2": 0.43
+   },
+   "Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.025,
+    "within 2": 0.494
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.165,
+    "within 1": 0.557,
+    "within 2": 0.722
+   }
+  },
+  "2010-2014 Europe": {
+   "papers": 148,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.047,
+    "within 1": 0.439,
+    "within 2": 0.73
+   },
+   "Del Sole": {
+    "within 0": 0.007,
+    "within 1": 0.365,
+    "within 2": 0.676
+   },
+   "Bechstedt": {
+    "within 0": 0.041,
+    "within 1": 0.291,
+    "within 2": 0.649
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.0,
+    "within 1": 0.277,
+    "within 2": 0.777
+   }
+  },
+  "2010-2014 elsewhere": {
+   "papers": 196,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.02,
+    "within 2": 0.352
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.005,
+    "within 2": 0.265
+   },
+   "Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.02,
+    "within 2": 0.327
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.097,
+    "within 1": 0.337,
+    "within 2": 0.526
+   }
+  },
+  "2015-2019 Europe": {
+   "papers": 167,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.012,
+    "within 1": 0.269,
+    "within 2": 0.677
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.174,
+    "within 2": 0.533
+   },
+   "Bechstedt": {
+    "within 0": 0.012,
+    "within 1": 0.204,
+    "within 2": 0.599
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.0,
+    "within 1": 0.317,
+    "within 2": 0.671
+   }
+  },
+  "2015-2019 elsewhere": {
+   "papers": 300,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.017,
+    "within 2": 0.277
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.003,
+    "within 2": 0.213
+   },
+   "Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.017,
+    "within 2": 0.22
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.043,
+    "within 1": 0.203,
+    "within 2": 0.45
+   }
+  },
+  "2020-2026 Europe": {
+   "papers": 253,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.008,
+    "within 1": 0.213,
+    "within 2": 0.613
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.115,
+    "within 2": 0.443
+   },
+   "Bechstedt": {
+    "within 0": 0.008,
+    "within 1": 0.146,
+    "within 2": 0.53
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.0,
+    "within 1": 0.257,
+    "within 2": 0.605
+   }
+  },
+  "2020-2026 elsewhere": {
+   "papers": 479,
+   "Del Sole or Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.025,
+    "within 2": 0.23
+   },
+   "Del Sole": {
+    "within 0": 0.0,
+    "within 1": 0.004,
+    "within 2": 0.165
+   },
+   "Bechstedt": {
+    "within 0": 0.0,
+    "within 1": 0.021,
+    "within 2": 0.192
+   },
+   "Louie or Hybertsen": {
+    "within 0": 0.021,
+    "within 1": 0.215,
+    "within 2": 0.441
+   }
+  }
+ },
+ "bridges_europe_2005_2014": [
+  [
+   "F. Bechstedt",
+   17
+  ],
+  [
+   "Michael Rohlfing",
+   14
+  ],
+  [
+   "Lucia Reining",
+   13
+  ],
+  [
+   "Ángel Rubio",
+   12
+  ],
+  [
+   "Fabien Bruneval",
+   11
+  ],
+  [
+   "Georg Kresse",
+   11
+  ],
+  [
+   "Stefan Blügel",
+   9
+  ],
+  [
+   "Arno Schindlmayr",
+   9
+  ],
+  [
+   "Rajeev Ahuja",
+   8
+  ],
+  [
+   "W. G. Schmidt",
+   8
+  ],
+  [
+   "Jürgen Furthmüller",
+   8
+  ],
+  [
+   "Valério Olevano",
+   7
+  ],
+  [
+   "Francesco Sottile",
+   6
+  ],
+  [
+   "Patrick Rinke",
+   6
+  ],
+  [
+   "Olle Eriksson",
+   5
+  ],
+  [
+   "Maxim Shishkin",
+   5
+  ],
+  [
+   "Matthias Scheffler",
+   5
+  ],
+  [
+   "Maurizia Palummo",
+   5
+  ],
+  [
+   "Claudia Rödl",
+   4
+  ],
+  [
+   "Olivia Pulci",
+   4
+  ],
+  [
+   "Miguel A. L. Marques",
+   3
+  ],
+  [
+   "Pina Romaniello",
+   3
+  ],
+  [
+   "Matteo Gatti",
+   3
+  ],
+  [
+   "A. Goldoni",
+   3
+  ],
+  [
+   "Rex W. Godby",
+   3
+  ]
+ ]
+}

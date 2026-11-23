@@ -91,7 +91,8 @@ def main():
             res[mid] = None
             continue
         st = r["structure"] if isinstance(r["structure"], dict) else json.loads(r["structure"])
-        symbols = [s["species"][0]["element"] for s in st["sites"]]
+        symbols = (st["species"] if "species" in st       # compact form: lattice, species, frac
+                   else [s["species"][0]["element"] for s in st["sites"]])
         res[mid] = dict(formula=r["formula"], gaps=gaps(mid), dielectric=dielectric(mid, symbols),
                         transport_pbe=transport(mid, "pbe"), transport_mbj=transport(mid, "mbj"))
     txt = json.dumps(res, indent=1, default=float)
