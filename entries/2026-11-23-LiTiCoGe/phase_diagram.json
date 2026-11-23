@@ -1,0 +1,254 @@
+{
+ "target": "LiTiCoGe",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Li",
+  "TiCo",
+  "Ge"
+ ],
+ "n_system_hull_phases": 33,
+ "phases": [
+  {
+   "formula": "Li",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm091561368",
+   "target": false
+  },
+  {
+   "formula": "Li17Ge4",
+   "x": [
+    0.809524,
+    0.0,
+    0.190476
+   ],
+   "dE_meV_per_atom": -312.09,
+   "mat_id": "agm007762052",
+   "target": false
+  },
+  {
+   "formula": "Li15Ge4",
+   "x": [
+    0.789474,
+    0.0,
+    0.210526
+   ],
+   "dE_meV_per_atom": -334.49,
+   "mat_id": "agm003245838",
+   "target": false
+  },
+  {
+   "formula": "Li8Ge3",
+   "x": [
+    0.727273,
+    0.0,
+    0.272727
+   ],
+   "dE_meV_per_atom": -368.39,
+   "mat_id": "agm005536382",
+   "target": false
+  },
+  {
+   "formula": "Li5Ge2",
+   "x": [
+    0.714286,
+    0.0,
+    0.285714
+   ],
+   "dE_meV_per_atom": -366.1,
+   "mat_id": "agm002157088",
+   "target": false
+  },
+  {
+   "formula": "Li2Ge",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -349.82,
+   "mat_id": "agm005540360",
+   "target": false
+  },
+  {
+   "formula": "LiGe",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -288.62,
+   "mat_id": "agm003219641",
+   "target": false
+  },
+  {
+   "formula": "LiTiCoGe",
+   "x": [
+    0.333333,
+    0.333333,
+    0.333333
+   ],
+   "dE_meV_per_atom": -341.14,
+   "mat_id": "agm001284084",
+   "target": true
+  },
+  {
+   "formula": "TiCo",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm001191325",
+   "target": false
+  },
+  {
+   "formula": "TiCoGe",
+   "x": [
+    0.0,
+    0.5,
+    0.5
+   ],
+   "dE_meV_per_atom": -341.93,
+   "mat_id": "agm002190931",
+   "target": false
+  },
+  {
+   "formula": "Ti4Co4Ge7",
+   "x": [
+    0.0,
+    0.363636,
+    0.636364
+   ],
+   "dE_meV_per_atom": -296.33,
+   "mat_id": "agm005269195",
+   "target": false
+  },
+  {
+   "formula": "Ge",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003157426",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ge",
+   "Li2Ge"
+  ],
+  [
+   "Ge",
+   "LiGe"
+  ],
+  [
+   "Ge",
+   "Ti4Co4Ge7"
+  ],
+  [
+   "Li",
+   "Li17Ge4"
+  ],
+  [
+   "Li",
+   "TiCo"
+  ],
+  [
+   "Li15Ge4",
+   "Li17Ge4"
+  ],
+  [
+   "Li15Ge4",
+   "Li8Ge3"
+  ],
+  [
+   "Li15Ge4",
+   "LiTiCoGe"
+  ],
+  [
+   "Li17Ge4",
+   "Li8Ge3"
+  ],
+  [
+   "Li17Ge4",
+   "LiTiCoGe"
+  ],
+  [
+   "Li17Ge4",
+   "TiCo"
+  ],
+  [
+   "Li2Ge",
+   "Li5Ge2"
+  ],
+  [
+   "Li2Ge",
+   "Li8Ge3"
+  ],
+  [
+   "Li2Ge",
+   "LiGe"
+  ],
+  [
+   "Li2Ge",
+   "Ti4Co4Ge7"
+  ],
+  [
+   "Li2Ge",
+   "TiCoGe"
+  ],
+  [
+   "Li5Ge2",
+   "Li8Ge3"
+  ],
+  [
+   "Li5Ge2",
+   "TiCoGe"
+  ],
+  [
+   "Li8Ge3",
+   "LiTiCoGe"
+  ],
+  [
+   "Li8Ge3",
+   "TiCoGe"
+  ],
+  [
+   "LiGe",
+   "Ti4Co4Ge7"
+  ],
+  [
+   "LiTiCoGe",
+   "TiCo"
+  ],
+  [
+   "LiTiCoGe",
+   "TiCoGe"
+  ],
+  [
+   "Ti4Co4Ge7",
+   "TiCoGe"
+  ],
+  [
+   "TiCo",
+   "TiCoGe"
+  ]
+ ],
+ "target_neighbours": [
+  "Li15Ge4",
+  "Li17Ge4",
+  "Li8Ge3",
+  "TiCo",
+  "TiCoGe"
+ ],
+ "note": "tie lines of the section that are not tie lines of the full hull (the equilibrium leaves the plane there): Ge-Li2Ge, Li17Ge4-Li8Ge3, Li2Ge-Li8Ge3"
+}
