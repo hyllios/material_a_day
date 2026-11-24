@@ -1,0 +1,103 @@
+{
+ "target": "Ba3Yb(ReN3)2",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Ba3ReN4",
+  "N2",
+  "YbReN2"
+ ],
+ "n_system_hull_phases": 18,
+ "phases": [
+  {
+   "formula": "Ba3ReN4",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm003558326",
+   "target": false
+  },
+  {
+   "formula": "Ba3Yb(ReN3)2",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -79.96,
+   "mat_id": "agm093167039",
+   "target": true
+  },
+  {
+   "formula": "Ba3ReN6",
+   "x": [
+    0.333333,
+    0.666667,
+    0.0
+   ],
+   "dE_meV_per_atom": -123.15,
+   "mat_id": "agm079177769",
+   "target": false
+  },
+  {
+   "formula": "N2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003263869",
+   "target": false
+  },
+  {
+   "formula": "YbReN2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm111214575",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ba3ReN4",
+   "Ba3ReN6"
+  ],
+  [
+   "Ba3ReN4",
+   "Ba3Yb(ReN3)2"
+  ],
+  [
+   "Ba3ReN6",
+   "Ba3Yb(ReN3)2"
+  ],
+  [
+   "Ba3ReN6",
+   "N2"
+  ],
+  [
+   "Ba3ReN6",
+   "YbReN2"
+  ],
+  [
+   "Ba3Yb(ReN3)2",
+   "YbReN2"
+  ],
+  [
+   "N2",
+   "YbReN2"
+  ]
+ ],
+ "target_neighbours": [
+  "Ba3ReN4",
+  "Ba3ReN6",
+  "YbReN2"
+ ],
+ "note": ""
+}
