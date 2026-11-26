@@ -1,0 +1,221 @@
+{
+ "target": "BaSn(GeO3)3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "BaO",
+  "GeO2",
+  "SnO2"
+ ],
+ "n_system_hull_phases": 36,
+ "phases": [
+  {
+   "formula": "BaO",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm001192060",
+   "target": false
+  },
+  {
+   "formula": "Ba3GeO5",
+   "x": [
+    0.75,
+    0.25,
+    0.0
+   ],
+   "dE_meV_per_atom": -277.45,
+   "mat_id": "agm003244152",
+   "target": false
+  },
+  {
+   "formula": "Ba2GeO4",
+   "x": [
+    0.666667,
+    0.333333,
+    0.0
+   ],
+   "dE_meV_per_atom": -315.02,
+   "mat_id": "agm078726171",
+   "target": false
+  },
+  {
+   "formula": "Ba2SnO4",
+   "x": [
+    0.666667,
+    0.0,
+    0.333333
+   ],
+   "dE_meV_per_atom": -206.02,
+   "mat_id": "agm001074208",
+   "target": false
+  },
+  {
+   "formula": "BaGeO3",
+   "x": [
+    0.5,
+    0.5,
+    0.0
+   ],
+   "dE_meV_per_atom": -335.33,
+   "mat_id": "agm002171450",
+   "target": false
+  },
+  {
+   "formula": "BaSnO3",
+   "x": [
+    0.5,
+    0.0,
+    0.5
+   ],
+   "dE_meV_per_atom": -191.48,
+   "mat_id": "agm002172340",
+   "target": false
+  },
+  {
+   "formula": "Ba2Sn3O8",
+   "x": [
+    0.4,
+    0.0,
+    0.6
+   ],
+   "dE_meV_per_atom": -162.37,
+   "mat_id": "agm003353838",
+   "target": false
+  },
+  {
+   "formula": "BaGe4O9",
+   "x": [
+    0.2,
+    0.8,
+    0.0
+   ],
+   "dE_meV_per_atom": -162.54,
+   "mat_id": "agm003248785",
+   "target": false
+  },
+  {
+   "formula": "BaSn(GeO3)3",
+   "x": [
+    0.2,
+    0.6,
+    0.2
+   ],
+   "dE_meV_per_atom": -153.95,
+   "mat_id": "agm003237387",
+   "target": true
+  },
+  {
+   "formula": "GeO2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm002169726",
+   "target": false
+  },
+  {
+   "formula": "SnO2",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": 0.0,
+   "mat_id": "agm003201579",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ba2GeO4",
+   "Ba2SnO4"
+  ],
+  [
+   "Ba2GeO4",
+   "Ba3GeO5"
+  ],
+  [
+   "Ba2GeO4",
+   "BaGeO3"
+  ],
+  [
+   "Ba2GeO4",
+   "BaSnO3"
+  ],
+  [
+   "Ba2Sn3O8",
+   "BaGeO3"
+  ],
+  [
+   "Ba2Sn3O8",
+   "BaSnO3"
+  ],
+  [
+   "Ba2Sn3O8",
+   "SnO2"
+  ],
+  [
+   "Ba2SnO4",
+   "Ba3GeO5"
+  ],
+  [
+   "Ba2SnO4",
+   "BaO"
+  ],
+  [
+   "Ba2SnO4",
+   "BaSnO3"
+  ],
+  [
+   "Ba3GeO5",
+   "BaO"
+  ],
+  [
+   "BaGe4O9",
+   "BaGeO3"
+  ],
+  [
+   "BaGe4O9",
+   "BaSn(GeO3)3"
+  ],
+  [
+   "BaGe4O9",
+   "GeO2"
+  ],
+  [
+   "BaGe4O9",
+   "SnO2"
+  ],
+  [
+   "BaGeO3",
+   "BaSn(GeO3)3"
+  ],
+  [
+   "BaGeO3",
+   "BaSnO3"
+  ],
+  [
+   "BaGeO3",
+   "SnO2"
+  ],
+  [
+   "BaSn(GeO3)3",
+   "SnO2"
+  ],
+  [
+   "GeO2",
+   "SnO2"
+  ]
+ ],
+ "target_neighbours": [
+  "BaGe4O9",
+  "BaGeO3",
+  "SnO2"
+ ],
+ "note": ""
+}
