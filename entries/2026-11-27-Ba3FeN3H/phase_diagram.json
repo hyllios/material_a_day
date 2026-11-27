@@ -1,0 +1,88 @@
+{
+ "target": "Ba3FeHN3",
+ "table": "energy_runs_pbe",
+ "corners": [
+  "Ba3FeN3",
+  "BaH2",
+  "BaFeN3"
+ ],
+ "n_system_hull_phases": 20,
+ "phases": [
+  {
+   "formula": "Ba3FeN3",
+   "x": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm003215885",
+   "target": false
+  },
+  {
+   "formula": "Ba3FeHN3",
+   "x": [
+    0.5,
+    0.333333,
+    0.166667
+   ],
+   "dE_meV_per_atom": -66.49,
+   "mat_id": "agm073033103",
+   "target": true
+  },
+  {
+   "formula": "BaH2",
+   "x": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm003212181",
+   "target": false
+  },
+  {
+   "formula": "BaFeN3",
+   "x": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "dE_meV_per_atom": -0.0,
+   "mat_id": "agm002224497",
+   "target": false
+  }
+ ],
+ "tie_lines": [
+  [
+   "Ba3FeHN3",
+   "Ba3FeN3"
+  ],
+  [
+   "Ba3FeHN3",
+   "BaFeN3"
+  ],
+  [
+   "Ba3FeHN3",
+   "BaH2"
+  ],
+  [
+   "Ba3FeN3",
+   "BaFeN3"
+  ],
+  [
+   "Ba3FeN3",
+   "BaH2"
+  ],
+  [
+   "BaFeN3",
+   "BaH2"
+  ]
+ ],
+ "target_neighbours": [
+  "Ba3FeN3",
+  "BaFeN3",
+  "BaH2"
+ ],
+ "note": "tie lines of the section that are not tie lines of the full hull (the equilibrium leaves the plane there): Ba3FeN3-BaH2, BaFeN3-BaH2"
+}
